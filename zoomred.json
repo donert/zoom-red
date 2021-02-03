@@ -19,7 +19,6 @@
             "67110b0b.8a29ac",
             "fa85aa2d.775778",
             "4450291d.656bf",
-            "63f279a9.8feca8",
             "ff1dd203.0f15c",
             "8458812b.59cb1",
             "83a942b6.b64a08",
@@ -30,7 +29,9 @@
             "4154f877.d58458",
             "1a4b1a5c.43e0c6",
             "fa49dade.a0139",
-            "93e9c3f0.384fe"
+            "93e9c3f0.384fe",
+            "68d21d79.8cebec",
+            "fc277a34.d21a3"
         ],
         "x": 14,
         "y": 219,
@@ -64,8 +65,8 @@
             "8f26078c.64cd9",
             "3e83a4c1.9f439c"
         ],
-        "x": 34,
-        "y": 1559,
+        "x": 14,
+        "y": 1639,
         "w": 852,
         "h": 422
     },
@@ -85,12 +86,20 @@
             "f61c489f.2a26e",
             "14d57df0.dbd8b2",
             "9f0bfbbf.eef0e8",
-            "7b6d8d0c.091e9c"
+            "7b6d8d0c.091e9c",
+            "1836ad29.55decb",
+            "160489e.a593076",
+            "c844671e.58adf",
+            "54d81a13.473a9c",
+            "b8f52048.1fd02",
+            "e497393d.1ded7",
+            "f9768951.02dfa8",
+            "d45bbcca.f2d8a"
         ],
         "x": 14,
         "y": 1179,
-        "w": 552,
-        "h": 322
+        "w": 732,
+        "h": 402
     },
     {
         "id": "3353a48a.b34c7c",
@@ -329,7 +338,7 @@
         "id": "b0d48d59.d45628",
         "type": "ui_tab",
         "name": "In Meeting",
-        "icon": "dashboard",
+        "icon": "group",
         "order": 2,
         "disabled": false,
         "hidden": false
@@ -408,7 +417,7 @@
         "id": "9f44a0a4.c1fa68",
         "type": "ui_tab",
         "name": "Diagnostics",
-        "icon": "dashboard",
+        "icon": "check_circle",
         "order": 3,
         "disabled": false,
         "hidden": false
@@ -426,7 +435,7 @@
         "id": "b20d1570.465fe",
         "type": "ui_tab",
         "name": "Session Controls",
-        "icon": "dashboard",
+        "icon": "power_settings_new",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -447,6 +456,16 @@
         "name": "Utility",
         "tab": "b20d1570.465fe",
         "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bb94a052.4139b",
+        "type": "ui_group",
+        "name": "Network Settings",
+        "tab": "b20d1570.465fe",
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -479,15 +498,15 @@
                 "t": "set",
                 "p": "ip",
                 "pt": "msg",
-                "to": "127.0.0.1",
-                "tot": "str"
+                "to": "zoomoscip",
+                "tot": "flow"
             },
             {
                 "t": "set",
                 "p": "port",
                 "pt": "msg",
-                "to": "9090",
-                "tot": "str"
+                "to": "zoomoscport",
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -691,7 +710,7 @@
         "y": 440,
         "wires": [
             [
-                "63f279a9.8feca8"
+                "68d21d79.8cebec"
             ],
             [
                 "ff1dd203.0f15c"
@@ -737,23 +756,6 @@
             "spotOn",
             "spotOff"
         ]
-    },
-    {
-        "id": "63f279a9.8feca8",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "e14cccb0.beedd8",
-        "order": 2,
-        "width": 6,
-        "height": 1,
-        "name": "",
-        "label": "Pong",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 630,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "8c44154e.82428",
@@ -912,8 +914,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 110,
-        "y": 1780,
+        "x": 90,
+        "y": 1860,
         "wires": [
             [
                 "dcadc834.c415e8"
@@ -939,8 +941,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 330,
-        "y": 1780,
+        "x": 310,
+        "y": 1860,
         "wires": [
             [
                 "2033df4b.a11ee8",
@@ -972,8 +974,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 1720,
+        "x": 570,
+        "y": 1800,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -1000,8 +1002,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 600,
-        "y": 1840,
+        "x": 580,
+        "y": 1920,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1021,8 +1023,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 810,
-        "y": 1780,
+        "x": 790,
+        "y": 1860,
         "wires": []
     },
     {
@@ -1045,8 +1047,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1800,
+        "x": 600,
+        "y": 1880,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1073,8 +1075,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 610,
-        "y": 1760,
+        "x": 590,
+        "y": 1840,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1105,8 +1107,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 120,
-        "y": 1920,
+        "x": 100,
+        "y": 2000,
         "wires": [
             [
                 "72552f1a.30ca98"
@@ -1132,8 +1134,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 310,
-        "y": 1920,
+        "x": 290,
+        "y": 2000,
         "wires": [
             [
                 "957634f4.5a896"
@@ -1163,8 +1165,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
-        "y": 1900,
+        "x": 430,
+        "y": 1980,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1191,8 +1193,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
-        "y": 1940,
+        "x": 440,
+        "y": 2020,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1232,8 +1234,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 775,
-        "y": 1900,
+        "x": 755,
+        "y": 1980,
         "wires": []
     },
     {
@@ -1281,7 +1283,7 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/endMeeting",
-        "x": 90,
+        "x": 110,
         "y": 1380,
         "wires": [
             [
@@ -1308,7 +1310,7 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/leaveMeeting",
-        "x": 90,
+        "x": 110,
         "y": 1340,
         "wires": [
             [
@@ -1325,7 +1327,7 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 495,
+        "x": 515,
         "y": 1300,
         "wires": []
     },
@@ -1536,8 +1538,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/mute",
-        "x": 120,
-        "y": 1640,
+        "x": 100,
+        "y": 1720,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -1563,8 +1565,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/unMute",
-        "x": 130,
-        "y": 1600,
+        "x": 110,
+        "y": 1680,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -1729,8 +1731,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/allExcept/me/mute",
-        "x": 120,
-        "y": 1680,
+        "x": 100,
+        "y": 1760,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2336,8 +2338,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 775,
-        "y": 1640,
+        "x": 755,
+        "y": 1720,
         "wires": []
     },
     {
@@ -2430,7 +2432,7 @@
         "submit": "submit",
         "cancel": "cancel",
         "topic": "",
-        "x": 90,
+        "x": 110,
         "y": 1420,
         "wires": [
             [
@@ -2465,7 +2467,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 260,
+        "x": 280,
         "y": 1420,
         "wires": [
             [
@@ -2480,8 +2482,8 @@
         "g": "800a1202.7dc55",
         "name": "Join message takes three separate string arguments",
         "info": "",
-        "x": 350,
-        "y": 1460,
+        "x": 530,
+        "y": 1380,
         "wires": []
     },
     {
@@ -2539,7 +2541,7 @@
         ],
         "payload": "",
         "topic": "/zoom/subscribe",
-        "x": 130,
+        "x": 150,
         "y": 1280,
         "wires": [
             [
@@ -2557,7 +2559,7 @@
         "tooltip": "Changes gallery tracking mode to participantID or zoomID.",
         "place": "participantID",
         "group": "262ffe42.cf9182",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -2576,7 +2578,7 @@
         ],
         "payload": "",
         "topic": "/zoom/galTrackMode",
-        "x": 120,
+        "x": 140,
         "y": 1220,
         "wires": [
             [
@@ -2609,6 +2611,267 @@
         "wires": [
             [
                 "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "68d21d79.8cebec",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[\t   {\t       \"key\" : \"Ping Text\",\t       \"value\" : payload[0]\t   },\t   {\t       \"key\" : \"Version\",\t       \"value\" : payload[1]    \t   } ,\t   {\t       \"key\" : \"subscribeMode\",\t       \"value\" : payload[2]    \t   } ,\t   {\t       \"key\" : \"galTrackMode\",\t       \"value\" : payload[3]    \t   } ,\t   {\t       \"key\" : \"callStatus\",\t       \"value\" : payload[4]    \t   } ,\t   {\t       \"key\" : \"number of targets\",\t       \"value\" : payload[5]    \t   } ,\t   {\t       \"key\" : \"number of users in call\",\t       \"value\" : payload[6]    \t   }    \t]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 260,
+        "wires": [
+            [
+                "fc277a34.d21a3"
+            ]
+        ]
+    },
+    {
+        "id": "fc277a34.d21a3",
+        "type": "ui_table",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "e14cccb0.beedd8",
+        "name": "Pong Table",
+        "order": 2,
+        "width": "6",
+        "height": "4",
+        "columns": [
+            {
+                "field": "key",
+                "title": "Key",
+                "width": "60%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "value",
+                "title": "Value",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 770,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1836ad29.55decb",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "prime the parms",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\t   \"ip\": $flowContext(\"zoomoscip\") ? $flowContext(\"zoomoscip\") : \"127.0.0.1\",\t   \"port\": $flowContext(\"zoomoscport\") ? $flowContext(\"zoomoscport\") : \"9090\"\t}",
+        "payloadType": "jsonata",
+        "x": 150,
+        "y": 1480,
+        "wires": [
+            [
+                "54d81a13.473a9c"
+            ]
+        ]
+    },
+    {
+        "id": "c844671e.58adf",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "set flow context port",
+        "rules": [
+            {
+                "t": "set",
+                "p": "zoomoscport",
+                "pt": "flow",
+                "to": "payload.port",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "54d81a13.473a9c",
+        "type": "ui_form",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "Network settings",
+        "label": "ZoomOSC Client Address",
+        "group": "bb94a052.4139b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "ZoomOSC IP",
+                "value": "ip",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "ZoomOSC Port",
+                "value": "port",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ip": "",
+            "port": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 370,
+        "y": 1480,
+        "wires": [
+            [
+                "b8f52048.1fd02",
+                "e497393d.1ded7",
+                "c844671e.58adf"
+            ]
+        ]
+    },
+    {
+        "id": "b8f52048.1fd02",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "set flow context ip",
+        "rules": [
+            {
+                "t": "set",
+                "p": "zoomoscip",
+                "pt": "flow",
+                "to": "payload.ip",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e497393d.1ded7",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "f9768951.02dfa8",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "group": "bb94a052.4139b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set local defaults (then submit)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 220,
+        "y": 1540,
+        "wires": [
+            [
+                "d45bbcca.f2d8a"
+            ]
+        ]
+    },
+    {
+        "id": "d45bbcca.f2d8a",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "defaults",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"ip\":   \"127.0.0.1\",\t   \"port\": \"9090\"\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 1540,
+        "wires": [
+            [
+                "54d81a13.473a9c"
             ]
         ]
     }
