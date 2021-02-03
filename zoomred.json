@@ -1,0 +1,2471 @@
+[
+    {
+        "id": "73938c67.dac0ac",
+        "type": "tab",
+        "label": "ZoomOSC",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4a1eee5f.c4f908",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Inbound and Responses",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c3effac1.3bfdc8",
+            "67110b0b.8a29ac",
+            "fa85aa2d.775778",
+            "4450291d.656bf",
+            "63f279a9.8feca8",
+            "ff1dd203.0f15c",
+            "8458812b.59cb1",
+            "83a942b6.b64a08",
+            "3391f39b.65cb6c",
+            "4d245d11.740cb4",
+            "83b6677.3f1ed18",
+            "8d592dbd.0221f8",
+            "93340b08.cc7e",
+            "4154f877.d58458",
+            "1a4b1a5c.43e0c6",
+            "fa49dade.a0139",
+            "93e9c3f0.384fe"
+        ],
+        "x": 14,
+        "y": 219,
+        "w": 1382,
+        "h": 362,
+        "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
+    },
+    {
+        "id": "4f432da1.69efcc",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Mute Controls",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d66276a4.8c4c7",
+            "dcadc834.c415e8",
+            "2033df4b.a11ee8",
+            "ccd8fe38.65aed8",
+            "e456edff.80b1d",
+            "1c873d09.528f23",
+            "bd86dd82.d2f74",
+            "72552f1a.30ca98",
+            "957634f4.5a896",
+            "861ebbb.88d94c8",
+            "603f0200.f9be5c",
+            "6f985efb.11e7c",
+            "3096f4b1.ae8e24",
+            "fade3d9.8c5f1c",
+            "8f26078c.64cd9",
+            "3e83a4c1.9f439c"
+        ],
+        "x": 14,
+        "y": 1339,
+        "w": 852,
+        "h": 422
+    },
+    {
+        "id": "800a1202.7dc55",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Meeting Controls",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "63b51234.9f4b64",
+            "cd90a590.e286d8",
+            "46f43be6.8a605c",
+            "d8f2b9d4.283e08"
+        ],
+        "x": 14,
+        "y": 1179,
+        "w": 422,
+        "h": 142
+    },
+    {
+        "id": "3353a48a.b34c7c",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Gallery or Speaker View",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9de8a089.2741a8",
+            "98082d7e.ea3f6",
+            "2bc17d58.156a9a",
+            "75f58eb3.f0fbc8",
+            "e00106d8.34ae58"
+        ],
+        "x": 14,
+        "y": 959,
+        "w": 422,
+        "h": 202
+    },
+    {
+        "id": "8f22f025.890338",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Spot and Pin",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8726a404.acb658",
+            "4296dd84.b0a694",
+            "32425712.bca138",
+            "8f474d77.9c1d2",
+            "c5537a3d.000298"
+        ],
+        "x": 14,
+        "y": 779,
+        "w": 702,
+        "h": 162
+    },
+    {
+        "id": "9a75246e.77f24",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "User List",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8c44154e.82428",
+            "47225bef.34f704",
+            "66a97045.5c2e9",
+            "71616093.ff1c28",
+            "aaeba03f.6b66f",
+            "9ee620d7.f38748"
+        ],
+        "x": 14,
+        "y": 599,
+        "w": 612,
+        "h": 162
+    },
+    {
+        "id": "39660f71.497918",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5cc2d4c8.8862bc",
+            "8286762a.9d5818",
+            "c747b0af.6dc26",
+            "a3ba248d.dfbef",
+            "5501af4f.e880f",
+            "7c62d446.fe1f24",
+            "d79b8521.8593a",
+            "4100a9ea.f8c718",
+            "786c90e4.494968",
+            "84f20dfb.6970e8",
+            "80332035.35b87",
+            "1a3b52b6.24a80d",
+            "76119781.53cf98",
+            "8f101a1c.a092f",
+            "3fe1a3da.96e8dc"
+        ],
+        "x": 14,
+        "y": 2039,
+        "w": 662,
+        "h": 462
+    },
+    {
+        "id": "e7464d93.8a5de8",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Under Development",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5a38b5cd.fff45c",
+            "c33cbea6.ca6c58",
+            "bd5834a7.19337",
+            "66601b96.abcad4",
+            "a3eb01d1.59552"
+        ],
+        "x": 14,
+        "y": 1779,
+        "w": 432,
+        "h": 222
+    },
+    {
+        "id": "bf3e5a12.3393f",
+        "type": "group",
+        "z": "73938c67.dac0ac",
+        "name": "Outbound",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3db3f60c.5c3cea",
+            "8e791d87.7fea2",
+            "9fe05ea6.1119e",
+            "e5be326c.4063e",
+            "8a313077.cf5f3",
+            "4b26af43.b2637"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 732,
+        "h": 162,
+        "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
+    },
+    {
+        "id": "573d9279.0eaa04",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Zoom Red",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b0d48d59.d45628",
+        "type": "ui_tab",
+        "name": "Zoom",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e69902f8.5bed4",
+        "type": "ui_group",
+        "name": "Users",
+        "tab": "b0d48d59.d45628",
+        "order": 5,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "3446b061.aa8348",
+        "type": "ui_group",
+        "name": "Gallery",
+        "tab": "9f44a0a4.c1fa68",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "34097c40.447bcc",
+        "type": "ui_group",
+        "name": "Mute Controls",
+        "tab": "b0d48d59.d45628",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e14cccb0.beedd8",
+        "type": "ui_group",
+        "name": "Ping",
+        "tab": "9f44a0a4.c1fa68",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b706b32.2fc16d",
+        "type": "ui_group",
+        "name": "Meeting Controls",
+        "tab": "b0d48d59.d45628",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b1fe632c.68f618",
+        "type": "ui_group",
+        "name": "Gallery or Speaker",
+        "tab": "b0d48d59.d45628",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "53c643e.1f6bebc",
+        "type": "ui_group",
+        "name": "Pin and Spot",
+        "tab": "b0d48d59.d45628",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9f44a0a4.c1fa68",
+        "type": "ui_tab",
+        "name": "Diagnostics",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7026ce34.c6f158",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "114ad227.ff2fc6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f80b7515.d50a98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 14,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "cdb3645f.6ba8f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9ce5593c.d84b3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1d496cbe.8c8a1b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "27ab8661.039e92",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5d2e351d.e3e8cc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4005cd0.1889db4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5ae2e15c.517d28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e69902f8.5bed4",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3db3f60c.5c3cea",
+        "type": "udp out",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "",
+        "addr": "",
+        "iface": "",
+        "port": "",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 650,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8e791d87.7fea2",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "set network parms",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ip",
+                "pt": "msg",
+                "to": "127.0.0.1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "port",
+                "pt": "msg",
+                "to": "9090",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "3db3f60c.5c3cea",
+                "9fe05ea6.1119e"
+            ]
+        ]
+    },
+    {
+        "id": "9fe05ea6.1119e",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "To ZoomOSC udp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c3effac1.3bfdc8",
+        "type": "udp in",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "",
+        "iface": "",
+        "port": "1234",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 100,
+        "y": 440,
+        "wires": [
+            [
+                "fa85aa2d.775778"
+            ]
+        ]
+    },
+    {
+        "id": "67110b0b.8a29ac",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "From ZoomOSC",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fa85aa2d.775778",
+        "type": "osc",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "",
+        "path": "",
+        "metadata": false,
+        "x": 250,
+        "y": 440,
+        "wires": [
+            [
+                "67110b0b.8a29ac",
+                "4450291d.656bf"
+            ]
+        ]
+    },
+    {
+        "id": "e5be326c.4063e",
+        "type": "osc",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "zoomOSC",
+        "path": "",
+        "metadata": true,
+        "x": 210,
+        "y": 60,
+        "wires": [
+            [
+                "8e791d87.7fea2"
+            ]
+        ]
+    },
+    {
+        "id": "5a38b5cd.fff45c",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/me/listScreens",
+        "payloadType": "str",
+        "x": 160,
+        "y": 1900,
+        "wires": [
+            [
+                "bd5834a7.19337"
+            ]
+        ]
+    },
+    {
+        "id": "4450291d.656bf",
+        "type": "switch",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/zoomosc/pong",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryCount",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryShape",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryOrder",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/list",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/mute",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/unMute",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/videoOff",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/videoOn",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 470,
+        "y": 440,
+        "wires": [
+            [
+                "63f279a9.8feca8"
+            ],
+            [
+                "ff1dd203.0f15c"
+            ],
+            [
+                "8458812b.59cb1"
+            ],
+            [
+                "83a942b6.b64a08"
+            ],
+            [
+                "4d245d11.740cb4"
+            ],
+            [
+                "4154f877.d58458"
+            ],
+            [
+                "4154f877.d58458"
+            ],
+            [
+                "4154f877.d58458"
+            ],
+            [
+                "4154f877.d58458"
+            ]
+        ],
+        "outputLabels": [
+            "pong",
+            "galleryCount",
+            "galleryShape",
+            "galleryOrder",
+            "user list",
+            "mute",
+            "unMute",
+            "videoOff",
+            "videoOn"
+        ]
+    },
+    {
+        "id": "63f279a9.8feca8",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "e14cccb0.beedd8",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Pong",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 630,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8c44154e.82428",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Refresh Users",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/list",
+        "x": 120,
+        "y": 720,
+        "wires": [
+            [
+                "47225bef.34f704",
+                "71616093.ff1c28"
+            ]
+        ]
+    },
+    {
+        "id": "ff1dd203.0f15c",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "3446b061.aa8348",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryCount",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 770,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8458812b.59cb1",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "3446b061.aa8348",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryShape",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 770,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "83a942b6.b64a08",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "3446b061.aa8348",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryOrder",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 770,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8726a404.acb658",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "8f22f025.890338",
+        "name": "",
+        "group": "53c643e.1f6bebc",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "unSpot Me",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/me/unSpot",
+        "x": 110,
+        "y": 820,
+        "wires": [
+            [
+                "32425712.bca138"
+            ]
+        ]
+    },
+    {
+        "id": "4296dd84.b0a694",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "8f22f025.890338",
+        "name": "",
+        "group": "53c643e.1f6bebc",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Clear Spot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/clearSpot",
+        "x": 110,
+        "y": 900,
+        "wires": [
+            [
+                "32425712.bca138"
+            ]
+        ]
+    },
+    {
+        "id": "d66276a4.8c4c7",
+        "type": "ui_switch",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "label": "Users",
+        "tooltip": "",
+        "group": "34097c40.447bcc",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 90,
+        "y": 1560,
+        "wires": [
+            [
+                "dcadc834.c415e8"
+            ]
+        ]
+    },
+    {
+        "id": "dcadc834.c415e8",
+        "type": "switch",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 1560,
+        "wires": [
+            [
+                "2033df4b.a11ee8",
+                "1c873d09.528f23"
+            ],
+            [
+                "ccd8fe38.65aed8",
+                "e456edff.80b1d"
+            ]
+        ]
+    },
+    {
+        "id": "2033df4b.a11ee8",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/enableUsersUnmute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1500,
+        "wires": [
+            [
+                "3e83a4c1.9f439c"
+            ]
+        ]
+    },
+    {
+        "id": "ccd8fe38.65aed8",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/disableUsersUnmute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 1620,
+        "wires": [
+            [
+                "6f985efb.11e7c"
+            ]
+        ]
+    },
+    {
+        "id": "603f0200.f9be5c",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "group": "34097c40.447bcc",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 790,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "e456edff.80b1d",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "Cannot Unmute",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Cannot Unmute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 1580,
+        "wires": [
+            [
+                "603f0200.f9be5c"
+            ]
+        ]
+    },
+    {
+        "id": "1c873d09.528f23",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "Can unMute",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Can unMute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1540,
+        "wires": [
+            [
+                "603f0200.f9be5c"
+            ]
+        ]
+    },
+    {
+        "id": "bd86dd82.d2f74",
+        "type": "ui_switch",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "label": "My Mute",
+        "tooltip": "",
+        "group": "34097c40.447bcc",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 100,
+        "y": 1700,
+        "wires": [
+            [
+                "72552f1a.30ca98"
+            ]
+        ]
+    },
+    {
+        "id": "72552f1a.30ca98",
+        "type": "switch",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 1700,
+        "wires": [
+            [
+                "957634f4.5a896"
+            ],
+            [
+                "861ebbb.88d94c8"
+            ]
+        ]
+    },
+    {
+        "id": "957634f4.5a896",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "mute",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/me/Mute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1680,
+        "wires": [
+            [
+                "6f985efb.11e7c"
+            ]
+        ]
+    },
+    {
+        "id": "861ebbb.88d94c8",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "unmute",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/me/Unmute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1720,
+        "wires": [
+            [
+                "6f985efb.11e7c"
+            ]
+        ]
+    },
+    {
+        "id": "8a313077.cf5f3",
+        "type": "link in",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "ToZoomOsc",
+        "links": [
+            "6f985efb.11e7c",
+            "46f43be6.8a605c",
+            "2bc17d58.156a9a",
+            "32425712.bca138",
+            "84f20dfb.6970e8",
+            "aaeba03f.6b66f",
+            "bd5834a7.19337",
+            "3e83a4c1.9f439c"
+        ],
+        "x": 55,
+        "y": 60,
+        "wires": [
+            [
+                "e5be326c.4063e"
+            ]
+        ]
+    },
+    {
+        "id": "6f985efb.11e7c",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 755,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "c33cbea6.ca6c58",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/me/listWindows",
+        "payloadType": "str",
+        "x": 160,
+        "y": 1860,
+        "wires": [
+            [
+                "bd5834a7.19337"
+            ]
+        ]
+    },
+    {
+        "id": "63b51234.9f4b64",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "group": "b706b32.2fc16d",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "End",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/endMeeting",
+        "x": 90,
+        "y": 1280,
+        "wires": [
+            [
+                "d8f2b9d4.283e08"
+            ]
+        ]
+    },
+    {
+        "id": "cd90a590.e286d8",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "group": "b706b32.2fc16d",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Leave",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/leaveMeeting",
+        "x": 90,
+        "y": 1220,
+        "wires": [
+            [
+                "46f43be6.8a605c"
+            ]
+        ]
+    },
+    {
+        "id": "46f43be6.8a605c",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 395,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "d8f2b9d4.283e08",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1280,
+        "wires": [
+            [
+                "46f43be6.8a605c"
+            ]
+        ]
+    },
+    {
+        "id": "47225bef.34f704",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/list",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 720,
+        "wires": [
+            [
+                "66a97045.5c2e9",
+                "aaeba03f.6b66f"
+            ]
+        ]
+    },
+    {
+        "id": "66a97045.5c2e9",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "ul msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "9de8a089.2741a8",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "3353a48a.b34c7c",
+        "name": "",
+        "group": "b1fe632c.68f618",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Gallery View",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/me/setGalleryView",
+        "x": 110,
+        "y": 1000,
+        "wires": [
+            [
+                "2bc17d58.156a9a"
+            ]
+        ]
+    },
+    {
+        "id": "98082d7e.ea3f6",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "3353a48a.b34c7c",
+        "name": "",
+        "group": "b1fe632c.68f618",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Speaker View",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/me/setSpeakerView",
+        "x": 120,
+        "y": 1040,
+        "wires": [
+            [
+                "2bc17d58.156a9a"
+            ]
+        ]
+    },
+    {
+        "id": "2bc17d58.156a9a",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "3353a48a.b34c7c",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 395,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "32425712.bca138",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "8f22f025.890338",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 675,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "4b26af43.b2637",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "",
+        "group": "e14cccb0.beedd8",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "Ping",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "/zoom/ping",
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "e5be326c.4063e"
+            ]
+        ]
+    },
+    {
+        "id": "8f474d77.9c1d2",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "8f22f025.890338",
+        "name": "",
+        "group": "53c643e.1f6bebc",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Clear Pin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/clearPin",
+        "x": 400,
+        "y": 880,
+        "wires": [
+            [
+                "32425712.bca138"
+            ]
+        ]
+    },
+    {
+        "id": "3096f4b1.ae8e24",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "group": "34097c40.447bcc",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Mute All",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/all/mute",
+        "x": 100,
+        "y": 1420,
+        "wires": [
+            [
+                "3e83a4c1.9f439c"
+            ]
+        ]
+    },
+    {
+        "id": "fade3d9.8c5f1c",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "group": "34097c40.447bcc",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "unMute All",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/all/unMute",
+        "x": 110,
+        "y": 1380,
+        "wires": [
+            [
+                "3e83a4c1.9f439c"
+            ]
+        ]
+    },
+    {
+        "id": "3391f39b.65cb6c",
+        "type": "ui_table",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "group": "e69902f8.5bed4",
+        "name": "",
+        "order": 15,
+        "width": 23,
+        "height": 7,
+        "columns": [
+            {
+                "field": "user",
+                "title": "User",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "video",
+                "title": "Video",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "mute",
+                "title": "Mute",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "pin",
+                "title": "PIN",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "spot",
+                "title": "Spot",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "activespeaker",
+                "title": "Active",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "row",
+                "title": "Row",
+                "width": "",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 1190,
+        "y": 460,
+        "wires": [
+            [
+                "fa49dade.a0139"
+            ]
+        ]
+    },
+    {
+        "id": "4d245d11.740cb4",
+        "type": "function",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "parse userlist",
+        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\"\n}\n\nflow.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 770,
+        "y": 460,
+        "wires": [
+            [
+                "93340b08.cc7e"
+            ]
+        ]
+    },
+    {
+        "id": "83b6677.3f1ed18",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "totable",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8f26078c.64cd9",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "",
+        "group": "34097c40.447bcc",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "All but me",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/allExcept/me/mute",
+        "x": 100,
+        "y": 1460,
+        "wires": [
+            [
+                "3e83a4c1.9f439c"
+            ]
+        ]
+    },
+    {
+        "id": "71616093.ff1c28",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "Clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "usertable",
+                "pt": "flow",
+                "to": "{}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75f58eb3.f0fbc8",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "3353a48a.b34c7c",
+        "name": "",
+        "group": "b1fe632c.68f618",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Show User Names",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/all/showUserNames",
+        "x": 130,
+        "y": 1080,
+        "wires": [
+            [
+                "2bc17d58.156a9a"
+            ]
+        ]
+    },
+    {
+        "id": "e00106d8.34ae58",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "3353a48a.b34c7c",
+        "name": "",
+        "group": "b1fe632c.68f618",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Hide User Names",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/all/hideUserNames",
+        "x": 130,
+        "y": 1120,
+        "wires": [
+            [
+                "2bc17d58.156a9a"
+            ]
+        ]
+    },
+    {
+        "id": "8d592dbd.0221f8",
+        "type": "function",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "parse (un)mute",
+        "func": "out = []\ni = 0\nt = msg.topic\n\nif (t == \"/zoomosc/user/unMute\") {\n    m = \"unmute\"\n} else\n{\n    m = \"mute\"\n}\n\nd = msg.payload;\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],  \n                \"name\": ut[d[3]].name,\n                \"video\": ut[d[3]].video,\n                \"mute\" : m }\n\nflow.set('usertable', ut) \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 780,
+        "y": 500,
+        "wires": [
+            [
+                "93340b08.cc7e"
+            ]
+        ]
+    },
+    {
+        "id": "93340b08.cc7e",
+        "type": "function",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "format usertable",
+        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : \"s\",\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1020,
+        "y": 460,
+        "wires": [
+            [
+                "3391f39b.65cb6c",
+                "83b6677.3f1ed18"
+            ]
+        ]
+    },
+    {
+        "id": "4154f877.d58458",
+        "type": "function",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "parse video on/off",
+        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = flow.get('usertable')||{}\nd = msg.payload;\n\nconsole.log('BEFORE' )\nconsole.log(ut[d[3]])\n\nid   = ut[d[3]].id\nname = ut[d[3]].name\nmute = ut[d[3]].mute\nvideo = ut[d[3]].video\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n      case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n      case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  default:\n \n    // code block\n}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video}\n                \nconsole.log('after')  \nconsole.log(ut[d[3]])\n\n\nflow.set('usertable', ut) \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "93340b08.cc7e"
+            ]
+        ]
+    },
+    {
+        "id": "1a4b1a5c.43e0c6",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "Test",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 960,
+        "y": 360,
+        "wires": [
+            [
+                "93340b08.cc7e"
+            ]
+        ]
+    },
+    {
+        "id": "fa49dade.a0139",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "Selected User",
+        "links": [
+            "c747b0af.6dc26"
+        ],
+        "x": 1315,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c747b0af.6dc26",
+        "type": "link in",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "displaySelectedUser",
+        "links": [
+            "fa49dade.a0139"
+        ],
+        "x": 55,
+        "y": 2180,
+        "wires": [
+            [
+                "d79b8521.8593a",
+                "4100a9ea.f8c718",
+                "786c90e4.494968"
+            ]
+        ]
+    },
+    {
+        "id": "c5537a3d.000298",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "8f22f025.890338",
+        "name": "",
+        "group": "53c643e.1f6bebc",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Spot Me",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/me/spot",
+        "x": 100,
+        "y": 860,
+        "wires": [
+            [
+                "32425712.bca138"
+            ]
+        ]
+    },
+    {
+        "id": "5cc2d4c8.8862bc",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "unPin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/unPin",
+        "x": 390,
+        "y": 2140,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "8286762a.9d5818",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "addPin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/addpin",
+        "x": 400,
+        "y": 2180,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "a3ba248d.dfbef",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "group": "e69902f8.5bed4",
+        "order": 2,
+        "width": 21,
+        "height": 1,
+        "name": "",
+        "label": "Selected User Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 400,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "5501af4f.e880f",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "unSpot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/unSpot",
+        "x": 400,
+        "y": 2220,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "7c62d446.fe1f24",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Spot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/spot",
+        "x": 390,
+        "y": 2260,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "d79b8521.8593a",
+        "type": "debug",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "selectedUser",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 160,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "4100a9ea.f8c718",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.user",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 2080,
+        "wires": [
+            [
+                "a3ba248d.dfbef"
+            ]
+        ]
+    },
+    {
+        "id": "786c90e4.494968",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "save ID to context",
+        "rules": [
+            {
+                "t": "set",
+                "p": "selectedid",
+                "pt": "flow",
+                "to": "payload.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84f20dfb.6970e8",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 635,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "80332035.35b87",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Add Spot ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/addSpot",
+        "x": 400,
+        "y": 2300,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "1a3b52b6.24a80d",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Video On",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/videoOn",
+        "x": 400,
+        "y": 2340,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "76119781.53cf98",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Video Off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/videoOff",
+        "x": 400,
+        "y": 2380,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "8f101a1c.a092f",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Mute",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/mute",
+        "x": 390,
+        "y": 2420,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "3fe1a3da.96e8dc",
+        "type": "ui_button",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "",
+        "group": "e69902f8.5bed4",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "unMute",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/unMute",
+        "x": 400,
+        "y": 2460,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
+            ]
+        ]
+    },
+    {
+        "id": "aaeba03f.6b66f",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 515,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "bd5834a7.19337",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 355,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "66601b96.abcad4",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "Both are creating the same repsonse topic - Bug?",
+        "info": "",
+        "x": 230,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "3e83a4c1.9f439c",
+        "type": "link out",
+        "z": "73938c67.dac0ac",
+        "g": "4f432da1.69efcc",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 755,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "a3eb01d1.59552",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/all/endMeeting",
+        "x": 160,
+        "y": 1960,
+        "wires": [
+            [
+                "bd5834a7.19337"
+            ]
+        ]
+    },
+    {
+        "id": "93e9c3f0.384fe",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "table formatting incomplete",
+        "info": "",
+        "x": 1250,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9ee620d7.f38748",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "9a75246e.77f24",
+        "name": "Clear is not working correctly when no call active",
+        "info": "",
+        "x": 220,
+        "y": 640,
+        "wires": []
+    }
+]
