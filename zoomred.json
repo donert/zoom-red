@@ -224,7 +224,7 @@
         "x": 14,
         "y": 19,
         "w": 732,
-        "h": 182,
+        "h": 162,
         "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
     },
     {
@@ -1544,8 +1544,8 @@
         "payload": "",
         "payloadType": "date",
         "topic": "/zoom/ping",
-        "x": 210,
-        "y": 160,
+        "x": 90,
+        "y": 140,
         "wires": [
             [
                 "e5be326c.4063e"
