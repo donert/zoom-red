@@ -34,7 +34,7 @@
             "fc277a34.d21a3"
         ],
         "x": 14,
-        "y": 219,
+        "y": 239,
         "w": 1382,
         "h": 342,
         "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
@@ -92,7 +92,6 @@
             "c844671e.58adf",
             "54d81a13.473a9c",
             "b8f52048.1fd02",
-            "e497393d.1ded7",
             "f9768951.02dfa8",
             "d45bbcca.f2d8a"
         ],
@@ -228,12 +227,13 @@
             "9fe05ea6.1119e",
             "e5be326c.4063e",
             "8a313077.cf5f3",
-            "4b26af43.b2637"
+            "4b26af43.b2637",
+            "9212f4a1.d16db8"
         ],
         "x": 14,
         "y": 19,
         "w": 732,
-        "h": 162,
+        "h": 202,
         "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
     },
     {
@@ -484,7 +484,7 @@
         "base64": false,
         "multicast": "false",
         "x": 650,
-        "y": 60,
+        "y": 100,
         "wires": []
     },
     {
@@ -515,7 +515,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 60,
+        "y": 100,
         "wires": [
             [
                 "3db3f60c.5c3cea",
@@ -538,7 +538,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 610,
-        "y": 120,
+        "y": 160,
         "wires": []
     },
     {
@@ -554,7 +554,7 @@
         "group": "",
         "datatype": "buffer",
         "x": 100,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "fa85aa2d.775778"
@@ -576,7 +576,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 400,
-        "y": 340,
+        "y": 360,
         "wires": []
     },
     {
@@ -588,7 +588,7 @@
         "path": "",
         "metadata": false,
         "x": 250,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "67110b0b.8a29ac",
@@ -605,7 +605,7 @@
         "path": "",
         "metadata": false,
         "x": 210,
-        "y": 60,
+        "y": 100,
         "wires": [
             [
                 "8e791d87.7fea2"
@@ -707,7 +707,7 @@
         "repair": false,
         "outputs": 11,
         "x": 470,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "68d21d79.8cebec"
@@ -799,7 +799,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 320,
+        "y": 340,
         "wires": []
     },
     {
@@ -816,7 +816,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 360,
+        "y": 380,
         "wires": []
     },
     {
@@ -833,7 +833,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 400,
+        "y": 420,
         "wires": []
     },
     {
@@ -1218,7 +1218,7 @@
             "3e83a4c1.9f439c"
         ],
         "x": 55,
-        "y": 60,
+        "y": 100,
         "wires": [
             [
                 "e5be326c.4063e"
@@ -1485,7 +1485,7 @@
         "payloadType": "date",
         "topic": "/zoom/ping",
         "x": 90,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "e5be326c.4063e"
@@ -1668,7 +1668,7 @@
         "outputs": 1,
         "cts": true,
         "x": 1190,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "fa49dade.a0139"
@@ -1687,7 +1687,7 @@
         "initialize": "",
         "finalize": "",
         "x": 770,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -1709,7 +1709,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1190,
-        "y": 520,
+        "y": 540,
         "wires": []
     },
     {
@@ -1831,7 +1831,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1020,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "3391f39b.65cb6c",
@@ -1851,7 +1851,7 @@
         "initialize": "",
         "finalize": "",
         "x": 790,
-        "y": 520,
+        "y": 540,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -1881,7 +1881,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 960,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -1898,7 +1898,7 @@
             "c747b0af.6dc26"
         ],
         "x": 1315,
-        "y": 460,
+        "y": 480,
         "wires": []
     },
     {
@@ -2375,7 +2375,7 @@
         "name": "table formatting incomplete",
         "info": "",
         "x": 1250,
-        "y": 400,
+        "y": 420,
         "wires": []
     },
     {
@@ -2635,7 +2635,7 @@
         "to": "",
         "reg": false,
         "x": 630,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "fc277a34.d21a3"
@@ -2677,7 +2677,7 @@
         "outputs": 0,
         "cts": false,
         "x": 770,
-        "y": 260,
+        "y": 280,
         "wires": []
     },
     {
@@ -2772,7 +2772,6 @@
         "wires": [
             [
                 "b8f52048.1fd02",
-                "e497393d.1ded7",
                 "c844671e.58adf"
             ]
         ]
@@ -2804,23 +2803,6 @@
         ]
     },
     {
-        "id": "e497393d.1ded7",
-        "type": "debug",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 1520,
-        "wires": []
-    },
-    {
         "id": "f9768951.02dfa8",
         "type": "ui_button",
         "z": "73938c67.dac0ac",
@@ -2839,7 +2821,7 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 220,
+        "x": 170,
         "y": 1540,
         "wires": [
             [
@@ -2867,12 +2849,23 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
+        "x": 420,
         "y": 1540,
         "wires": [
             [
                 "54d81a13.473a9c"
             ]
         ]
+    },
+    {
+        "id": "9212f4a1.d16db8",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "See Network Setting on Session Control page",
+        "info": "",
+        "x": 450,
+        "y": 60,
+        "wires": []
     }
 ]
