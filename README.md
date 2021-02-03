@@ -23,7 +23,7 @@ To install Zoom-Red you need the following pre-requisites:
 
 # Configuring
 
-* if the not running on the same machine, you will need to change the network parameters.
+* if the not running on the same machine, you will need to change the network parameters on the session page.
 
 # Known Issues
 
@@ -35,5 +35,5 @@ To install Zoom-Red you need the following pre-requisites:
 
 # Major TODOs
 
-* Change the hardcoded network configuration to be a setting on the UI.
+* Change the hardcoded network listen port configuration to be a setting on the UI.
 * Fix the listed known issues.
