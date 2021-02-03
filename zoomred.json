@@ -1560,8 +1560,8 @@
         "group": "e69902f8.5bed4",
         "name": "",
         "order": 15,
-        "width": 23,
-        "height": 7,
+        "width": "24",
+        "height": "13",
         "columns": [
             {
                 "field": "user",
