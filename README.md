@@ -5,5 +5,4 @@ A controller for ZoomOSC V4.
 
 ### About
 
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+[https://www.liminalet.com/zoomosc-4-0](ZoomOSC v4) is an alternate zoom client which enables independent control of the client via the [https://en.wikipedia.org/wiki/Open_Sound_Control](OSC) protocol.
