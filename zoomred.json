@@ -26,7 +26,6 @@
             "3391f39b.65cb6c",
             "4d245d11.740cb4",
             "83b6677.3f1ed18",
-            "8d592dbd.0221f8",
             "93340b08.cc7e",
             "4154f877.d58458",
             "1a4b1a5c.43e0c6",
@@ -36,7 +35,7 @@
         "x": 14,
         "y": 219,
         "w": 1382,
-        "h": 362,
+        "h": 342,
         "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
     },
     {
@@ -182,7 +181,8 @@
             "1a3b52b6.24a80d",
             "76119781.53cf98",
             "8f101a1c.a092f",
-            "3fe1a3da.96e8dc"
+            "3fe1a3da.96e8dc",
+            "dfa0fa11.cd646"
         ],
         "x": 34,
         "y": 2079,
@@ -656,11 +656,21 @@
                 "t": "eq",
                 "v": "/zoomosc/user/videoOn",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/spotlightOn",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/spotlightOff",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 9,
+        "outputs": 11,
         "x": 470,
         "y": 440,
         "wires": [
@@ -690,6 +700,12 @@
             ],
             [
                 "4154f877.d58458"
+            ],
+            [
+                "4154f877.d58458"
+            ],
+            [
+                "4154f877.d58458"
             ]
         ],
         "outputLabels": [
@@ -701,7 +717,9 @@
             "mute",
             "unMute",
             "videoOff",
-            "videoOn"
+            "videoOn",
+            "spotOn",
+            "spotOff"
         ]
     },
     {
@@ -1673,7 +1691,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "parse userlist",
-        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\"\n}\n\nflow.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
+        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\",\n    \"spot\"  : \"?\"\n}\n\nflow.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1812,31 +1830,12 @@
         ]
     },
     {
-        "id": "8d592dbd.0221f8",
-        "type": "function",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "parse (un)mute",
-        "func": "out = []\ni = 0\nt = msg.topic\n\nif (t == \"/zoomosc/user/unMute\") {\n    m = \"unmute\"\n} else\n{\n    m = \"mute\"\n}\n\nd = msg.payload;\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],  \n                \"name\": ut[d[3]].name,\n                \"video\": ut[d[3]].video,\n                \"mute\" : m }\n\nflow.set('usertable', ut) \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 780,
-        "y": 500,
-        "wires": [
-            [
-                "93340b08.cc7e"
-            ]
-        ]
-    },
-    {
         "id": "93340b08.cc7e",
         "type": "function",
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "format usertable",
-        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : \"s\",\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1856,13 +1855,13 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "parse video on/off",
-        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = flow.get('usertable')||{}\nd = msg.payload;\n\nconsole.log('BEFORE' )\nconsole.log(ut[d[3]])\n\nid   = ut[d[3]].id\nname = ut[d[3]].name\nmute = ut[d[3]].mute\nvideo = ut[d[3]].video\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n      case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n      case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  default:\n \n    // code block\n}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video}\n                \nconsole.log('after')  \nconsole.log(ut[d[3]])\n\n\nflow.set('usertable', ut) \n\nreturn msg;",
+        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = flow.get('usertable')||{}\nd = msg.payload;\n\n//console.log('BEFORE' )\n//console.log(ut[d[3]])\n\nid   = ut[d[3]].id\nname = ut[d[3]].name\nmute = ut[d[3]].mute\nvideo = ut[d[3]].video\nspot = ut[d[3]].spot\n\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n  case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n  case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  case \"/zoomosc/user/spotlightOn\":\n    spot = \"On\"\n    break;\n  case \"/zoomosc/user/spotlightOff\":\n    mute = \"Off\"\n    break;    \n  default:\n    // code block\n}\n\n//console.log(ut)\n\nut[ d[3] ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video,\n                \"spot\"  : spot\n}\n                \n//console.log('after')  \n//console.log(ut[d[3]])\n\nflow.set('usertable', ut) \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "x": 790,
-        "y": 540,
+        "y": 520,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -2514,6 +2513,17 @@
         "info": "",
         "x": 350,
         "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "dfa0fa11.cd646",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "unspot isnt working properly",
+        "info": "the repsonse message is /zoomosc/me/spotlightOff\nexpected /zoomosc/zoomID/spotlightOff",
+        "x": 230,
+        "y": 2460,
         "wires": []
     }
 ]
