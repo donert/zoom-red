@@ -136,7 +136,7 @@
         "id": "9a75246e.77f24",
         "type": "group",
         "z": "73938c67.dac0ac",
-        "name": "User List",
+        "name": "Refresh User List",
         "style": {
             "label": true
         },
@@ -157,14 +157,9 @@
         "id": "39660f71.497918",
         "type": "group",
         "z": "73938c67.dac0ac",
+        "name": "Selected User Actions",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "5cc2d4c8.8862bc",
@@ -182,11 +177,12 @@
             "76119781.53cf98",
             "8f101a1c.a092f",
             "3fe1a3da.96e8dc",
-            "dfa0fa11.cd646"
+            "dfa0fa11.cd646",
+            "8bee5d90.93213"
         ],
         "x": 34,
         "y": 2079,
-        "w": 662,
+        "w": 762,
         "h": 462
     },
     {
@@ -1972,7 +1968,7 @@
         "y": 2180,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -1999,7 +1995,7 @@
         "y": 2220,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2043,7 +2039,7 @@
         "y": 2260,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2070,7 +2066,7 @@
         "y": 2300,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2155,7 +2151,7 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 655,
+        "x": 755,
         "y": 2340,
         "wires": []
     },
@@ -2182,7 +2178,7 @@
         "y": 2340,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2209,7 +2205,7 @@
         "y": 2380,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2236,7 +2232,7 @@
         "y": 2420,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2263,7 +2259,7 @@
         "y": 2460,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2290,7 +2286,7 @@
         "y": 2500,
         "wires": [
             [
-                "84f20dfb.6970e8"
+                "8bee5d90.93213"
             ]
         ]
     },
@@ -2585,6 +2581,34 @@
         "wires": [
             [
                 "46f43be6.8a605c"
+            ]
+        ]
+    },
+    {
+        "id": "8bee5d90.93213",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "39660f71.497918",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "   {\t       \"type\" : \"i\",\t       \"value\" : payload \t    } ",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 2340,
+        "wires": [
+            [
+                "84f20dfb.6970e8"
             ]
         ]
     }
