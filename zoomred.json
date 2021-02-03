@@ -73,7 +73,7 @@
         "id": "800a1202.7dc55",
         "type": "group",
         "z": "73938c67.dac0ac",
-        "name": "Meeting Controls",
+        "name": "Session Controls",
         "style": {
             "label": true
         },
@@ -81,16 +81,16 @@
             "63b51234.9f4b64",
             "cd90a590.e286d8",
             "46f43be6.8a605c",
-            "d8f2b9d4.283e08",
             "c699a530.afa03",
             "f61c489f.2a26e",
-            "5766549f.f25d74",
-            "14d57df0.dbd8b2"
+            "14d57df0.dbd8b2",
+            "9f0bfbbf.eef0e8",
+            "7b6d8d0c.091e9c"
         ],
         "x": 14,
         "y": 1179,
-        "w": 582,
-        "h": 282
+        "w": 552,
+        "h": 322
     },
     {
         "id": "3353a48a.b34c7c",
@@ -332,7 +332,7 @@
     {
         "id": "b0d48d59.d45628",
         "type": "ui_tab",
-        "name": "Zoom",
+        "name": "In Meeting",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
@@ -383,7 +383,7 @@
         "type": "ui_group",
         "name": "Meeting Controls",
         "tab": "b20d1570.465fe",
-        "order": 5,
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -429,11 +429,31 @@
     {
         "id": "b20d1570.465fe",
         "type": "ui_tab",
-        "name": "Meeting Controls",
+        "name": "Session Controls",
         "icon": "dashboard",
-        "order": 3,
+        "order": 1,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "b6887465.612ad",
+        "type": "ui_group",
+        "name": "Join Meeting",
+        "tab": "b20d1570.465fe",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "262ffe42.cf9182",
+        "type": "ui_group",
+        "name": "Utility",
+        "tab": "b20d1570.465fe",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
     },
     {
         "id": "3db3f60c.5c3cea",
@@ -1266,10 +1286,10 @@
         "payloadType": "str",
         "topic": "/zoom/endMeeting",
         "x": 90,
-        "y": 1280,
+        "y": 1380,
         "wires": [
             [
-                "d8f2b9d4.283e08"
+                "46f43be6.8a605c"
             ]
         ]
     },
@@ -1293,7 +1313,7 @@
         "payloadType": "str",
         "topic": "/zoom/leaveMeeting",
         "x": 90,
-        "y": 1220,
+        "y": 1340,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -1310,36 +1330,8 @@
             "8a313077.cf5f3"
         ],
         "x": 495,
-        "y": 1220,
+        "y": 1300,
         "wires": []
-    },
-    {
-        "id": "d8f2b9d4.283e08",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 280,
-        "y": 1280,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
     },
     {
         "id": "47225bef.34f704",
@@ -2406,8 +2398,8 @@
         "g": "800a1202.7dc55",
         "name": "Join",
         "label": "Join Meeting",
-        "group": "b706b32.2fc16d",
-        "order": 2,
+        "group": "b6887465.612ad",
+        "order": 1,
         "width": 0,
         "height": 0,
         "options": [
@@ -2443,7 +2435,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 90,
-        "y": 1340,
+        "y": 1420,
         "wires": [
             [
                 "f61c489f.2a26e"
@@ -2478,31 +2470,12 @@
         "to": "",
         "reg": false,
         "x": 260,
-        "y": 1340,
+        "y": 1420,
         "wires": [
             [
-                "46f43be6.8a605c",
-                "5766549f.f25d74"
+                "46f43be6.8a605c"
             ]
         ]
-    },
-    {
-        "id": "5766549f.f25d74",
-        "type": "debug",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "join meeting",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 480,
-        "y": 1380,
-        "wires": []
     },
     {
         "id": "14d57df0.dbd8b2",
@@ -2512,7 +2485,7 @@
         "name": "Join message takes three separate string arguments",
         "info": "",
         "x": 350,
-        "y": 1420,
+        "y": 1460,
         "wires": []
     },
     {
@@ -2525,5 +2498,94 @@
         "x": 230,
         "y": 2460,
         "wires": []
+    },
+    {
+        "id": "9f0bfbbf.eef0e8",
+        "type": "ui_dropdown",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "label": "Subscription Level",
+        "tooltip": "Sets subscription level for user output data. ",
+        "place": "All",
+        "group": "262ffe42.cf9182",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "None",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "TargetList",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "All",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Panelists",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": " OnlyGallery",
+                "value": 4,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "/zoom/subscribe",
+        "x": 130,
+        "y": 1280,
+        "wires": [
+            [
+                "46f43be6.8a605c"
+            ]
+        ]
+    },
+    {
+        "id": "7b6d8d0c.091e9c",
+        "type": "ui_dropdown",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "",
+        "label": "Gallery Tracking",
+        "tooltip": "Changes gallery tracking mode to participantID or zoomID.",
+        "place": "participantID",
+        "group": "262ffe42.cf9182",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "participantID",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "zoomID",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "/zoom/galTrackMode",
+        "x": 120,
+        "y": 1220,
+        "wires": [
+            [
+                "46f43be6.8a605c"
+            ]
+        ]
     }
 ]
