@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "id": "51f7b8ac.edcdc8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5c333663.9e30e8",
+        "type": "comment",
+        "z": "51f7b8ac.edcdc8",
+        "name": "First commit - empty project",
+        "info": "",
+        "x": 190,
+        "y": 80,
+        "wires": []
+    }
+]
