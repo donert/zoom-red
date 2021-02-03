@@ -1823,7 +1823,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "format usertable",
-        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",

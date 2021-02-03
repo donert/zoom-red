@@ -2,7 +2,11 @@
     "name": "ZoomRed",
     "description": "A controller for ZoomOSC V4. ",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-osc": "1.1.0",
+        "node-red-dashboard": "2.26.1",
+        "node-red-node-ui-table": "0.3.10"
+    },
     "node-red": {
         "settings": {
             "flowFile": "zoomred.json",
