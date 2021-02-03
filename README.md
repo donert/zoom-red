@@ -30,6 +30,8 @@ To install Zoom-Red you need the following pre-requisites:
 * The join, end and leave meeting controls do not work.
 * The user table has default values and don't track updates for all values - not yet implemented. The state may not be correct until their is a change in state.
 * The user table is completly refreshed on every update (this wont scale well) and also destroys your sort order.
+* This is developed and tested on Mac only. Sorry. 
+* ZoomOSC features are not uniformly implemented on mac and windows. I have not attempted to disable features based on the client.
 
 # Major TODOs
 
