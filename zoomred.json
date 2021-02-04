@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "c12db79c.dacf9",
+        "type": "tab",
+        "label": "Testing Functions",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "4a1eee5f.c4f908",
         "type": "group",
         "z": "73938c67.dac0ac",
@@ -208,8 +215,8 @@
             "66601b96.abcad4",
             "a3eb01d1.59552"
         ],
-        "x": 34,
-        "y": 2639,
+        "x": 14,
+        "y": 2619,
         "w": 432,
         "h": 222
     },
@@ -228,13 +235,52 @@
             "e5be326c.4063e",
             "8a313077.cf5f3",
             "4b26af43.b2637",
-            "9212f4a1.d16db8"
+            "9212f4a1.d16db8",
+            "bd287e97.0ece58"
         ],
         "x": 14,
         "y": 19,
         "w": 732,
         "h": 202,
         "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
+    },
+    {
+        "id": "e237bfbd.ef848",
+        "type": "group",
+        "z": "c12db79c.dacf9",
+        "name": "Launch Test Fleet",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "cc984c2c.33522",
+            "8969da29.79c5f8",
+            "ae78cd7a.a06dd8",
+            "18ec83d2.1b87c4",
+            "2ae36ad4.149bde",
+            "335d18e.c1b6be8",
+            "bf15db33.bca2e8",
+            "f5bff11b.f3861",
+            "d17a3ce3.4a5e68",
+            "befdc645.74121",
+            "ddda9464.847278",
+            "fe1ef384.c7cc48",
+            "4f78604e.726158",
+            "fdf378c5.24555",
+            "90d78db0.5c5f2",
+            "ffd4819c.770548",
+            "6e4166aa.b845e",
+            "723cfff6.97f558",
+            "77d305da.860934",
+            "f7b2ddb.a59bda",
+            "f4c194c7.4e4f98"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 1072,
+        "h": 542
     },
     {
         "id": "573d9279.0eaa04",
@@ -360,7 +406,7 @@
         "tab": "9f44a0a4.c1fa68",
         "order": 1,
         "disp": true,
-        "width": 10,
+        "width": 6,
         "collapse": false
     },
     {
@@ -380,7 +426,7 @@
         "tab": "9f44a0a4.c1fa68",
         "order": 2,
         "disp": true,
-        "width": "6",
+        "width": 8,
         "collapse": false
     },
     {
@@ -466,6 +512,44 @@
         "name": "Network Settings",
         "tab": "b20d1570.465fe",
         "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2aa8e7ed.fefec8",
+        "type": "ui_group",
+        "name": "Test Fleet",
+        "tab": "818a0f54.1ac028",
+        "order": 3,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "60241fce.47cad",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3446b061.aa8348",
+        "order": 4,
+        "width": "6",
+        "height": "2"
+    },
+    {
+        "id": "818a0f54.1ac028",
+        "type": "ui_tab",
+        "name": "Testing",
+        "icon": "code",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "979427e9.396bc",
+        "type": "ui_group",
+        "name": "Kill All ZoomOSC",
+        "tab": "818a0f54.1ac028",
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -630,8 +714,8 @@
         "onceDelay": 0.1,
         "topic": "/zoom/me/listScreens",
         "payloadType": "str",
-        "x": 180,
-        "y": 2760,
+        "x": 160,
+        "y": 2740,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -1256,8 +1340,8 @@
         "onceDelay": 0.1,
         "topic": "/zoom/me/listWindows",
         "payloadType": "str",
-        "x": 180,
-        "y": 2720,
+        "x": 160,
+        "y": 2700,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -1488,7 +1572,7 @@
         "y": 180,
         "wires": [
             [
-                "e5be326c.4063e"
+                "bd287e97.0ece58"
             ]
         ]
     },
@@ -2314,8 +2398,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 375,
-        "y": 2740,
+        "x": 355,
+        "y": 2720,
         "wires": []
     },
     {
@@ -2325,8 +2409,8 @@
         "g": "e7464d93.8a5de8",
         "name": "Both are creating the same repsonse topic - Bug?",
         "info": "Andy says it is a bug on the zoom side.",
-        "x": 250,
-        "y": 2680,
+        "x": 230,
+        "y": 2660,
         "wires": []
     },
     {
@@ -2359,8 +2443,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "/zoom/all/endMeeting",
-        "x": 180,
-        "y": 2820,
+        "x": 160,
+        "y": 2800,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -2650,8 +2734,8 @@
         "group": "e14cccb0.beedd8",
         "name": "Pong Table",
         "order": 2,
-        "width": "6",
-        "height": "4",
+        "width": 8,
+        "height": 4,
         "columns": [
             {
                 "field": "key",
@@ -2866,6 +2950,506 @@
         "info": "",
         "x": 450,
         "y": 60,
+        "wires": []
+    },
+    {
+        "id": "bd287e97.0ece58",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "bf3e5a12.3393f",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\t   {\t       \"type\" : \"s\",\t       \"value\" : $now('[H01]:[m01]:[s01] [z]', '-0500')\t    } ",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "e5be326c.4063e"
+            ]
+        ]
+    },
+    {
+        "id": "cc984c2c.33522",
+        "type": "exec",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "command": "~/Dropbox/UAC_Software/bin/zoomOSC-fleet.sh",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "10",
+        "oldrc": false,
+        "name": "exec",
+        "x": 570,
+        "y": 120,
+        "wires": [
+            [
+                "90d78db0.5c5f2"
+            ],
+            [
+                "ffd4819c.770548"
+            ],
+            [
+                "18ec83d2.1b87c4"
+            ]
+        ]
+    },
+    {
+        "id": "8969da29.79c5f8",
+        "type": "ui_form",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "Launch Test",
+        "label": "Launch Test Fleet",
+        "group": "2aa8e7ed.fefec8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Prefix",
+                "value": "prefix",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "MeetingID",
+                "value": "meetingid",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "How many?",
+                "value": "count",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "prefix": "",
+            "meetingid": "",
+            "password": "",
+            "count": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "befdc645.74121"
+            ]
+        ]
+    },
+    {
+        "id": "ae78cd7a.a06dd8",
+        "type": "change",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "format parameters",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\" -u \" & payload.prefix & \t\" -n \" & payload.count & \t\" -i \" & payload.meetingid &\t\" -p \" & payload.password  &\t\" -x \" & \"dummy\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "f5bff11b.f3861",
+                "cc984c2c.33522"
+            ]
+        ]
+    },
+    {
+        "id": "18ec83d2.1b87c4",
+        "type": "ui_text",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "group": "2aa8e7ed.fefec8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "return",
+        "label": "return code",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 810,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2ae36ad4.149bde",
+        "type": "ui_button",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "",
+        "group": "979427e9.396bc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Kill ALL ZoomOSC",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "335d18e.c1b6be8"
+            ]
+        ]
+    },
+    {
+        "id": "335d18e.c1b6be8",
+        "type": "exec",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "command": "killall ZoomOSC",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "3",
+        "oldrc": false,
+        "name": "",
+        "x": 450,
+        "y": 360,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bf15db33.bca2e8",
+        "type": "comment",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "Eliminate the script?",
+        "info": " /Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC -ajo 1 $tempusername $id $password &>/dev/null",
+        "x": 470,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f5bff11b.f3861",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "parameters",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d17a3ce3.4a5e68",
+        "type": "split",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "",
+        "x": 470,
+        "y": 301,
+        "wires": [
+            [
+                "fe1ef384.c7cc48",
+                "ddda9464.847278"
+            ]
+        ]
+    },
+    {
+        "id": "befdc645.74121",
+        "type": "function",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "",
+        "func": "out = []\ncmd = \"~/Dropbox/UAC_Software/bin/zoomOSC-fleet.sh\"\n\ncmd = \"/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC -ajo 1 \"\n\ncmd = \"./argtest.sh\" \n\np = msg.payload\n\n for (var i = 0; i < p.count; i++) { \n     user = p.prefix + i\n     \n     out.push( cmd \n     + \" -u \" + '\"' + user + '\"'  \n     + \" -m \" + '\"' + p.meetingid + '\"'\n     + \" -p \" + '\"' + p.password + '\"'\n     )\n   \n}\n\nmsg = { \"payload\" : out }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 330,
+        "y": 301,
+        "wires": [
+            [
+                "d17a3ce3.4a5e68"
+            ]
+        ]
+    },
+    {
+        "id": "ddda9464.847278",
+        "type": "exec",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "command": "/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC",
+        "addpay": true,
+        "append": "-ajo 1 >/dev/null",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "4f78604e.726158"
+            ],
+            [
+                "fdf378c5.24555"
+            ],
+            [
+                "18ec83d2.1b87c4"
+            ]
+        ]
+    },
+    {
+        "id": "fe1ef384.c7cc48",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "4f78604e.726158",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "stdout",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "fdf378c5.24555",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "stderr",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "90d78db0.5c5f2",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "stdout",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ffd4819c.770548",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "stderr",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6e4166aa.b845e",
+        "type": "inject",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "./argtest.sh -a 1 -b 2 -c 3",
+        "payloadType": "str",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "723cfff6.97f558"
+            ]
+        ]
+    },
+    {
+        "id": "723cfff6.97f558",
+        "type": "exec",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "text exec",
+        "x": 440,
+        "y": 480,
+        "wires": [
+            [
+                "77d305da.860934"
+            ],
+            [
+                "f7b2ddb.a59bda"
+            ],
+            [
+                "f4c194c7.4e4f98"
+            ]
+        ]
+    },
+    {
+        "id": "77d305da.860934",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "so",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f7b2ddb.a59bda",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "se",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f4c194c7.4e4f98",
+        "type": "debug",
+        "z": "c12db79c.dacf9",
+        "g": "e237bfbd.ef848",
+        "name": "rc",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 520,
         "wires": []
     }
 ]
