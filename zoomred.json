@@ -14,6 +14,13 @@
         "info": ""
     },
     {
+        "id": "584bfa46.70cd0c",
+        "type": "tab",
+        "label": "Development",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "4a1eee5f.c4f908",
         "type": "group",
         "z": "73938c67.dac0ac",
@@ -38,7 +45,8 @@
             "fa49dade.a0139",
             "93e9c3f0.384fe",
             "68d21d79.8cebec",
-            "fc277a34.d21a3"
+            "fc277a34.d21a3",
+            "7afcdf6c.bf4f6"
         ],
         "x": 14,
         "y": 239,
@@ -281,6 +289,26 @@
         "y": 19,
         "w": 1072,
         "h": 542
+    },
+    {
+        "id": "3153b16.24d25ce",
+        "type": "group",
+        "z": "584bfa46.70cd0c",
+        "name": "glslViewer Test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "22b1965e.40e77a",
+            "86d3820a.a6989",
+            "a17c3d4b.9a5",
+            "9a596ae7.18f75",
+            "2912e1fc.70ff96"
+        ],
+        "x": 54,
+        "y": 39,
+        "w": 872,
+        "h": 202
     },
     {
         "id": "573d9279.0eaa04",
@@ -3234,7 +3262,7 @@
         "g": "e237bfbd.ef848",
         "command": "/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC",
         "addpay": true,
-        "append": "-ajo 1 >/dev/null",
+        "append": "-ajo 1 >/dev/null &",
         "useSpawn": "false",
         "timer": "",
         "oldrc": false,
@@ -3450,6 +3478,125 @@
         "statusType": "auto",
         "x": 600,
         "y": 520,
+        "wires": []
+    },
+    {
+        "id": "22b1965e.40e77a",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "defines",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/defines",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "86d3820a.a6989",
+        "type": "osc",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "",
+        "path": "",
+        "metadata": false,
+        "x": 440,
+        "y": 80,
+        "wires": [
+            [
+                "a17c3d4b.9a5"
+            ]
+        ]
+    },
+    {
+        "id": "a17c3d4b.9a5",
+        "type": "udp out",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "",
+        "addr": "192.168.86.21",
+        "iface": "",
+        "port": "3333",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 790,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9a596ae7.18f75",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "define TEST",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/define TEST 23",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "2912e1fc.70ff96",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "quit",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "quit",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "7afcdf6c.bf4f6",
+        "type": "comment",
+        "z": "73938c67.dac0ac",
+        "g": "4a1eee5f.c4f908",
+        "name": "TODO Handle Offline msg",
+        "info": "OSC message /zoomosc/user/offline -1 \"--NO USER--\" 16 16809984\n",
+        "x": 1100,
+        "y": 280,
         "wires": []
     }
 ]
