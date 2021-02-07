@@ -221,12 +221,13 @@
             "c33cbea6.ca6c58",
             "bd5834a7.19337",
             "66601b96.abcad4",
-            "a3eb01d1.59552"
+            "a3eb01d1.59552",
+            "77ba9999.2ec65"
         ],
         "x": 14,
         "y": 2619,
         "w": 432,
-        "h": 222
+        "h": 262
     },
     {
         "id": "bf3e5a12.3393f",
@@ -303,12 +304,16 @@
             "86d3820a.a6989",
             "a17c3d4b.9a5",
             "9a596ae7.18f75",
-            "2912e1fc.70ff96"
+            "2912e1fc.70ff96",
+            "678d0a91.2e966c",
+            "d1802253.f40f08",
+            "c9fe32.4937a9d",
+            "c197268c.a581f8"
         ],
-        "x": 54,
+        "x": 34,
         "y": 39,
-        "w": 872,
-        "h": 202
+        "w": 862,
+        "h": 322
     },
     {
         "id": "573d9279.0eaa04",
@@ -3497,7 +3502,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "/defines",
-        "x": 180,
+        "payloadType": "str",
+        "x": 150,
         "y": 80,
         "wires": [
             [
@@ -3513,7 +3519,7 @@
         "name": "",
         "path": "",
         "metadata": false,
-        "x": 440,
+        "x": 410,
         "y": 80,
         "wires": [
             [
@@ -3534,7 +3540,7 @@
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 790,
+        "x": 760,
         "y": 80,
         "wires": []
     },
@@ -3543,7 +3549,7 @@
         "type": "inject",
         "z": "584bfa46.70cd0c",
         "g": "3153b16.24d25ce",
-        "name": "define TEST",
+        "name": "u_osc_scene,1",
         "props": [
             {
                 "p": "topic",
@@ -3554,9 +3560,9 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "/define TEST 23",
-        "x": 170,
-        "y": 160,
+        "topic": "/u_osc_scene,1",
+        "x": 160,
+        "y": 280,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3579,9 +3585,9 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "quit",
-        "x": 230,
-        "y": 200,
+        "topic": "/quit",
+        "x": 410,
+        "y": 320,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3598,5 +3604,191 @@
         "x": 1100,
         "y": 280,
         "wires": []
+    },
+    {
+        "id": "678d0a91.2e966c",
+        "type": "comment",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "Exploring glslViewer",
+        "info": "Can glslViewer be used to generate graphics? \nFor example a L3rd",
+        "x": 650,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d1802253.f40f08",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "define,TEST,12",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/define,TEST,12",
+        "payloadType": "str",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "c9fe32.4937a9d",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "uniforms",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/uniforms",
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "c197268c.a581f8",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "u_osc_scene,2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/u_osc_scene,2",
+        "x": 160,
+        "y": 320,
+        "wires": [
+            [
+                "86d3820a.a6989"
+            ]
+        ]
+    },
+    {
+        "id": "77ba9999.2ec65",
+        "type": "inject",
+        "z": "73938c67.dac0ac",
+        "g": "e7464d93.8a5de8",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/update",
+        "x": 140,
+        "y": 2840,
+        "wires": [
+            [
+                "bd5834a7.19337"
+            ]
+        ]
+    },
+    {
+        "id": "136c8441.59513c",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This is a test1",
+        "payloadType": "str",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "1644fbf1.43b7d4"
+            ]
+        ]
+    },
+    {
+        "id": "1644fbf1.43b7d4",
+        "type": "file",
+        "z": "584bfa46.70cd0c",
+        "name": "line1",
+        "filename": "/Users/avuser/line1.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 370,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ee5d5cf.618a5a",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This is a test2",
+        "payloadType": "str",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "1644fbf1.43b7d4"
+            ]
+        ]
     }
 ]
