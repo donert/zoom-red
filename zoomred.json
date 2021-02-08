@@ -21,6 +21,13 @@
         "info": ""
     },
     {
+        "id": "417600d2.281de8",
+        "type": "tab",
+        "label": "MultiClient Prototype",
+        "disabled": false,
+        "info": "**This works on MacOS only. **\n\nThis page sets up \n - starts multiple ZoomOSC clients to connect a single meeting. \n - starts multiple NDI Scan Converter sessions\n- Provides a control interface to manage who is pinned on each cleint session."
+    },
+    {
         "id": "4a1eee5f.c4f908",
         "type": "group",
         "z": "73938c67.dac0ac",
@@ -295,7 +302,7 @@
         "id": "3153b16.24d25ce",
         "type": "group",
         "z": "584bfa46.70cd0c",
-        "name": "glslViewer Test",
+        "name": "glslViewer Prototype",
         "style": {
             "label": true
         },
@@ -308,12 +315,193 @@
             "678d0a91.2e966c",
             "d1802253.f40f08",
             "c9fe32.4937a9d",
-            "c197268c.a581f8"
+            "c197268c.a581f8",
+            "b41e61b5.865f38",
+            "acc76c8c.b7e738"
         ],
         "x": 34,
         "y": 39,
-        "w": 862,
+        "w": 952,
         "h": 322
+    },
+    {
+        "id": "29c363c3.4e94d4",
+        "type": "group",
+        "z": "584bfa46.70cd0c",
+        "name": "Set OBS Title Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "136c8441.59513c",
+            "1644fbf1.43b7d4",
+            "2ee5d5cf.618a5a"
+        ],
+        "x": 34,
+        "y": 379,
+        "w": 402,
+        "h": 122
+    },
+    {
+        "id": "e26be13e.803a18",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "Terminate",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "633a66bd.5b6858",
+            "b0a10cdd.f84f",
+            "ea944d9a.7c01e8",
+            "c60e2d5b.3a84c",
+            "3adc9280.70751e",
+            "193b78a6.baa13f",
+            "e2afd00e.027d5",
+            "8c6aa845.c21ea8",
+            "1d88496d.271827"
+        ],
+        "x": 14,
+        "y": 679,
+        "w": 1012,
+        "h": 189.5
+    },
+    {
+        "id": "a467147e.ea6ff8",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "87be8393.c7a8d",
+            "5c299bdd.1302bc",
+            "f1293eaf.5560a8",
+            "68481c37.3af0a4",
+            "18966c73.5a928c",
+            "ff4364fe.b61058",
+            "39af3e5c.9312f2",
+            "bfc42dc2.942a2",
+            "11d024cc.045c43",
+            "9417cf19.60406"
+        ],
+        "x": 14,
+        "y": 379,
+        "w": 1012,
+        "h": 282
+    },
+    {
+        "id": "f1398826.950628",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6b0a9d8a.8e05c4",
+            "6a8fb6ee.5c8788",
+            "f046bc6f.319fc",
+            "4ec76086.b79ce",
+            "73a15135.d74f8",
+            "c572ed57.b237f",
+            "c755f3f2.0a79d8",
+            "c19fcfef.6bae7"
+        ],
+        "x": 14,
+        "y": 179,
+        "w": 992,
+        "h": 189.5
+    },
+    {
+        "id": "2aa67a90.e9e8de",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "Save Settings",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "cbf94f2f.049128",
+            "340c566b.64c7b2",
+            "877ea4e2.adbf48",
+            "7aa57287.f3c874"
+        ],
+        "x": 14,
+        "y": 79,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "7bec5cb5.2c8684",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "Selected User Actions",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9c178ab7.b2b618",
+            "38410292.5a059e",
+            "71b05658.d1d9f",
+            "4f83d257.a05e84",
+            "e8a793b9.a30d98",
+            "5a9d487.cff0938",
+            "7e53b5c7.79144c",
+            "599f960.d29c7ec",
+            "f5cadcb6.79b21",
+            "b41bd73e.c303e",
+            "4a6af20f.ecb29c",
+            "5a3b6ae8.5701c4",
+            "71ee22a4.640ac4",
+            "aef4ae9c.77b918",
+            "6d684f15.6d63",
+            "d5e038c7.bcc138",
+            "19f5670b.004b51",
+            "54e76887.094bc",
+            "bcdf87b8.87a5b",
+            "ad9a35a2.675f78",
+            "dc6dd287.716bd",
+            "f0db2f83.f8d898",
+            "840cdcb0.3b9c2",
+            "8dc8d1f2.0d7ae",
+            "afb2c457.c8a0e",
+            "5071156.9bac2ec",
+            "8b9ab5d3.0a69a8"
+        ],
+        "x": 14,
+        "y": 879,
+        "w": 1122,
+        "h": 482
+    },
+    {
+        "id": "8684bcb0.1421e8",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a54ccf7c.81e578",
+            "649ae0bc.ad383",
+            "abfe4cc9.7d8ef"
+        ],
+        "x": 34,
+        "y": 1399,
+        "w": 422,
+        "h": 82
     },
     {
         "id": "573d9279.0eaa04",
@@ -588,6 +776,92 @@
         "collapse": false
     },
     {
+        "id": "aa26466b.7070c8",
+        "type": "ui_tab",
+        "name": "Multiclient",
+        "icon": "fa-group",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a03fa8bd.11d808",
+        "type": "ui_group",
+        "name": "Launch",
+        "tab": "aa26466b.7070c8",
+        "order": 3,
+        "disp": true,
+        "width": 24,
+        "collapse": true
+    },
+    {
+        "id": "a9ebce72.b238d",
+        "type": "ui_group",
+        "name": "Terminate",
+        "tab": "aa26466b.7070c8",
+        "order": 4,
+        "disp": true,
+        "width": 24,
+        "collapse": true
+    },
+    {
+        "id": "34e0077d.69c1d",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "aa26466b.7070c8",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": true
+    },
+    {
+        "id": "44a52049.ba216",
+        "type": "ui_group",
+        "name": "Session Control",
+        "tab": "aa26466b.7070c8",
+        "order": 5,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "68456f7b.49d198",
+        "type": "ui_group",
+        "name": "Intro",
+        "tab": "aa26466b.7070c8",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": true
+    },
+    {
+        "id": "ded66193.ba925",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "34e0077d.69c1d",
+        "order": 1,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "1c123367.71c74d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "44a52049.ba216",
+        "order": 6,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "e488f67.dd5be88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "44a52049.ba216",
+        "order": 11,
+        "width": 12,
+        "height": 1
+    },
+    {
         "id": "3db3f60c.5c3cea",
         "type": "udp out",
         "z": "73938c67.dac0ac",
@@ -615,15 +889,15 @@
                 "t": "set",
                 "p": "ip",
                 "pt": "msg",
-                "to": "zoomoscip",
-                "tot": "flow"
+                "to": "zoomosc_ip",
+                "tot": "global"
             },
             {
                 "t": "set",
                 "p": "port",
                 "pt": "msg",
-                "to": "zoomoscport",
-                "tot": "flow"
+                "to": "zoomosc_port",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -1332,7 +1606,8 @@
             "84f20dfb.6970e8",
             "aaeba03f.6b66f",
             "bd5834a7.19337",
-            "3e83a4c1.9f439c"
+            "3e83a4c1.9f439c",
+            "5a9d487.cff0938"
         ],
         "x": 55,
         "y": 100,
@@ -1798,7 +2073,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "parse userlist",
-        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = flow.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\",\n    \"spot\"  : \"?\"\n}\n\nflow.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
+        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = global.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\",\n    \"spot\"  : \"?\"\n}\n\nglobal.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1942,7 +2217,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "format usertable",
-        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = flow.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1962,7 +2237,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "parse video on/off",
-        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = flow.get('usertable')||{}\nd = msg.payload;\n\n//console.log('BEFORE' )\n//console.log(ut[d[3]])\n\nid   = ut[d[3]].id\nname = ut[d[3]].name\nmute = ut[d[3]].mute\nvideo = ut[d[3]].video\nspot = ut[d[3]].spot\n\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n  case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n  case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  case \"/zoomosc/user/spotlightOn\":\n    spot = \"On\"\n    break;\n  case \"/zoomosc/user/spotlightOff\":\n    mute = \"Off\"\n    break;    \n  default:\n    // code block\n}\n\n//console.log(ut)\n\nut[ d[3] ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video,\n                \"spot\"  : spot\n}\n                \n//console.log('after')  \n//console.log(ut[d[3]])\n\nflow.set('usertable', ut) \n\nreturn msg;",
+        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = global.get('usertable')||{}\nd = msg.payload;\n\n//console.log('BEFORE' )\n//console.log(ut[d[3]])\n\nid   = ut[d[3]].id\nname = ut[d[3]].name\nmute = ut[d[3]].mute\nvideo = ut[d[3]].video\nspot = ut[d[3]].spot\n\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n  case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n  case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  case \"/zoomosc/user/spotlightOn\":\n    spot = \"On\"\n    break;\n  case \"/zoomosc/user/spotlightOff\":\n    mute = \"Off\"\n    break;    \n  default:\n    // code block\n}\n\n//console.log(ut)\n\nut[ d[3] ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video,\n                \"spot\"  : spot\n}\n                \n//console.log('after')  \n//console.log(ut[d[3]])\n\nglobal.set('usertable', ut) \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2012,7 +2287,8 @@
         "g": "4a1eee5f.c4f908",
         "name": "Selected User",
         "links": [
-            "c747b0af.6dc26"
+            "c747b0af.6dc26",
+            "85a48e72.981c48"
         ],
         "x": 1315,
         "y": 480,
@@ -2828,12 +3104,12 @@
         "type": "change",
         "z": "73938c67.dac0ac",
         "g": "800a1202.7dc55",
-        "name": "set flow context port",
+        "name": "set global port",
         "rules": [
             {
                 "t": "set",
-                "p": "zoomoscport",
-                "pt": "flow",
+                "p": "zoomosc_port",
+                "pt": "global",
                 "to": "payload.port",
                 "tot": "msg"
             }
@@ -2843,7 +3119,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
+        "x": 600,
         "y": 1480,
         "wires": [
             []
@@ -2898,12 +3174,12 @@
         "type": "change",
         "z": "73938c67.dac0ac",
         "g": "800a1202.7dc55",
-        "name": "set flow context ip",
+        "name": "set global ip",
         "rules": [
             {
                 "t": "set",
-                "p": "zoomoscip",
-                "pt": "flow",
+                "p": "zoomosc_ip",
+                "pt": "global",
                 "to": "payload.ip",
                 "tot": "msg"
             }
@@ -2913,7 +3189,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 610,
+        "x": 590,
         "y": 1440,
         "wires": [
             []
@@ -3612,8 +3888,8 @@
         "g": "3153b16.24d25ce",
         "name": "Exploring glslViewer",
         "info": "Can glslViewer be used to generate graphics? \nFor example a L3rd",
-        "x": 650,
-        "y": 200,
+        "x": 590,
+        "y": 120,
         "wires": []
     },
     {
@@ -3721,6 +3997,7 @@
         "id": "136c8441.59513c",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "29c363c3.4e94d4",
         "name": "",
         "props": [
             {
@@ -3736,10 +4013,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "This is a test1",
+        "payload": "Dilbert",
         "payloadType": "str",
-        "x": 180,
-        "y": 500,
+        "x": 130,
+        "y": 420,
         "wires": [
             [
                 "1644fbf1.43b7d4"
@@ -3750,14 +4027,15 @@
         "id": "1644fbf1.43b7d4",
         "type": "file",
         "z": "584bfa46.70cd0c",
+        "g": "29c363c3.4e94d4",
         "name": "line1",
         "filename": "/Users/avuser/line1.txt",
         "appendNewline": true,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 370,
-        "y": 520,
+        "x": 360,
+        "y": 440,
         "wires": [
             []
         ]
@@ -3766,6 +4044,7 @@
         "id": "2ee5d5cf.618a5a",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "29c363c3.4e94d4",
         "name": "",
         "props": [
             {
@@ -3781,14 +4060,1596 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "This is a test2",
+        "payload": "Wally",
         "payloadType": "str",
-        "x": 170,
-        "y": 540,
+        "x": 130,
+        "y": 460,
         "wires": [
             [
                 "1644fbf1.43b7d4"
             ]
+        ]
+    },
+    {
+        "id": "b41e61b5.865f38",
+        "type": "comment",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "The hope was to be able to use it as a general graphics engine.",
+        "info": "",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "acc76c8c.b7e738",
+        "type": "comment",
+        "z": "584bfa46.70cd0c",
+        "g": "3153b16.24d25ce",
+        "name": "These functions work, but glslViewer cannot do text. ",
+        "info": "",
+        "x": 690,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cbf94f2f.049128",
+        "type": "ui_form",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "Client Settings",
+        "label": "Client Settings",
+        "group": "34e0077d.69c1d",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "options": [
+            {
+                "label": "Prefix",
+                "value": "prefix",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "MeetingID",
+                "value": "meetingid",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "How many?",
+                "value": "count",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Tx Port Start",
+                "value": "txp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Rx Port Start",
+                "value": "rxp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "prefix": "",
+            "meetingid": "",
+            "password": "",
+            "count": "",
+            "txp": "",
+            "rxp": ""
+        },
+        "payload": "",
+        "submit": "Save",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "7aa57287.f3c874"
+            ]
+        ]
+    },
+    {
+        "id": "340c566b.64c7b2",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "form defaults",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "fleet_parms",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "cbf94f2f.049128"
+            ]
+        ]
+    },
+    {
+        "id": "877ea4e2.adbf48",
+        "type": "inject",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "initialize",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 120,
+        "y": 120,
+        "wires": [
+            [
+                "340c566b.64c7b2"
+            ]
+        ]
+    },
+    {
+        "id": "6b0a9d8a.8e05c4",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "iterate",
+        "func": "out = []\n \np = msg.payload\n\n for (var i = 1; i <= p; i++) { \n\n     out.push( i )\n   \n}\n\nmsg = { \"payload\" : out }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "6a8fb6ee.5c8788",
+                "c19fcfef.6bae7"
+            ]
+        ]
+    },
+    {
+        "id": "6a8fb6ee.5c8788",
+        "type": "split",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "73a15135.d74f8"
+            ]
+        ]
+    },
+    {
+        "id": "f046bc6f.319fc",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4ec76086.b79ce",
+        "type": "exec",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "command": "",
+        "addpay": true,
+        "append": " >/dev/null &",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7aa57287.f3c874",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "save fleet parms",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fleet_parms",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73a15135.d74f8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "set instance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "c572ed57.b237f"
+            ]
+        ]
+    },
+    {
+        "id": "633a66bd.5b6858",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "group": "a9ebce72.b238d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Kill ALL ZoomOSC",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "b0a10cdd.f84f"
+            ]
+        ]
+    },
+    {
+        "id": "b0a10cdd.f84f",
+        "type": "exec",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "command": "killall ZoomOSC",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "3",
+        "oldrc": false,
+        "name": "",
+        "x": 360,
+        "y": 820,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ea944d9a.7c01e8",
+        "type": "exec",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "3",
+        "oldrc": false,
+        "name": "run commands",
+        "x": 760,
+        "y": 740,
+        "wires": [
+            [
+                "e2afd00e.027d5"
+            ],
+            [
+                "8c6aa845.c21ea8"
+            ],
+            [
+                "1d88496d.271827"
+            ]
+        ]
+    },
+    {
+        "id": "c60e2d5b.3a84c",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "group": "a9ebce72.b238d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Kill ALL NDI_Scan Converter",
+        "tooltip": "Kills all clones of NDI Scan Converter",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
+        "topic": "",
+        "x": 160,
+        "y": 740,
+        "wires": [
+            [
+                "3adc9280.70751e"
+            ]
+        ]
+    },
+    {
+        "id": "c572ed57.b237f",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "format command",
+        "func": "inst = msg.instance + \"\" ;\ninst = inst.padStart(2, \"0\");\n\nexec  = \"/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC\";\nuser  = \" -u \" + flow.get('fleet_parms').prefix + inst;\nmtgid = \" -m '\" + flow.get('fleet_parms').meetingid + \"'\";\npswd  = \" -p \" + flow.get('fleet_parms').password  ;\ntxp   = \" -txp \" + flow.get('fleet_parms').txp;\nrxp   = \" -rxp \" + (flow.get('fleet_parms').rxp + msg.instance);\n\ncmd = exec + \" -ajo 1 \" + user + mtgid + pswd + rxp + txp ;\n\nmsg = { \"payload\" : cmd };\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "f046bc6f.319fc",
+                "4ec76086.b79ce"
+            ]
+        ]
+    },
+    {
+        "id": "c755f3f2.0a79d8",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "",
+        "group": "a03fa8bd.11d808",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Launch ZoomOSC",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
+        "topic": "",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "6b0a9d8a.8e05c4"
+            ]
+        ]
+    },
+    {
+        "id": "9417cf19.60406",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "",
+        "group": "a03fa8bd.11d808",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Launch NDI Scan Converter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
+        "topic": "",
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "87be8393.c7a8d"
+            ]
+        ]
+    },
+    {
+        "id": "87be8393.c7a8d",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "iterate",
+        "func": "out = []\n \np = msg.payload\n\nconsole.log(\"func\" + p)\n\n for (var i = 1; i <= p; i++) { \n     out.push( i )\n}\n\nmsg = { \"payload\" : out }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 330,
+        "y": 480,
+        "wires": [
+            [
+                "5c299bdd.1302bc"
+            ]
+        ]
+    },
+    {
+        "id": "5c299bdd.1302bc",
+        "type": "split",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "f1293eaf.5560a8"
+            ]
+        ]
+    },
+    {
+        "id": "f1293eaf.5560a8",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "format command",
+        "func": "inst = msg.payload + \"\" ;\ninst = inst.padStart(2, \"0\");\n\ncmd = \"/Applications/NDI_SC\" + inst + \".app/Contents/MacOS/NewTek\\\\ NDI\\\\ Scan\\\\ Converter &\"\n\nmsg ={\n    \"payload\" :   cmd\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 490,
+        "y": 540,
+        "wires": [
+            [
+                "68481c37.3af0a4",
+                "18966c73.5a928c"
+            ]
+        ]
+    },
+    {
+        "id": "68481c37.3af0a4",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "Launch NDI_SC",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "18966c73.5a928c",
+        "type": "exec",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "3",
+        "oldrc": false,
+        "name": "run commands",
+        "x": 740,
+        "y": 600,
+        "wires": [
+            [
+                "ff4364fe.b61058"
+            ],
+            [
+                "39af3e5c.9312f2"
+            ],
+            [
+                "bfc42dc2.942a2"
+            ]
+        ]
+    },
+    {
+        "id": "3adc9280.70751e",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "killall NewTek\\ NDI\\ Scan\\ Converter",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 740,
+        "wires": [
+            [
+                "193b78a6.baa13f"
+            ]
+        ]
+    },
+    {
+        "id": "193b78a6.baa13f",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "clone",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 570,
+        "y": 740,
+        "wires": [
+            [
+                "ea944d9a.7c01e8"
+            ]
+        ]
+    },
+    {
+        "id": "e2afd00e.027d5",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "so",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "8c6aa845.c21ea8",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "se",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "1d88496d.271827",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "rc",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ff4364fe.b61058",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "so",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "39af3e5c.9312f2",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "se",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "bfc42dc2.942a2",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "rc",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c19fcfef.6bae7",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "f1398826.950628",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "11d024cc.045c43",
+        "type": "comment",
+        "z": "417600d2.281de8",
+        "g": "a467147e.ea6ff8",
+        "name": "Details on running multiple copies of Scan Converter",
+        "info": "https://dev.to/xreyrobertibm/quick-hack-to-use-multiple-instances-of-newtek-ndi-scan-converter-on-macos-10eb",
+        "x": 810,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9c178ab7.b2b618",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 980,
+        "wires": [
+            [
+                "aef4ae9c.77b918"
+            ]
+        ]
+    },
+    {
+        "id": "38410292.5a059e",
+        "type": "ui_text",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "group": "44a52049.ba216",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Selected User",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 400,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "71b05658.d1d9f",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "selectedUser",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 180,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "4f83d257.a05e84",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.user",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 920,
+        "wires": [
+            [
+                "38410292.5a059e"
+            ]
+        ]
+    },
+    {
+        "id": "e8a793b9.a30d98",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "save ID to context",
+        "rules": [
+            {
+                "t": "set",
+                "p": "selectedid",
+                "pt": "flow",
+                "to": "payload.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 220,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a9d487.cff0938",
+        "type": "link out",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "links": [
+            "8a313077.cf5f3"
+        ],
+        "x": 935,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7e53b5c7.79144c",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "   {\t       \"type\" : \"i\",\t       \"value\" : payload \t    } ",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 1120,
+        "wires": [
+            [
+                "5a9d487.cff0938"
+            ]
+        ]
+    },
+    {
+        "id": "599f960.d29c7ec",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1020,
+        "wires": [
+            [
+                "6d684f15.6d63"
+            ]
+        ]
+    },
+    {
+        "id": "f5cadcb6.79b21",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1060,
+        "wires": [
+            [
+                "d5e038c7.bcc138"
+            ]
+        ]
+    },
+    {
+        "id": "d33bd1c7.1cbc2",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1100,
+        "wires": [
+            [
+                "19f5670b.004b51"
+            ]
+        ]
+    },
+    {
+        "id": "b41bd73e.c303e",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1140,
+        "wires": [
+            [
+                "54e76887.094bc"
+            ]
+        ]
+    },
+    {
+        "id": "4a6af20f.ecb29c",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 6",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1180,
+        "wires": [
+            [
+                "bcdf87b8.87a5b"
+            ]
+        ]
+    },
+    {
+        "id": "5a3b6ae8.5701c4",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 7",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1220,
+        "wires": [
+            [
+                "ad9a35a2.675f78"
+            ]
+        ]
+    },
+    {
+        "id": "71ee22a4.640ac4",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "group": "44a52049.ba216",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Session 8",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "selectedid",
+        "payloadType": "flow",
+        "topic": "/zoom/zoomID/Pin",
+        "x": 420,
+        "y": 1260,
+        "wires": [
+            [
+                "dc6dd287.716bd"
+            ]
+        ]
+    },
+    {
+        "id": "aef4ae9c.77b918",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 980,
+        "wires": [
+            [
+                "afb2c457.c8a0e"
+            ]
+        ]
+    },
+    {
+        "id": "6d684f15.6d63",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5e038c7.bcc138",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19f5670b.004b51",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "54e76887.094bc",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bcdf87b8.87a5b",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "6",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad9a35a2.675f78",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "7",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc6dd287.716bd",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "8",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dc8d1f2.0d7ae",
+        "type": "osc",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "zoomOSC",
+        "path": "",
+        "metadata": false,
+        "x": 470,
+        "y": 1320,
+        "wires": [
+            [
+                "840cdcb0.3b9c2"
+            ]
+        ]
+    },
+    {
+        "id": "840cdcb0.3b9c2",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set network ip",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ip",
+                "pt": "msg",
+                "to": "zoomoscip",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1320,
+        "wires": [
+            [
+                "f0db2f83.f8d898"
+            ]
+        ]
+    },
+    {
+        "id": "f0db2f83.f8d898",
+        "type": "udp out",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "addr": "",
+        "iface": "",
+        "port": "",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 910,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "afb2c457.c8a0e",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "port",
+                "pt": "msg",
+                "to": "$global(\"zoomoscport\") + msg.instance",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 980,
+        "wires": [
+            [
+                "5071156.9bac2ec"
+            ]
+        ]
+    },
+    {
+        "id": "5071156.9bac2ec",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "selected user detail",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "a54ccf7c.81e578",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "8684bcb0.1421e8",
+        "name": "format usertable",
+        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 140,
+        "y": 1440,
+        "wires": [
+            [
+                "649ae0bc.ad383"
+            ]
+        ]
+    },
+    {
+        "id": "649ae0bc.ad383",
+        "type": "ui_table",
+        "z": "417600d2.281de8",
+        "g": "8684bcb0.1421e8",
+        "group": "e69902f8.5bed4",
+        "name": "",
+        "order": 15,
+        "width": "24",
+        "height": "13",
+        "columns": [
+            {
+                "field": "user",
+                "title": "User",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "video",
+                "title": "Video",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "mute",
+                "title": "Mute",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "pin",
+                "title": "PIN",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "spot",
+                "title": "Spot",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "activespeaker",
+                "title": "Active",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "row",
+                "title": "Row",
+                "width": "",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 310,
+        "y": 1440,
+        "wires": [
+            [
+                "abfe4cc9.7d8ef"
+            ]
+        ]
+    },
+    {
+        "id": "abfe4cc9.7d8ef",
+        "type": "link out",
+        "z": "417600d2.281de8",
+        "g": "8684bcb0.1421e8",
+        "name": "",
+        "links": [
+            "8b9ab5d3.0a69a8"
+        ],
+        "x": 415,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "8b9ab5d3.0a69a8",
+        "type": "link in",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "links": [
+            "abfe4cc9.7d8ef"
+        ],
+        "x": 55,
+        "y": 1020,
+        "wires": [
+            [
+                "71b05658.d1d9f",
+                "e8a793b9.a30d98",
+                "4f83d257.a05e84"
+            ]
+        ]
+    },
+    {
+        "id": "c6f23791.ef6b18",
+        "type": "ui_template",
+        "z": "417600d2.281de8",
+        "group": "68456f7b.49d198",
+        "name": "Intro",
+        "order": 1,
+        "width": 24,
+        "height": 2,
+        "format": "<div >\nThis is a prototype of a feature intended to create multiple zoomOSC clients on a single machine. Each client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. This would create a  high  resolution isolated feed (ISO) for each participant.     \n</div>\n<div>\nAt the bottom of the page is a list of meeting participants. Select a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 70,
+        "y": 40,
+        "wires": [
+            []
         ]
     }
 ]
