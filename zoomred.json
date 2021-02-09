@@ -110,17 +110,19 @@
             "9f0bfbbf.eef0e8",
             "7b6d8d0c.091e9c",
             "1836ad29.55decb",
-            "160489e.a593076",
             "c844671e.58adf",
             "54d81a13.473a9c",
             "b8f52048.1fd02",
             "f9768951.02dfa8",
-            "d45bbcca.f2d8a"
+            "d45bbcca.f2d8a",
+            "d83372d3.9abbf8",
+            "7f1a0616.747b8",
+            "b49b98d3.3493b"
         ],
         "x": 14,
-        "y": 1179,
-        "w": 732,
-        "h": 402
+        "y": 1219,
+        "w": 952,
+        "h": 422
     },
     {
         "id": "3353a48a.b34c7c",
@@ -138,7 +140,7 @@
             "e00106d8.34ae58"
         ],
         "x": 14,
-        "y": 959,
+        "y": 999,
         "w": 422,
         "h": 202
     },
@@ -160,7 +162,7 @@
         "x": 14,
         "y": 779,
         "w": 702,
-        "h": 162
+        "h": 202
     },
     {
         "id": "9a75246e.77f24",
@@ -496,12 +498,13 @@
         "nodes": [
             "a54ccf7c.81e578",
             "649ae0bc.ad383",
-            "abfe4cc9.7d8ef"
+            "abfe4cc9.7d8ef",
+            "e0bd9360.b0b54"
         ],
-        "x": 34,
-        "y": 1399,
-        "w": 422,
-        "h": 82
+        "x": 14,
+        "y": 1379,
+        "w": 442,
+        "h": 162
     },
     {
         "id": "573d9279.0eaa04",
@@ -862,6 +865,16 @@
         "height": 1
     },
     {
+        "id": "6bfe5434.d422cc",
+        "type": "ui_group",
+        "name": "User List",
+        "tab": "aa26466b.7070c8",
+        "order": 6,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
         "id": "3db3f60c.5c3cea",
         "type": "udp out",
         "z": "73938c67.dac0ac",
@@ -967,7 +980,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 400,
-        "y": 360,
+        "y": 320,
         "wires": []
     },
     {
@@ -1676,7 +1689,7 @@
         "payloadType": "str",
         "topic": "/zoom/endMeeting",
         "x": 110,
-        "y": 1380,
+        "y": 1420,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -1703,7 +1716,7 @@
         "payloadType": "str",
         "topic": "/zoom/leaveMeeting",
         "x": 110,
-        "y": 1340,
+        "y": 1380,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -1720,7 +1733,7 @@
             "8a313077.cf5f3"
         ],
         "x": 515,
-        "y": 1300,
+        "y": 1340,
         "wires": []
     },
     {
@@ -1797,7 +1810,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/setGalleryView",
         "x": 110,
-        "y": 1000,
+        "y": 1040,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -1824,7 +1837,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/setSpeakerView",
         "x": 120,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -1841,7 +1854,7 @@
             "8a313077.cf5f3"
         ],
         "x": 395,
-        "y": 1020,
+        "y": 1060,
         "wires": []
     },
     {
@@ -1903,8 +1916,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/clearPin",
-        "x": 400,
-        "y": 880,
+        "x": 100,
+        "y": 940,
         "wires": [
             [
                 "32425712.bca138"
@@ -2177,7 +2190,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/showUserNames",
         "x": 130,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2204,7 +2217,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/hideUserNames",
         "x": 130,
-        "y": 1120,
+        "y": 1160,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2217,7 +2230,7 @@
         "z": "73938c67.dac0ac",
         "g": "4a1eee5f.c4f908",
         "name": "format usertable",
-        "func": "// Retreive usertable from flow context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;\n\n",
+        "func": "// Retreive usertable from  context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") break;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2826,7 +2839,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 110,
-        "y": 1420,
+        "y": 1460,
         "wires": [
             [
                 "f61c489f.2a26e"
@@ -2861,7 +2874,7 @@
         "to": "",
         "reg": false,
         "x": 280,
-        "y": 1420,
+        "y": 1460,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -2876,7 +2889,7 @@
         "name": "Join message takes three separate string arguments",
         "info": "",
         "x": 530,
-        "y": 1380,
+        "y": 1420,
         "wires": []
     },
     {
@@ -2935,7 +2948,7 @@
         "payload": "",
         "topic": "/zoom/subscribe",
         "x": 150,
-        "y": 1280,
+        "y": 1320,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -2972,7 +2985,7 @@
         "payload": "",
         "topic": "/zoom/galTrackMode",
         "x": 140,
-        "y": 1220,
+        "y": 1260,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -3089,10 +3102,10 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{\t   \"ip\": $flowContext(\"zoomoscip\") ? $flowContext(\"zoomoscip\") : \"127.0.0.1\",\t   \"port\": $flowContext(\"zoomoscport\") ? $flowContext(\"zoomoscport\") : \"9090\"\t}",
+        "payload": "{\t   \"ip\": $globalContext(\"zoomosc_ip\") ? $globalContext(\"zoomosc_ip\") : \"127.0.0.1\",\t   \"port\": $globalContext(\"zoomosc_port\") ? $globalContext(\"zoomosc_port\") : \"9090\"\t}",
         "payloadType": "jsonata",
         "x": 150,
-        "y": 1480,
+        "y": 1520,
         "wires": [
             [
                 "54d81a13.473a9c"
@@ -3108,7 +3121,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "zoomosc_port",
+                "p": "",
                 "pt": "global",
                 "to": "payload.port",
                 "tot": "msg"
@@ -3120,7 +3133,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 1480,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -3133,7 +3146,7 @@
         "name": "Network settings",
         "label": "ZoomOSC Client Address",
         "group": "bb94a052.4139b",
-        "order": 3,
+        "order": 2,
         "width": 0,
         "height": 0,
         "options": [
@@ -3157,15 +3170,15 @@
             "port": ""
         },
         "payload": "",
-        "submit": "submit",
+        "submit": "Save",
         "cancel": "cancel",
         "topic": "",
         "x": 370,
-        "y": 1480,
+        "y": 1520,
         "wires": [
             [
                 "b8f52048.1fd02",
-                "c844671e.58adf"
+                "d83372d3.9abbf8"
             ]
         ]
     },
@@ -3174,13 +3187,20 @@
         "type": "change",
         "z": "73938c67.dac0ac",
         "g": "800a1202.7dc55",
-        "name": "set global ip",
+        "name": "set global ip:port",
         "rules": [
             {
                 "t": "set",
                 "p": "zoomosc_ip",
                 "pt": "global",
                 "to": "payload.ip",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "zoomosc_port",
+                "pt": "global",
+                "to": "payload.port",
                 "tot": "msg"
             }
         ],
@@ -3189,8 +3209,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 1440,
+        "x": 650,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -3215,7 +3235,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 170,
-        "y": 1540,
+        "y": 1580,
         "wires": [
             [
                 "d45bbcca.f2d8a"
@@ -3243,7 +3263,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 1540,
+        "y": 1580,
         "wires": [
             [
                 "54d81a13.473a9c"
@@ -3807,6 +3827,7 @@
         "id": "a17c3d4b.9a5",
         "type": "udp out",
         "z": "584bfa46.70cd0c",
+        "d": true,
         "g": "3153b16.24d25ce",
         "name": "",
         "addr": "192.168.86.21",
@@ -4463,7 +4484,7 @@
         "z": "417600d2.281de8",
         "g": "f1398826.950628",
         "name": "format command",
-        "func": "inst = msg.instance + \"\" ;\ninst = inst.padStart(2, \"0\");\n\nexec  = \"/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC\";\nuser  = \" -u \" + flow.get('fleet_parms').prefix + inst;\nmtgid = \" -m '\" + flow.get('fleet_parms').meetingid + \"'\";\npswd  = \" -p \" + flow.get('fleet_parms').password  ;\ntxp   = \" -txp \" + flow.get('fleet_parms').txp;\nrxp   = \" -rxp \" + (flow.get('fleet_parms').rxp + msg.instance);\n\ncmd = exec + \" -ajo 1 \" + user + mtgid + pswd + rxp + txp ;\n\nmsg = { \"payload\" : cmd };\n\nreturn msg; ",
+        "func": "inst = msg.instance + \"\" ;\ninst = inst.padStart(2, \"0\");\n\nexec  = \"/Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC\";\nuser  = \" -u \" + flow.get('fleet_parms').prefix + inst;\nmtgid = \" -m '\" + flow.get('fleet_parms').meetingid + \"'\";\npswd  = \" -p \" + flow.get('fleet_parms').password  ;\ntxp   = \" -txp \" + flow.get('fleet_parms').txp ;\nrxp   = \" -rxp \" + (flow.get('fleet_parms').rxp + msg.instance-1 );\n\ncmd = exec + \" -ajo 1 \" + user + mtgid + pswd + rxp + txp ; //+ \" -ajo 1 \"\n\nmsg = { \"payload\" : cmd };\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5491,7 +5512,7 @@
         "initialize": "",
         "finalize": "",
         "x": 140,
-        "y": 1440,
+        "y": 1500,
         "wires": [
             [
                 "649ae0bc.ad383"
@@ -5503,7 +5524,7 @@
         "type": "ui_table",
         "z": "417600d2.281de8",
         "g": "8684bcb0.1421e8",
-        "group": "e69902f8.5bed4",
+        "group": "6bfe5434.d422cc",
         "name": "",
         "order": 15,
         "width": "24",
@@ -5593,7 +5614,7 @@
         "outputs": 1,
         "cts": true,
         "x": 310,
-        "y": 1440,
+        "y": 1500,
         "wires": [
             [
                 "abfe4cc9.7d8ef"
@@ -5610,7 +5631,7 @@
             "8b9ab5d3.0a69a8"
         ],
         "x": 415,
-        "y": 1440,
+        "y": 1500,
         "wires": []
     },
     {
@@ -5650,6 +5671,99 @@
         "y": 40,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "d83372d3.9abbf8",
+        "type": "change",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "name": "build network string",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.ip & \":\" & msg.payload.port",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1560,
+        "wires": [
+            [
+                "7f1a0616.747b8",
+                "b49b98d3.3493b"
+            ]
+        ]
+    },
+    {
+        "id": "7f1a0616.747b8",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "group": "e14cccb0.beedd8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Active Network",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "b49b98d3.3493b",
+        "type": "ui_text",
+        "z": "73938c67.dac0ac",
+        "g": "800a1202.7dc55",
+        "group": "bb94a052.4139b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Active Network",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "e0bd9360.b0b54",
+        "type": "inject",
+        "z": "417600d2.281de8",
+        "g": "8684bcb0.1421e8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 1420,
+        "wires": [
+            [
+                "a54ccf7c.81e578"
+            ]
         ]
     }
 ]
