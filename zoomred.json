@@ -781,7 +781,7 @@
     {
         "id": "aa26466b.7070c8",
         "type": "ui_tab",
-        "name": "Multiclient",
+        "name": "Multiclient EXPERIMENTAL",
         "icon": "fa-group",
         "order": 5,
         "disabled": false,
@@ -5662,7 +5662,7 @@
         "order": 1,
         "width": 24,
         "height": 2,
-        "format": "<div >\nThis is a prototype of a feature intended to create multiple zoomOSC clients on a single machine. Each client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. This would create a  high  resolution isolated feed (ISO) for each participant.     \n</div>\n<div>\nAt the bottom of the page is a list of meeting participants. Select a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</div>",
+        "format": "<h1>Prototype - Experimental</h1>\n<div >\nThis is a prototype of a feature intended to create multiple zoomOSC clients on a single machine. Each client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. This would create a  high  resolution isolated feed (ISO) for each participant.     \n</div>\n<div>\nAt the bottom of the page is a list of meeting participants. Select a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
