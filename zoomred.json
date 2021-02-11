@@ -494,16 +494,19 @@
             "35a32e34.a14d1a",
             "7a825095.86bfb8",
             "f101076e.a9d99",
-            "565e3212.afb2c4",
             "e4b16796.7dd1d",
             "f915f844.20b58",
             "d5faa3b9.8fc85",
-            "1611eead.28c821",
-            "a177c4ed.4d4d88"
+            "a177c4ed.4d4d88",
+            "aca92358.5a5d78",
+            "bd4c1b6a.aef188",
+            "bc39bc27.0c1f4",
+            "37b82dfc.708a3a",
+            "5a69dcb6.fcda74"
         ],
-        "x": 24,
+        "x": 34,
         "y": 219,
-        "w": 1002,
+        "w": 1072,
         "h": 362
     },
     {
@@ -546,7 +549,8 @@
             "83913d91.ded318",
             "94cde52e.7a8cf",
             "85f9d091.44e058",
-            "6129fb47.09861c"
+            "6129fb47.09861c",
+            "613e2ad6.e24d1c"
         ],
         "x": 16,
         "y": 1299,
@@ -5123,8 +5127,8 @@
         "color": "",
         "bgcolor": "green",
         "icon": "",
-        "payload": "8",
-        "payloadType": "num",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
         "topic": "",
         "x": 240,
         "y": 280,
@@ -6084,7 +6088,7 @@
         "type": "debug",
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
-        "name": "VBG msg",
+        "name": "Actor msg",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -6093,8 +6097,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
-        "y": 380,
+        "x": 990,
+        "y": 420,
         "wires": []
     },
     {
@@ -6131,7 +6135,7 @@
         "name": "zoomOSC",
         "path": "",
         "metadata": false,
-        "x": 563,
+        "x": 768,
         "y": 440,
         "wires": [
             [
@@ -6159,8 +6163,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 733,
-        "y": 440,
+        "x": 868,
+        "y": 483,
         "wires": [
             [
                 "7a825095.86bfb8",
@@ -6181,8 +6185,8 @@
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 910,
-        "y": 440,
+        "x": 970,
+        "y": 540,
         "wires": []
     },
     {
@@ -6366,14 +6370,14 @@
         "order": 4,
         "width": "5",
         "height": "1",
-        "passthru": false,
+        "passthru": true,
         "label": "Turn off VBG",
         "tooltip": "Turn off virtual Backgrounds to save resources",
         "color": "",
         "bgcolor": "green",
         "icon": "",
-        "payload": "8",
-        "payloadType": "num",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
         "topic": "",
         "x": 130,
         "y": 500,
@@ -6382,17 +6386,6 @@
                 "e4b16796.7dd1d"
             ]
         ]
-    },
-    {
-        "id": "565e3212.afb2c4",
-        "type": "comment",
-        "z": "417600d2.281de8",
-        "g": "1e53e9c9.7d31ae",
-        "name": "TODO - check that the numbner of participant isnt hard coded at 8",
-        "info": "",
-        "x": 290,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "e4b16796.7dd1d",
@@ -6438,7 +6431,7 @@
         "type": "change",
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
-        "name": "set stuff",
+        "name": "Build Message",
         "rules": [
             {
                 "t": "set",
@@ -6460,28 +6453,7 @@
                 "pt": "msg",
                 "to": "$number($flowContext(\"fleet_parms.rxp\")) + $number( msg.instance ) - 1 ",
                 "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 522,
-        "y": 500,
-        "wires": [
-            [
-                "1611eead.28c821"
-            ]
-        ]
-    },
-    {
-        "id": "1611eead.28c821",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "1e53e9c9.7d31ae",
-        "name": "vbg to None",
-        "rules": [
+            },
             {
                 "t": "set",
                 "p": "payload",
@@ -6495,7 +6467,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 672,
+        "x": 542,
         "y": 500,
         "wires": [
             [
@@ -6514,18 +6486,150 @@
         "width": "5",
         "height": "1",
         "passthru": false,
-        "label": "Default Pins (Not working)",
+        "label": "Default Pins",
         "tooltip": "Pins Actor 1 to Session 1, etc",
         "color": "",
-        "bgcolor": "orange",
+        "bgcolor": "green",
         "icon": "",
-        "payload": "8",
-        "payloadType": "num",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
         "topic": "",
-        "x": 170,
+        "x": 130,
         "y": 540,
         "wires": [
-            []
+            [
+                "aca92358.5a5d78"
+            ]
         ]
+    },
+    {
+        "id": "aca92358.5a5d78",
+        "type": "function",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "iterate",
+        "func": "out = []\n \np = msg.payload\n\n for (var i = 1; i <= p; i++) { \n\n     out.push( i )\n   \n}\n\nmsg = { \"payload\" : out }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "bd4c1b6a.aef188"
+            ]
+        ]
+    },
+    {
+        "id": "bd4c1b6a.aef188",
+        "type": "split",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 473,
+        "y": 540,
+        "wires": [
+            [
+                "bc39bc27.0c1f4"
+            ]
+        ]
+    },
+    {
+        "id": "bc39bc27.0c1f4",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "build message",
+        "rules": [
+            {
+                "t": "set",
+                "p": "instance",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/me/Pin",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "port",
+                "pt": "msg",
+                "to": "$number($flowContext(\"fleet_parms.rxp\")) + $number( msg.instance ) - 1 ",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "selectedid",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 624,
+        "y": 540,
+        "wires": [
+            [
+                "6c9f2b88.cfe9bc",
+                "37b82dfc.708a3a"
+            ]
+        ]
+    },
+    {
+        "id": "613e2ad6.e24d1c",
+        "type": "link in",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "Update Session",
+        "links": [
+            "37b82dfc.708a3a"
+        ],
+        "x": 525,
+        "y": 1440,
+        "wires": [
+            [
+                "e6d7ddac.57373"
+            ]
+        ]
+    },
+    {
+        "id": "37b82dfc.708a3a",
+        "type": "link out",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "",
+        "links": [
+            "613e2ad6.e24d1c"
+        ],
+        "x": 785,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5a69dcb6.fcda74",
+        "type": "comment",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "TODO - Test default Pins",
+        "info": "",
+        "x": 200,
+        "y": 460,
+        "wires": []
     }
 ]
