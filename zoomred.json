@@ -31,7 +31,7 @@
         "id": "4a1eee5f.c4f908",
         "type": "group",
         "z": "73938c67.dac0ac",
-        "name": "Inbound and Responses",
+        "name": "Inbound Communications and Response Handling",
         "style": {
             "label": true
         },
@@ -56,7 +56,7 @@
             "7afcdf6c.bf4f6"
         ],
         "x": 14,
-        "y": 239,
+        "y": 279,
         "w": 1382,
         "h": 342,
         "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
@@ -88,7 +88,7 @@
             "3e83a4c1.9f439c"
         ],
         "x": 14,
-        "y": 1639,
+        "y": 1899,
         "w": 852,
         "h": 422
     },
@@ -120,7 +120,7 @@
             "b49b98d3.3493b"
         ],
         "x": 14,
-        "y": 1219,
+        "y": 1419,
         "w": 952,
         "h": 422
     },
@@ -140,7 +140,7 @@
             "e00106d8.34ae58"
         ],
         "x": 14,
-        "y": 999,
+        "y": 1159,
         "w": 422,
         "h": 202
     },
@@ -160,7 +160,7 @@
             "c5537a3d.000298"
         ],
         "x": 14,
-        "y": 779,
+        "y": 899,
         "w": 702,
         "h": 202
     },
@@ -181,7 +181,7 @@
             "9ee620d7.f38748"
         ],
         "x": 14,
-        "y": 599,
+        "y": 679,
         "w": 612,
         "h": 162
     },
@@ -212,8 +212,8 @@
             "dfa0fa11.cd646",
             "8bee5d90.93213"
         ],
-        "x": 34,
-        "y": 2079,
+        "x": 14,
+        "y": 2379,
         "w": 762,
         "h": 462
     },
@@ -234,7 +234,7 @@
             "77ba9999.2ec65"
         ],
         "x": 14,
-        "y": 2619,
+        "y": 2899,
         "w": 432,
         "h": 262
     },
@@ -242,7 +242,7 @@
         "id": "bf3e5a12.3393f",
         "type": "group",
         "z": "73938c67.dac0ac",
-        "name": "Outbound",
+        "name": "Outbound Communications",
         "style": {
             "label": true
         },
@@ -296,7 +296,7 @@
             "f4c194c7.4e4f98"
         ],
         "x": 34,
-        "y": 19,
+        "y": 119,
         "w": 1072,
         "h": 542
     },
@@ -322,7 +322,7 @@
             "acc76c8c.b7e738"
         ],
         "x": 34,
-        "y": 39,
+        "y": 99,
         "w": 952,
         "h": 322
     },
@@ -340,7 +340,7 @@
             "2ee5d5cf.618a5a"
         ],
         "x": 34,
-        "y": 379,
+        "y": 439,
         "w": 402,
         "h": 122
     },
@@ -361,12 +361,16 @@
             "193b78a6.baa13f",
             "e2afd00e.027d5",
             "8c6aa845.c21ea8",
-            "1d88496d.271827"
+            "1d88496d.271827",
+            "ed492ccb.759728",
+            "3ae86bf5.187d6c",
+            "db9f1cc0.e91ad8",
+            "a9a83b20.6b34c8"
         ],
         "x": 14,
-        "y": 1099,
+        "y": 1379,
         "w": 1012,
-        "h": 189.5
+        "h": 282
     },
     {
         "id": "a467147e.ea6ff8",
@@ -394,7 +398,7 @@
             "9417cf19.60406"
         ],
         "x": 14,
-        "y": 799,
+        "y": 1059,
         "w": 992,
         "h": 282
     },
@@ -414,11 +418,10 @@
             "73a15135.d74f8",
             "c572ed57.b237f",
             "c755f3f2.0a79d8",
-            "c19fcfef.6bae7",
             "8d506a4d.70a0a"
         ],
         "x": 14,
-        "y": 599,
+        "y": 819,
         "w": 1052,
         "h": 189.5
     },
@@ -435,12 +438,14 @@
             "340c566b.64c7b2",
             "877ea4e2.adbf48",
             "7aa57287.f3c874",
-            "ec30362e.75a338"
+            "ec30362e.75a338",
+            "1b81cf25.71f1d9",
+            "47454400.142664"
         ],
         "x": 14,
-        "y": 79,
+        "y": 139,
         "w": 792,
-        "h": 122
+        "h": 202
     },
     {
         "id": "8684bcb0.1421e8",
@@ -462,7 +467,7 @@
             "e0bd9360.b0b54"
         ],
         "x": 14,
-        "y": 1819,
+        "y": 2239,
         "w": 722,
         "h": 162
     },
@@ -498,16 +503,15 @@
             "f915f844.20b58",
             "d5faa3b9.8fc85",
             "a177c4ed.4d4d88",
-            "aca92358.5a5d78",
-            "bd4c1b6a.aef188",
-            "bc39bc27.0c1f4",
-            "37b82dfc.708a3a",
-            "5a69dcb6.fcda74"
+            "e7c6a6df.f26c58",
+            "95fec943.412418",
+            "2a86f3d3.7c1cfc",
+            "6a6f4c75.a260bc"
         ],
-        "x": 34,
-        "y": 219,
+        "x": 14,
+        "y": 379,
         "w": 1072,
-        "h": 362
+        "h": 382
     },
     {
         "id": "7bec5cb5.2c8684",
@@ -520,7 +524,6 @@
         "nodes": [
             "9c178ab7.b2b618",
             "38410292.5a059e",
-            "71b05658.d1d9f",
             "4f83d257.a05e84",
             "e8a793b9.a30d98",
             "599f960.d29c7ec",
@@ -535,13 +538,6 @@
             "5071156.9bac2ec",
             "8b9ab5d3.0a69a8",
             "cf62f745.ed758",
-            "860ef10d.760dc",
-            "9f1635c8.ff86d",
-            "776814d0.21d42c",
-            "73014647.d11b68",
-            "53948bb6.abeaa4",
-            "9a67545.a0b4a28",
-            "4e840777.ba4ea",
             "68584be3.601e3c",
             "61c69a6.f3ff0e4",
             "e6d7ddac.57373",
@@ -550,12 +546,88 @@
             "94cde52e.7a8cf",
             "85f9d091.44e058",
             "6129fb47.09861c",
-            "613e2ad6.e24d1c"
+            "613e2ad6.e24d1c",
+            "90e6d337.3763e",
+            "294162a2.afcede",
+            "24a620c2.3e0e8",
+            "3863a36e.b3878c",
+            "1a4ccd00.cf2a93",
+            "2c260e2.1f96b72",
+            "c3e4e426.d30c2",
+            "6516f63d.78e518",
+            "d41758fe.c3ec6",
+            "2f8cb4c6.f53c4c",
+            "a30ebee.3959e4",
+            "de4f7261.40b748",
+            "22895352.b0e03c",
+            "8e5c536b.607618",
+            "c696c784.af421",
+            "3bca4c78.123484",
+            "afc72fe6.ea11c8",
+            "dc265ab1.25f668",
+            "e4e43c80.de2278",
+            "c8335138.64385",
+            "8b695c53.e25998",
+            "bddf5e93.a8b558"
         ],
-        "x": 16,
-        "y": 1299,
-        "w": 1070,
-        "h": 462
+        "x": 14,
+        "y": 1719,
+        "w": 1592,
+        "h": 482
+    },
+    {
+        "id": "b4c900b3.c08868",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "Intro Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c6f23791.ef6b18"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 152,
+        "h": 82
+    },
+    {
+        "id": "1320fe0a.3943fa",
+        "type": "group",
+        "z": "584bfa46.70cd0c",
+        "name": "Explore setting Virtual Backgrounds",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "173dacb9.3248ab",
+            "9d59ac2c.16c248",
+            "fff894af.6c34a",
+            "9c5cad4b.f52fe8",
+            "bd2bc656.d338f"
+        ],
+        "x": 44,
+        "y": 599,
+        "w": 532,
+        "h": 202
+    },
+    {
+        "id": "a26b29af.4d64a8",
+        "type": "group",
+        "z": "417600d2.281de8",
+        "name": "Set Text for OBS Lower Third",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a7b198de.0bacb8",
+            "60ea1a31.4ef364",
+            "55373514.9f2e34"
+        ],
+        "x": 774,
+        "y": 2239,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "573d9279.0eaa04",
@@ -739,7 +811,7 @@
         "type": "ui_tab",
         "name": "Diagnostics",
         "icon": "check_circle",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -815,7 +887,7 @@
         "type": "ui_tab",
         "name": "Testing",
         "icon": "code",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -832,9 +904,9 @@
     {
         "id": "aa26466b.7070c8",
         "type": "ui_tab",
-        "name": "Multiclient EXPERIMENTAL",
+        "name": "Multiclient",
         "icon": "fa-group",
-        "order": 5,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -871,7 +943,7 @@
     {
         "id": "44a52049.ba216",
         "type": "ui_group",
-        "name": "Pin Controls",
+        "name": "Panelists Pin Controls",
         "tab": "aa26466b.7070c8",
         "order": 5,
         "disp": true,
@@ -881,7 +953,7 @@
     {
         "id": "68456f7b.49d198",
         "type": "ui_group",
-        "name": "Intro",
+        "name": "Introduction",
         "tab": "aa26466b.7070c8",
         "order": 1,
         "disp": true,
@@ -897,6 +969,51 @@
         "disp": true,
         "width": "16",
         "collapse": false
+    },
+    {
+        "id": "1bb6434f.c00525",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a03fa8bd.11d808",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ca92d126.e9eb58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a03fa8bd.11d808",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c704bfb.6194a4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a9ebce72.b238d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "95d53433.98c868",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "44a52049.ba216",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "631ea8e5.16691",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "44a52049.ba216",
+        "order": 13,
+        "width": 6,
+        "height": 1
     },
     {
         "id": "3db3f60c.5c3cea",
@@ -982,7 +1099,7 @@
         "group": "",
         "datatype": "buffer",
         "x": 100,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "fa85aa2d.775778"
@@ -1004,7 +1121,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 400,
-        "y": 320,
+        "y": 360,
         "wires": []
     },
     {
@@ -1016,7 +1133,7 @@
         "path": "",
         "metadata": false,
         "x": 250,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "67110b0b.8a29ac",
@@ -1059,7 +1176,7 @@
         "topic": "/zoom/me/listScreens",
         "payloadType": "str",
         "x": 160,
-        "y": 2740,
+        "y": 3020,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -1140,7 +1257,7 @@
         "repair": false,
         "outputs": 12,
         "x": 470,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "68d21d79.8cebec"
@@ -1214,7 +1331,7 @@
         "payloadType": "str",
         "topic": "/zoom/list",
         "x": 120,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
                 "47225bef.34f704",
@@ -1236,7 +1353,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 340,
+        "y": 380,
         "wires": []
     },
     {
@@ -1253,7 +1370,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 380,
+        "y": 420,
         "wires": []
     },
     {
@@ -1270,7 +1387,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 770,
-        "y": 420,
+        "y": 460,
         "wires": []
     },
     {
@@ -1293,7 +1410,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/unSpot",
         "x": 110,
-        "y": 820,
+        "y": 940,
         "wires": [
             [
                 "32425712.bca138"
@@ -1320,7 +1437,7 @@
         "payloadType": "str",
         "topic": "/zoom/clearSpot",
         "x": 110,
-        "y": 900,
+        "y": 1020,
         "wires": [
             [
                 "32425712.bca138"
@@ -1352,7 +1469,7 @@
         "officon": "",
         "offcolor": "",
         "x": 90,
-        "y": 1860,
+        "y": 2120,
         "wires": [
             [
                 "dcadc834.c415e8"
@@ -1379,7 +1496,7 @@
         "repair": false,
         "outputs": 2,
         "x": 310,
-        "y": 1860,
+        "y": 2120,
         "wires": [
             [
                 "2033df4b.a11ee8",
@@ -1412,7 +1529,7 @@
         "to": "",
         "reg": false,
         "x": 570,
-        "y": 1800,
+        "y": 2060,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -1440,7 +1557,7 @@
         "to": "",
         "reg": false,
         "x": 580,
-        "y": 1920,
+        "y": 2180,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1461,7 +1578,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 790,
-        "y": 1860,
+        "y": 2120,
         "wires": []
     },
     {
@@ -1485,7 +1602,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 1880,
+        "y": 2140,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1513,7 +1630,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 1840,
+        "y": 2100,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1545,7 +1662,7 @@
         "officon": "",
         "offcolor": "",
         "x": 100,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             [
                 "72552f1a.30ca98"
@@ -1572,7 +1689,7 @@
         "repair": false,
         "outputs": 2,
         "x": 290,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             [
                 "957634f4.5a896"
@@ -1603,7 +1720,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 1980,
+        "y": 2240,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1631,7 +1748,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 2020,
+        "y": 2280,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1675,7 +1792,7 @@
             "8a313077.cf5f3"
         ],
         "x": 755,
-        "y": 1980,
+        "y": 2240,
         "wires": []
     },
     {
@@ -1695,9 +1812,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "/zoom/me/listWindows",
-        "payloadType": "str",
         "x": 160,
-        "y": 2700,
+        "y": 2980,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -1724,7 +1840,7 @@
         "payloadType": "str",
         "topic": "/zoom/endMeeting",
         "x": 110,
-        "y": 1420,
+        "y": 1620,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -1751,7 +1867,7 @@
         "payloadType": "str",
         "topic": "/zoom/leaveMeeting",
         "x": 110,
-        "y": 1380,
+        "y": 1580,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -1768,7 +1884,7 @@
             "8a313077.cf5f3"
         ],
         "x": 515,
-        "y": 1340,
+        "y": 1540,
         "wires": []
     },
     {
@@ -1799,7 +1915,7 @@
         "to": "",
         "reg": false,
         "x": 360,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
                 "66a97045.5c2e9",
@@ -1822,7 +1938,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 530,
-        "y": 720,
+        "y": 800,
         "wires": []
     },
     {
@@ -1845,7 +1961,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/setGalleryView",
         "x": 110,
-        "y": 1040,
+        "y": 1200,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -1872,7 +1988,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/setSpeakerView",
         "x": 120,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -1889,7 +2005,7 @@
             "8a313077.cf5f3"
         ],
         "x": 395,
-        "y": 1060,
+        "y": 1220,
         "wires": []
     },
     {
@@ -1902,7 +2018,7 @@
             "8a313077.cf5f3"
         ],
         "x": 675,
-        "y": 820,
+        "y": 940,
         "wires": []
     },
     {
@@ -1952,7 +2068,7 @@
         "payloadType": "str",
         "topic": "/zoom/clearPin",
         "x": 100,
-        "y": 940,
+        "y": 1060,
         "wires": [
             [
                 "32425712.bca138"
@@ -1979,7 +2095,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/mute",
         "x": 100,
-        "y": 1720,
+        "y": 1980,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2006,7 +2122,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/unMute",
         "x": 110,
-        "y": 1680,
+        "y": 1940,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2108,7 +2224,7 @@
         "outputs": 1,
         "cts": true,
         "x": 1190,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
                 "fa49dade.a0139"
@@ -2127,7 +2243,7 @@
         "initialize": "",
         "finalize": "",
         "x": 770,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -2149,7 +2265,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1190,
-        "y": 540,
+        "y": 580,
         "wires": []
     },
     {
@@ -2172,7 +2288,7 @@
         "payloadType": "str",
         "topic": "/zoom/allExcept/me/mute",
         "x": 100,
-        "y": 1760,
+        "y": 2020,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2200,7 +2316,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 680,
+        "y": 760,
         "wires": [
             []
         ]
@@ -2225,7 +2341,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/showUserNames",
         "x": 130,
-        "y": 1120,
+        "y": 1280,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2252,7 +2368,7 @@
         "payloadType": "str",
         "topic": "/zoom/all/hideUserNames",
         "x": 130,
-        "y": 1160,
+        "y": 1320,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2271,7 +2387,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1020,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
                 "3391f39b.65cb6c",
@@ -2291,7 +2407,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -2321,7 +2437,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 960,
-        "y": 380,
+        "y": 420,
         "wires": [
             [
                 "93340b08.cc7e"
@@ -2339,7 +2455,7 @@
             "85a48e72.981c48"
         ],
         "x": 1315,
-        "y": 480,
+        "y": 520,
         "wires": []
     },
     {
@@ -2351,8 +2467,8 @@
         "links": [
             "fa49dade.a0139"
         ],
-        "x": 75,
-        "y": 2220,
+        "x": 55,
+        "y": 2520,
         "wires": [
             [
                 "d79b8521.8593a",
@@ -2381,7 +2497,7 @@
         "payloadType": "str",
         "topic": "/zoom/me/spot",
         "x": 100,
-        "y": 860,
+        "y": 980,
         "wires": [
             [
                 "32425712.bca138"
@@ -2407,8 +2523,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unPin",
-        "x": 410,
-        "y": 2180,
+        "x": 390,
+        "y": 2480,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2434,8 +2550,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/addpin",
-        "x": 420,
-        "y": 2220,
+        "x": 400,
+        "y": 2520,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2455,8 +2571,8 @@
         "label": "Selected User Name",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 420,
-        "y": 2120,
+        "x": 400,
+        "y": 2420,
         "wires": []
     },
     {
@@ -2478,8 +2594,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unSpot",
-        "x": 420,
-        "y": 2260,
+        "x": 400,
+        "y": 2560,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2505,8 +2621,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/spot",
-        "x": 410,
-        "y": 2300,
+        "x": 390,
+        "y": 2600,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2527,8 +2643,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 180,
-        "y": 2300,
+        "x": 160,
+        "y": 2600,
         "wires": []
     },
     {
@@ -2551,8 +2667,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 200,
-        "y": 2120,
+        "x": 180,
+        "y": 2420,
         "wires": [
             [
                 "a3ba248d.dfbef"
@@ -2579,8 +2695,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
-        "y": 2180,
+        "x": 200,
+        "y": 2480,
         "wires": [
             []
         ]
@@ -2594,8 +2710,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 755,
-        "y": 2340,
+        "x": 735,
+        "y": 2640,
         "wires": []
     },
     {
@@ -2617,8 +2733,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/addSpot",
-        "x": 420,
-        "y": 2340,
+        "x": 400,
+        "y": 2640,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2644,8 +2760,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/videoOn",
-        "x": 420,
-        "y": 2380,
+        "x": 400,
+        "y": 2680,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2671,8 +2787,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/videoOff",
-        "x": 420,
-        "y": 2420,
+        "x": 400,
+        "y": 2720,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2698,8 +2814,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/mute",
-        "x": 410,
-        "y": 2460,
+        "x": 390,
+        "y": 2760,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2725,8 +2841,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unMute",
-        "x": 420,
-        "y": 2500,
+        "x": 400,
+        "y": 2800,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2743,7 +2859,7 @@
             "8a313077.cf5f3"
         ],
         "x": 515,
-        "y": 660,
+        "y": 740,
         "wires": []
     },
     {
@@ -2756,7 +2872,7 @@
             "8a313077.cf5f3"
         ],
         "x": 355,
-        "y": 2720,
+        "y": 3000,
         "wires": []
     },
     {
@@ -2767,7 +2883,7 @@
         "name": "Both are creating the same repsonse topic - Bug?",
         "info": "Andy says it is a bug on the zoom side.",
         "x": 230,
-        "y": 2660,
+        "y": 2940,
         "wires": []
     },
     {
@@ -2780,7 +2896,7 @@
             "8a313077.cf5f3"
         ],
         "x": 755,
-        "y": 1720,
+        "y": 1980,
         "wires": []
     },
     {
@@ -2801,7 +2917,7 @@
         "onceDelay": 0.1,
         "topic": "/zoom/all/endMeeting",
         "x": 160,
-        "y": 2800,
+        "y": 3080,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -2816,7 +2932,7 @@
         "name": "table formatting incomplete",
         "info": "",
         "x": 1250,
-        "y": 420,
+        "y": 460,
         "wires": []
     },
     {
@@ -2827,7 +2943,7 @@
         "name": "Clear is not working correctly when no call active",
         "info": "",
         "x": 220,
-        "y": 640,
+        "y": 720,
         "wires": []
     },
     {
@@ -2874,7 +2990,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 110,
-        "y": 1460,
+        "y": 1660,
         "wires": [
             [
                 "f61c489f.2a26e"
@@ -2909,7 +3025,7 @@
         "to": "",
         "reg": false,
         "x": 280,
-        "y": 1460,
+        "y": 1660,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -2924,7 +3040,7 @@
         "name": "Join message takes three separate string arguments",
         "info": "",
         "x": 530,
-        "y": 1420,
+        "y": 1620,
         "wires": []
     },
     {
@@ -2934,8 +3050,8 @@
         "g": "39660f71.497918",
         "name": "unspot isnt working properly",
         "info": "the repsonse message is /zoomosc/me/spotlightOff\nexpected /zoomosc/zoomID/spotlightOff",
-        "x": 230,
-        "y": 2460,
+        "x": 210,
+        "y": 2760,
         "wires": []
     },
     {
@@ -2983,7 +3099,7 @@
         "payload": "",
         "topic": "/zoom/subscribe",
         "x": 150,
-        "y": 1320,
+        "y": 1520,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -3020,7 +3136,7 @@
         "payload": "",
         "topic": "/zoom/galTrackMode",
         "x": 140,
-        "y": 1260,
+        "y": 1460,
         "wires": [
             [
                 "46f43be6.8a605c"
@@ -3047,8 +3163,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 2340,
+        "x": 650,
+        "y": 2640,
         "wires": [
             [
                 "84f20dfb.6970e8"
@@ -3076,7 +3192,7 @@
         "to": "",
         "reg": false,
         "x": 630,
-        "y": 280,
+        "y": 320,
         "wires": [
             [
                 "fc277a34.d21a3"
@@ -3118,7 +3234,7 @@
         "outputs": 0,
         "cts": false,
         "x": 770,
-        "y": 280,
+        "y": 320,
         "wires": []
     },
     {
@@ -3140,7 +3256,7 @@
         "payload": "{\t   \"ip\": $globalContext(\"zoomosc_ip\") ? $globalContext(\"zoomosc_ip\") : \"127.0.0.1\",\t   \"port\": $globalContext(\"zoomosc_port\") ? $globalContext(\"zoomosc_port\") : \"9090\"\t}",
         "payloadType": "jsonata",
         "x": 150,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "54d81a13.473a9c"
@@ -3168,7 +3284,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             []
         ]
@@ -3209,7 +3325,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 370,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "b8f52048.1fd02",
@@ -3245,7 +3361,7 @@
         "to": "",
         "reg": false,
         "x": 650,
-        "y": 1480,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -3261,7 +3377,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "Set local defaults (then submit)",
+        "label": "Set local defaults (then Save)",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3269,8 +3385,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 170,
-        "y": 1580,
+        "x": 160,
+        "y": 1780,
         "wires": [
             [
                 "d45bbcca.f2d8a"
@@ -3298,7 +3414,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 1580,
+        "y": 1780,
         "wires": [
             [
                 "54d81a13.473a9c"
@@ -3357,7 +3473,7 @@
         "oldrc": false,
         "name": "exec",
         "x": 570,
-        "y": 120,
+        "y": 220,
         "wires": [
             [
                 "90d78db0.5c5f2"
@@ -3422,7 +3538,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 130,
-        "y": 300,
+        "y": 400,
         "wires": [
             [
                 "befdc645.74121"
@@ -3450,7 +3566,7 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 120,
+        "y": 220,
         "wires": [
             [
                 "f5bff11b.f3861",
@@ -3472,7 +3588,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 810,
-        "y": 180,
+        "y": 280,
         "wires": []
     },
     {
@@ -3495,7 +3611,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 150,
-        "y": 360,
+        "y": 460,
         "wires": [
             [
                 "335d18e.c1b6be8"
@@ -3515,7 +3631,7 @@
         "oldrc": false,
         "name": "",
         "x": 450,
-        "y": 360,
+        "y": 460,
         "wires": [
             [],
             [],
@@ -3530,7 +3646,7 @@
         "name": "Eliminate the script?",
         "info": " /Applications/ZoomOSC.app/Contents/MacOS/ZoomOSC -ajo 1 $tempusername $id $password &>/dev/null",
         "x": 470,
-        "y": 180,
+        "y": 280,
         "wires": []
     },
     {
@@ -3548,7 +3664,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 570,
-        "y": 60,
+        "y": 160,
         "wires": []
     },
     {
@@ -3564,7 +3680,7 @@
         "stream": true,
         "addname": "",
         "x": 470,
-        "y": 301,
+        "y": 401,
         "wires": [
             [
                 "fe1ef384.c7cc48",
@@ -3584,7 +3700,7 @@
         "initialize": "",
         "finalize": "",
         "x": 330,
-        "y": 301,
+        "y": 401,
         "wires": [
             [
                 "d17a3ce3.4a5e68"
@@ -3604,7 +3720,7 @@
         "oldrc": false,
         "name": "",
         "x": 420,
-        "y": 240,
+        "y": 340,
         "wires": [
             [
                 "4f78604e.726158"
@@ -3631,7 +3747,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 630,
-        "y": 340,
+        "y": 440,
         "wires": []
     },
     {
@@ -3649,7 +3765,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1010,
-        "y": 220,
+        "y": 320,
         "wires": []
     },
     {
@@ -3667,7 +3783,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1010,
-        "y": 260,
+        "y": 360,
         "wires": []
     },
     {
@@ -3685,7 +3801,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 750,
-        "y": 80,
+        "y": 180,
         "wires": []
     },
     {
@@ -3703,7 +3819,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 750,
-        "y": 120,
+        "y": 220,
         "wires": []
     },
     {
@@ -3729,7 +3845,7 @@
         "payload": "./argtest.sh -a 1 -b 2 -c 3",
         "payloadType": "str",
         "x": 250,
-        "y": 480,
+        "y": 580,
         "wires": [
             [
                 "723cfff6.97f558"
@@ -3749,7 +3865,7 @@
         "oldrc": false,
         "name": "text exec",
         "x": 440,
-        "y": 480,
+        "y": 580,
         "wires": [
             [
                 "77d305da.860934"
@@ -3777,7 +3893,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 600,
-        "y": 440,
+        "y": 540,
         "wires": []
     },
     {
@@ -3795,7 +3911,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 600,
-        "y": 480,
+        "y": 580,
         "wires": []
     },
     {
@@ -3813,7 +3929,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 600,
-        "y": 520,
+        "y": 620,
         "wires": []
     },
     {
@@ -3835,7 +3951,7 @@
         "topic": "/defines",
         "payloadType": "str",
         "x": 150,
-        "y": 80,
+        "y": 140,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3851,7 +3967,7 @@
         "path": "",
         "metadata": false,
         "x": 410,
-        "y": 80,
+        "y": 140,
         "wires": [
             [
                 "a17c3d4b.9a5"
@@ -3873,7 +3989,7 @@
         "base64": false,
         "multicast": "false",
         "x": 760,
-        "y": 80,
+        "y": 140,
         "wires": []
     },
     {
@@ -3894,7 +4010,7 @@
         "onceDelay": 0.1,
         "topic": "/u_osc_scene,1",
         "x": 160,
-        "y": 280,
+        "y": 340,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3919,7 +4035,7 @@
         "onceDelay": 0.1,
         "topic": "/quit",
         "x": 410,
-        "y": 320,
+        "y": 380,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3934,7 +4050,7 @@
         "name": "TODO Handle Offline msg",
         "info": "OSC message /zoomosc/user/offline -1 \"--NO USER--\" 16 16809984\n",
         "x": 1100,
-        "y": 280,
+        "y": 320,
         "wires": []
     },
     {
@@ -3945,7 +4061,7 @@
         "name": "Exploring glslViewer",
         "info": "Can glslViewer be used to generate graphics? \nFor example a L3rd",
         "x": 590,
-        "y": 120,
+        "y": 180,
         "wires": []
     },
     {
@@ -3967,7 +4083,7 @@
         "topic": "/define,TEST,12",
         "payloadType": "str",
         "x": 160,
-        "y": 240,
+        "y": 300,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -3992,7 +4108,7 @@
         "onceDelay": 0.1,
         "topic": "/uniforms",
         "x": 160,
-        "y": 120,
+        "y": 180,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -4017,7 +4133,7 @@
         "onceDelay": 0.1,
         "topic": "/u_osc_scene,2",
         "x": 160,
-        "y": 320,
+        "y": 380,
         "wires": [
             [
                 "86d3820a.a6989"
@@ -4042,7 +4158,7 @@
         "onceDelay": 0.1,
         "topic": "/zoom/update",
         "x": 140,
-        "y": 2840,
+        "y": 3120,
         "wires": [
             [
                 "bd5834a7.19337"
@@ -4072,7 +4188,7 @@
         "payload": "Dilbert",
         "payloadType": "str",
         "x": 130,
-        "y": 420,
+        "y": 480,
         "wires": [
             [
                 "1644fbf1.43b7d4"
@@ -4091,7 +4207,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 360,
-        "y": 440,
+        "y": 500,
         "wires": [
             []
         ]
@@ -4119,7 +4235,7 @@
         "payload": "Wally",
         "payloadType": "str",
         "x": 130,
-        "y": 460,
+        "y": 520,
         "wires": [
             [
                 "1644fbf1.43b7d4"
@@ -4134,7 +4250,7 @@
         "name": "The hope was to be able to use it as a general graphics engine.",
         "info": "",
         "x": 730,
-        "y": 160,
+        "y": 220,
         "wires": []
     },
     {
@@ -4145,7 +4261,7 @@
         "name": "These functions work, but glslViewer cannot do text. ",
         "info": "",
         "x": 690,
-        "y": 200,
+        "y": 260,
         "wires": []
     },
     {
@@ -4158,7 +4274,7 @@
         "group": "34e0077d.69c1d",
         "order": 1,
         "width": 6,
-        "height": "1",
+        "height": 9,
         "options": [
             {
                 "label": "Prefix",
@@ -4189,7 +4305,7 @@
                 "rows": null
             },
             {
-                "label": "Tx Port Start",
+                "label": "Tx Port",
                 "value": "txp",
                 "type": "number",
                 "required": true,
@@ -4201,6 +4317,13 @@
                 "type": "number",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Base IP",
+                "value": "ip",
+                "type": "text",
+                "required": true,
+                "rows": null
             }
         ],
         "formValue": {
@@ -4209,14 +4332,15 @@
             "password": "",
             "count": "",
             "txp": "",
-            "rxp": ""
+            "rxp": "",
+            "ip": ""
         },
         "payload": "",
         "submit": "Save",
         "cancel": "cancel",
         "topic": "",
         "x": 460,
-        "y": 160,
+        "y": 300,
         "wires": [
             [
                 "7aa57287.f3c874"
@@ -4244,7 +4368,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 160,
+        "y": 300,
         "wires": [
             [
                 "cbf94f2f.049128"
@@ -4274,7 +4398,7 @@
         "payload": "",
         "payloadType": "str",
         "x": 120,
-        "y": 160,
+        "y": 300,
         "wires": [
             [
                 "340c566b.64c7b2"
@@ -4293,11 +4417,10 @@
         "initialize": "",
         "finalize": "",
         "x": 210,
-        "y": 700,
+        "y": 920,
         "wires": [
             [
-                "6a8fb6ee.5c8788",
-                "c19fcfef.6bae7"
+                "6a8fb6ee.5c8788"
             ]
         ]
     },
@@ -4314,7 +4437,7 @@
         "stream": false,
         "addname": "",
         "x": 350,
-        "y": 700,
+        "y": 920,
         "wires": [
             [
                 "73a15135.d74f8"
@@ -4327,7 +4450,7 @@
         "z": "417600d2.281de8",
         "g": "f1398826.950628",
         "name": "ZoomOSC Command",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4336,7 +4459,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 920,
-        "y": 700,
+        "y": 920,
         "wires": []
     },
     {
@@ -4352,7 +4475,7 @@
         "oldrc": false,
         "name": "",
         "x": 870,
-        "y": 740,
+        "y": 960,
         "wires": [
             [],
             [],
@@ -4380,7 +4503,7 @@
         "to": "",
         "reg": false,
         "x": 700,
-        "y": 160,
+        "y": 300,
         "wires": [
             []
         ]
@@ -4406,7 +4529,7 @@
         "to": "",
         "reg": false,
         "x": 490,
-        "y": 700,
+        "y": 920,
         "wires": [
             [
                 "c572ed57.b237f"
@@ -4421,8 +4544,8 @@
         "name": "",
         "group": "a9ebce72.b238d",
         "order": 1,
-        "width": "5",
-        "height": "1",
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Kill ALL ZoomOSC",
         "tooltip": "",
@@ -4433,7 +4556,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 130,
-        "y": 1240,
+        "y": 1520,
         "wires": [
             [
                 "b0a10cdd.f84f"
@@ -4453,7 +4576,7 @@
         "oldrc": false,
         "name": "",
         "x": 360,
-        "y": 1240,
+        "y": 1520,
         "wires": [
             [],
             [],
@@ -4473,7 +4596,7 @@
         "oldrc": false,
         "name": "run commands",
         "x": 760,
-        "y": 1160,
+        "y": 1440,
         "wires": [
             [
                 "e2afd00e.027d5"
@@ -4493,9 +4616,9 @@
         "g": "e26be13e.803a18",
         "name": "",
         "group": "a9ebce72.b238d",
-        "order": 2,
-        "width": "5",
-        "height": "1",
+        "order": 3,
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Kill ALL NDI_Scan Converter",
         "tooltip": "Kills all clones of NDI Scan Converter",
@@ -4506,7 +4629,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 160,
-        "y": 1160,
+        "y": 1440,
         "wires": [
             [
                 "3adc9280.70751e"
@@ -4525,7 +4648,7 @@
         "initialize": "",
         "finalize": "",
         "x": 690,
-        "y": 700,
+        "y": 920,
         "wires": [
             [
                 "f046bc6f.319fc",
@@ -4541,8 +4664,8 @@
         "name": "",
         "group": "a03fa8bd.11d808",
         "order": 1,
-        "width": "5",
-        "height": "1",
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Launch ZoomOSC",
         "tooltip": "",
@@ -4553,7 +4676,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 130,
-        "y": 640,
+        "y": 860,
         "wires": [
             [
                 "6b0a9d8a.8e05c4"
@@ -4568,8 +4691,8 @@
         "name": "",
         "group": "a03fa8bd.11d808",
         "order": 3,
-        "width": "5",
-        "height": "1",
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Launch NDI Scan Converter",
         "tooltip": "",
@@ -4580,7 +4703,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 160,
-        "y": 840,
+        "y": 1100,
         "wires": [
             [
                 "87be8393.c7a8d"
@@ -4599,7 +4722,7 @@
         "initialize": "",
         "finalize": "",
         "x": 160,
-        "y": 900,
+        "y": 1160,
         "wires": [
             [
                 "5c299bdd.1302bc"
@@ -4619,7 +4742,7 @@
         "stream": false,
         "addname": "",
         "x": 300,
-        "y": 900,
+        "y": 1160,
         "wires": [
             [
                 "f1293eaf.5560a8"
@@ -4638,7 +4761,7 @@
         "initialize": "",
         "finalize": "",
         "x": 320,
-        "y": 960,
+        "y": 1220,
         "wires": [
             [
                 "68481c37.3af0a4",
@@ -4652,7 +4775,7 @@
         "z": "417600d2.281de8",
         "g": "a467147e.ea6ff8",
         "name": "Launch NDI_SC",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4661,7 +4784,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 530,
-        "y": 960,
+        "y": 1220,
         "wires": []
     },
     {
@@ -4677,7 +4800,7 @@
         "oldrc": false,
         "name": "run commands",
         "x": 570,
-        "y": 1020,
+        "y": 1280,
         "wires": [
             [
                 "ff4364fe.b61058"
@@ -4711,7 +4834,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 1160,
+        "y": 1440,
         "wires": [
             [
                 "193b78a6.baa13f"
@@ -4730,7 +4853,7 @@
         "initialize": "",
         "finalize": "",
         "x": 570,
-        "y": 1160,
+        "y": 1440,
         "wires": [
             [
                 "ea944d9a.7c01e8"
@@ -4752,7 +4875,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 930,
-        "y": 1140,
+        "y": 1420,
         "wires": []
     },
     {
@@ -4770,7 +4893,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 930,
-        "y": 1180,
+        "y": 1460,
         "wires": []
     },
     {
@@ -4788,7 +4911,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 930,
-        "y": 1220,
+        "y": 1500,
         "wires": []
     },
     {
@@ -4806,7 +4929,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 760,
-        "y": 960,
+        "y": 1220,
         "wires": []
     },
     {
@@ -4824,7 +4947,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 760,
-        "y": 1000,
+        "y": 1260,
         "wires": []
     },
     {
@@ -4842,24 +4965,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 760,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "c19fcfef.6bae7",
-        "type": "debug",
-        "z": "417600d2.281de8",
-        "g": "f1398826.950628",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 390,
-        "y": 640,
+        "y": 1300,
         "wires": []
     },
     {
@@ -4870,7 +4976,7 @@
         "name": "Details on running multiple copies of Scan Converter",
         "info": "https://dev.to/xreyrobertibm/quick-hack-to-use-multiple-instances-of-newtek-ndi-scan-converter-on-macos-10eb",
         "x": 790,
-        "y": 840,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4885,7 +4991,7 @@
         "initialize": "",
         "finalize": "",
         "x": 160,
-        "y": 1940,
+        "y": 2360,
         "wires": [
             [
                 "649ae0bc.ad383"
@@ -4900,7 +5006,7 @@
         "group": "6bfe5434.d422cc",
         "name": "",
         "order": 1,
-        "width": "16",
+        "width": 16,
         "height": 13,
         "columns": [
             {
@@ -4957,10 +5063,11 @@
         "outputs": 1,
         "cts": true,
         "x": 350,
-        "y": 1940,
+        "y": 2360,
         "wires": [
             [
-                "abfe4cc9.7d8ef"
+                "abfe4cc9.7d8ef",
+                "c982ab.8931c558"
             ]
         ]
     },
@@ -4974,25 +5081,26 @@
             "8b9ab5d3.0a69a8"
         ],
         "x": 695,
-        "y": 1940,
+        "y": 2360,
         "wires": []
     },
     {
         "id": "c6f23791.ef6b18",
         "type": "ui_template",
         "z": "417600d2.281de8",
+        "g": "b4c900b3.c08868",
         "group": "68456f7b.49d198",
         "name": "Intro",
         "order": 1,
-        "width": "16",
-        "height": "3",
-        "format": "<h1>Prototype - Experimental</h1>\n<div >\nThis is a prototype of a feature intended to create multiple zoomOSC clients on a single machine. Each client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. This would create a  high  resolution isolated feed (ISO) for each participant.     \n</div>\n<div>\nAt the bottom of the page is a list of meeting participants. Select a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</div>",
+        "width": 16,
+        "height": 9,
+        "format": "<h1>Purpose</h1>\n<div >\nThe goal of this contoller is to create isolated feeds of multiple Zoom participants. \nThe video from each participant delivered via its own high resoltuion isolated NDI stream. \nThe major functions are:\n<ul>\n    <li>Launching a fleet of ZoomOSC clients</li>\n    <li>Launching a fleet of NDI Scan Converters</li>\n    <li>Setting default behaviours for the ZoomOSC fleet</li>\n    <li>Assistance for connecting the scan converters to the ZoomOSC sessions (virtual background controls)</li>\n    <li>Controls to Pin participants to ZoomOSC clients</li>\n    <li>Controls to tear down the ZoomOSC and scan converter instances</li>\n</ul>\n</div>\n\n<div>Note: All of the ZoomOSC and Scan Convereter processes must run on the same machine. \nIf the computer has a 1GB network port, you will likely be limited to 8 sessions. CPU resources may further restrict the numbers.\n</div>\n <br/>\n<p>\nThis controller manages the launching of multiple ZoomOSC clients, configuring  a prototype of a feature intended to create multiple zoomOSC clients on a single machine. \nEach client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. \n</p>\n<br/>\n<p>\nAt the bottom of the page is a list of meeting participants. \nSelect a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</p>\n<br/>\n<p>\nThere are arrows in the upper right corner of each section which can be collapsed to save screen sapce.\n</p>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 70,
-        "y": 40,
+        "x": 90,
+        "y": 60,
         "wires": [
             []
         ]
@@ -5018,7 +5126,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 1560,
+        "y": 1760,
         "wires": [
             [
                 "7f1a0616.747b8",
@@ -5040,7 +5148,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 860,
-        "y": 1560,
+        "y": 1760,
         "wires": []
     },
     {
@@ -5057,7 +5165,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 860,
-        "y": 1600,
+        "y": 1800,
         "wires": []
     },
     {
@@ -5083,7 +5191,7 @@
         "payload": "",
         "payloadType": "str",
         "x": 120,
-        "y": 1860,
+        "y": 2280,
         "wires": [
             [
                 "a54ccf7c.81e578"
@@ -5096,17 +5204,17 @@
         "z": "417600d2.281de8",
         "g": "2aa67a90.e9e8de",
         "group": "34e0077d.69c1d",
-        "name": "Instructions",
+        "name": "Instructions (scroll)",
         "order": 2,
-        "width": "10",
-        "height": "8",
-        "format": "<h1>Instructions</h1>\n<ol>\n<li >\nFill in the parameters desired. Press Save.\n</li>\n\n<li>\nThen launch the ZoomOSC clients (below). \nThe first client \"prefix01\" will also serve as the controller. \n</li>\n\n<li>\nAfter the clients are launched, then you will need to click on the session icon on the dock for each one to finish the startup.\n</li>\n\n<li>\nClick on the Initialize clients button. This will set the subscription level for the controller and mute all slaves and turn off their video cameras. .    \n</li>\n\n<li>\nNext launch the fleet of NDI Scan Converters. There will be one for each slave. \nPlease be aware that if you are running 8+ slaves you are running the risk of saturating a 1GB network.\n</li>\n\n<li>\nYou will now need to visit each instance of NDI Scan converter and configure their source to be one of the ZoomOSC slave clients.\n</li>\n\n</ol>",
+        "width": 10,
+        "height": "7",
+        "format": "<h1>Instructions</h1>\n<ol>\n<li >\nFill in the parameters desired. Press Save. (There is a set defaults button to prepopulate the parameters.)\n</li>\n\n<li>\nLaunch the ZoomOSC clients (below). \nThe first client \"prefix01\" will also serve as the controller. \n</li>\n\n<li>\nAfter the clients are launched, then you will need to click on the session icon on the dock for each one to finish the startup.\n</li>\n\n<li>\nClick on the Initialize clients button. This will set the subscription level for the controller, mute all slaves and turn off their video cameras. The virtual backgrounds are turned on to aid in setup. They can be turned off setup. .    \n</li>\n\n<li>\nLaunch the fleet of NDI Scan Converters. There will be one for each ZoomOSC session. \nPlease be aware that if you are running 8+ slaves you are running the risk of saturating a 1GB network.\n</li>\n\n<li>\nYou will now need to visit each instance of NDI Scan converter and configure their source to be one of the ZoomOSC slave clients. \nThere is no easy way to identify the correct ZoomOSC session to be used by each scan converter, it is an educated guessing game. The window resolutions are helpful. \nIt is helpful to monitor you choices via a NDI monitor.\n</li>\n\n<li>\nAfter it is all setup, your can set each ZoomOSC session to full screen. \nYou cannot do this before the scan converter config as scan converter cannot fund them.\n</li>\n\n<li>\n    Turn of virtual backgrounds.\n</li>\n\n</ol>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 450,
-        "y": 120,
+        "x": 130,
+        "y": 180,
         "wires": [
             []
         ]
@@ -5119,8 +5227,8 @@
         "name": "",
         "group": "a03fa8bd.11d808",
         "order": 2,
-        "width": "5",
-        "height": "1",
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Initialize ZoomOSC Clients",
         "tooltip": "",
@@ -5130,8 +5238,8 @@
         "payload": "fleet_parms.count",
         "payloadType": "flow",
         "topic": "",
-        "x": 240,
-        "y": 280,
+        "x": 220,
+        "y": 440,
         "wires": [
             [
                 "91f99d89.24cb3",
@@ -5167,8 +5275,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
-        "y": 260,
+        "x": 530,
+        "y": 420,
         "wires": [
             [
                 "1c42610d.87b827"
@@ -5202,8 +5310,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 510,
-        "y": 300,
+        "x": 490,
+        "y": 460,
         "wires": [
             [
                 "1c42610d.87b827"
@@ -5219,8 +5327,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 755,
-        "y": 300,
+        "x": 735,
+        "y": 460,
         "wires": []
     },
     {
@@ -5230,20 +5338,20 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 2,
+        "order": 4,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 1",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "1",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1440,
+        "x": 580,
+        "y": 1880,
         "wires": [
             [
                 "cf62f745.ed758"
@@ -5257,32 +5365,14 @@
         "g": "7bec5cb5.2c8684",
         "group": "44a52049.ba216",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": 10,
+        "height": 1,
         "name": "",
         "label": "Selected User",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 402,
-        "y": 1345,
-        "wires": []
-    },
-    {
-        "id": "71b05658.d1d9f",
-        "type": "debug",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "selectedUser",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 392,
-        "y": 1380,
+        "x": 460,
+        "y": 1761,
         "wires": []
     },
     {
@@ -5290,7 +5380,7 @@
         "type": "change",
         "z": "417600d2.281de8",
         "g": "7bec5cb5.2c8684",
-        "name": "",
+        "name": "pick User user",
         "rules": [
             {
                 "t": "set",
@@ -5305,8 +5395,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 202,
-        "y": 1345,
+        "x": 260,
+        "y": 1761,
         "wires": [
             [
                 "38410292.5a059e"
@@ -5333,10 +5423,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 212,
-        "y": 1385,
+        "x": 270,
+        "y": 1840,
         "wires": [
-            []
+            [
+                "de4f7261.40b748"
+            ]
         ]
     },
     {
@@ -5346,23 +5438,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 3,
+        "order": 5,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 2",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "2",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1480,
+        "x": 580,
+        "y": 1920,
         "wires": [
             [
-                "860ef10d.760dc"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5373,23 +5465,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 4,
+        "order": 6,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 3",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "3",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1520,
+        "x": 580,
+        "y": 1960,
         "wires": [
             [
-                "9f1635c8.ff86d"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5400,23 +5492,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 7,
+        "order": 8,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 5",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "5",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1600,
+        "x": 580,
+        "y": 2040,
         "wires": [
             [
-                "73014647.d11b68"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5427,23 +5519,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 8,
+        "order": 9,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 6",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "6",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1640,
+        "x": 580,
+        "y": 2080,
         "wires": [
             [
-                "53948bb6.abeaa4"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5454,23 +5546,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 7",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "7",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1680,
+        "x": 580,
+        "y": 2120,
         "wires": [
             [
-                "4e840777.ba4ea"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5481,23 +5573,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 8",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "8",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1720,
+        "x": 580,
+        "y": 2160,
         "wires": [
             [
-                "9a67545.a0b4a28"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5514,8 +5606,8 @@
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 949,
-        "y": 1700,
+        "x": 1427,
+        "y": 2140,
         "wires": []
     },
     {
@@ -5538,8 +5630,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 799,
-        "y": 1700,
+        "x": 1277,
+        "y": 2140,
         "wires": [
             [
                 "f0db2f83.f8d898"
@@ -5554,8 +5646,8 @@
         "name": "zoomOSC",
         "path": "",
         "metadata": false,
-        "x": 678,
-        "y": 1640,
+        "x": 1194,
+        "y": 2080,
         "wires": [
             [
                 "840cdcb0.3b9c2"
@@ -5576,8 +5668,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 1580,
+        "x": 1248,
+        "y": 2020,
         "wires": []
     },
     {
@@ -5590,13 +5682,13 @@
             "abfe4cc9.7d8ef",
             "6129fb47.09861c"
         ],
-        "x": 57,
-        "y": 1360,
+        "x": 115,
+        "y": 1776,
         "wires": [
             [
-                "71b05658.d1d9f",
                 "4f83d257.a05e84",
-                "e8a793b9.a30d98"
+                "e8a793b9.a30d98",
+                "bddf5e93.a8b558"
             ]
         ]
     },
@@ -5613,34 +5705,13 @@
                 "pt": "msg",
                 "to": "payload",
                 "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1440,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "860ef10d.760dc",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
+            },
             {
                 "t": "set",
-                "p": "instance",
+                "p": "selectedid",
                 "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
+                "to": "selectedid",
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -5648,179 +5719,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 292,
-        "y": 1480,
+        "x": 820,
+        "y": 2040,
         "wires": [
             [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "9f1635c8.ff86d",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1520,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "776814d0.21d42c",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1560,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "73014647.d11b68",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1600,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "53948bb6.abeaa4",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1640,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "9a67545.a0b4a28",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1720,
-        "wires": [
-            [
-                "68584be3.601e3c"
-            ]
-        ]
-    },
-    {
-        "id": "4e840777.ba4ea",
-        "type": "change",
-        "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 292,
-        "y": 1680,
-        "wires": [
-            [
-                "68584be3.601e3c"
+                "55373514.9f2e34"
             ]
         ]
     },
@@ -5830,13 +5733,13 @@
         "z": "417600d2.281de8",
         "g": "7bec5cb5.2c8684",
         "name": "Set message",
-        "func": "\nmsg = { \"instance\" : msg.payload,\n        \"port\"     : msg.payload + parseInt(global.get(\"zoomosc_port\"))-1,\n        \"payload\"  : { \"type\" : \"i\",\n                        \"value\" : flow.get(\"selectedid\")},\n        \"topic\"    : \"/zoom/zoomId/Pin\"\n}\n\nreturn msg;\n\n//parseInt(\"4s2\")",
+        "func": "msg = { \"instance\" : msg.instance,\n        \"port\"     : msg.instance + parseInt(global.get(\"zoomosc_port\"))-1,\n        \"payload\"  : { \"type\" : \"i\",\n                        \"value\" : msg.selectedid},\n        \"topic\"    : \"/zoom/zoomId/Pin\"\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1580,
+        "x": 994,
+        "y": 2020,
         "wires": [
             [
                 "5071156.9bac2ec",
@@ -5852,23 +5755,23 @@
         "g": "7bec5cb5.2c8684",
         "name": "",
         "group": "44a52049.ba216",
-        "order": 5,
+        "order": 7,
         "width": 3,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "label": "Session 4",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "{{bg}}",
         "icon": "",
         "payload": "4",
         "payloadType": "num",
         "topic": "",
-        "x": 102,
-        "y": 1560,
+        "x": 580,
+        "y": 2000,
         "wires": [
             [
-                "776814d0.21d42c"
+                "cf62f745.ed758"
             ]
         ]
     },
@@ -5880,13 +5783,14 @@
         "name": "ZoomOSC command line options",
         "info": "-m (meeting ID)\n-p (meeting password)\n-u (username)\n-ami (joining mic audio device id)\n-asi (joining speaker audio device id)\n-ci (camera id)\n-rxp (osc receive port)\n-txp (osc transmit port)\n-txip (osc transmit ip)\n\n-ajo is for auto join only and should be set to 1, though this feature is experimental. \n",
         "x": 690,
-        "y": 640,
+        "y": 860,
         "wires": []
     },
     {
         "id": "173dacb9.3248ab",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "1320fe0a.3943fa",
         "name": "",
         "props": [
             {
@@ -5904,8 +5808,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_01",
         "payloadType": "str",
-        "x": 230,
-        "y": 560,
+        "x": 240,
+        "y": 640,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -5916,18 +5820,20 @@
         "id": "9d59ac2c.16c248",
         "type": "link out",
         "z": "584bfa46.70cd0c",
+        "g": "1320fe0a.3943fa",
         "name": "",
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 525,
-        "y": 580,
+        "x": 535,
+        "y": 660,
         "wires": []
     },
     {
         "id": "fff894af.6c34a",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "1320fe0a.3943fa",
         "name": "",
         "props": [
             {
@@ -5945,8 +5851,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_02",
         "payloadType": "str",
-        "x": 240,
-        "y": 600,
+        "x": 250,
+        "y": 680,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -5957,6 +5863,7 @@
         "id": "9c5cad4b.f52fe8",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "1320fe0a.3943fa",
         "name": "",
         "props": [
             {
@@ -5974,8 +5881,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_03",
         "payloadType": "str",
-        "x": 220,
-        "y": 640,
+        "x": 230,
+        "y": 720,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -5993,8 +5900,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 290,
-        "y": 340,
+        "x": 270,
+        "y": 500,
         "wires": [
             [
                 "fa8acfcd.7e487"
@@ -6013,8 +5920,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 430,
-        "y": 340,
+        "x": 410,
+        "y": 500,
         "wires": [
             [
                 "2788977a.7685e8"
@@ -6055,8 +5962,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 380,
+        "x": 420,
+        "y": 540,
         "wires": [
             [
                 "aec675d2.91142"
@@ -6075,8 +5982,8 @@
         "syntax": "mustache",
         "template": "actor_0{{payload}}",
         "output": "str",
-        "x": 630,
-        "y": 380,
+        "x": 610,
+        "y": 540,
         "wires": [
             [
                 "6c9f2b88.cfe9bc"
@@ -6089,7 +5996,7 @@
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
         "name": "Actor msg",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6097,8 +6004,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 990,
-        "y": 420,
+        "x": 970,
+        "y": 580,
         "wires": []
     },
     {
@@ -6119,8 +6026,8 @@
         "topic": "",
         "payload": "2",
         "payloadType": "num",
-        "x": 130,
-        "y": 340,
+        "x": 110,
+        "y": 500,
         "wires": [
             [
                 "a1132c8e.6c4d58"
@@ -6135,8 +6042,8 @@
         "name": "zoomOSC",
         "path": "",
         "metadata": false,
-        "x": 768,
-        "y": 440,
+        "x": 748,
+        "y": 600,
         "wires": [
             [
                 "35a32e34.a14d1a"
@@ -6163,8 +6070,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 868,
-        "y": 483,
+        "x": 848,
+        "y": 643,
         "wires": [
             [
                 "7a825095.86bfb8",
@@ -6185,8 +6092,8 @@
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 970,
-        "y": 540,
+        "x": 950,
+        "y": 700,
         "wires": []
     },
     {
@@ -6195,13 +6102,13 @@
         "z": "417600d2.281de8",
         "g": "7bec5cb5.2c8684",
         "name": "Update Session Info",
-        "func": "id = flow.get(\"selectedid\");\ninst  = msg.instance;\nvar st;\nvar name;\n\ntry {\n     st = flow.get('session_table') \n     name = st[inst].name;\n\n}\ncatch (err) {\n    st = {}\n    st[inst]= { \"id\"     : id,  \n             \"name\"   : \"?\", \n             \"session\": inst\n            }\n    flow.set(\"session_table\", st) \n}\nfinally {\n         st = flow.get('session_table') \n}\n\nconsole.log('ping 1. st=', st, \" inst=\", inst)\n\nst[ inst ] = { \"id\"     : id,  \n             \"name\"   : name, \n             \"session\": inst\n            }\n\nconsole.log('ping 2')\n\nflow.set(\"session_table\", st) \n\nreturn msg;",
+        "func": "id = flow.get(\"selectedid\");\ninst  = msg.instance;\nut = global.get('usertable') ;\nfp = flow.get(\"fleet_parms\");\n\n\nif (ut.length == 0) {\n    selectedName =  \"Not Found\"\n} else {\n    selectedName = ut[id].name;\n}\n\nvar st;\nvar name;\n\ndefault_st = []; // default structure varies by number of actors.\nfor (i=1; i<=fp.count; i++) {\n    default_st.push( { \"id\" : \"?\", \"name\" : \"?\", \"session\": i\n    })\n}\n\ntry {\n    st = flow.get('session_table') \n}\ncatch (err) {\n    st = default_st;\n    flow.set(\"session_table\", st) \n}\n\n// length can be zero after tables have been reset\nif ( Object.keys(st).length == 0) {\n    st = default_st;\n    flow.set(\"session_table\", st) \n}\n\n// The session table is guarneteed to exist\nst = flow.get('session_table') \n\nst[ inst-1 ] = { \"id\"     : id,  \n             \"name\"   : selectedName, \n             \"session\": inst\n            }\n\nflow.set(\"session_table\", st) \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 700,
-        "y": 1520,
+        "x": 1225,
+        "y": 1960,
         "wires": [
             [
                 "243b9a20.938f16"
@@ -6214,16 +6121,17 @@
         "z": "417600d2.281de8",
         "g": "7bec5cb5.2c8684",
         "name": "format session table",
-        "func": "out = []\ni = 0\n\nvar ut = flow.get('session_table')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  //console.log(`${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") continue;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\",\n        \"session\" : v.session\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\n\nreturn msg;",
+        "func": "out = []\ni = 0\n\nvar st = flow.get('session_table')\n\ne = Object.entries(st); //debug \n\nconsole.log( \"st length:\", e.length  );\n\nfor (const [k, v] of Object.entries(st)) {\n    //console.log(k,v);\n    if  (typeof(v.session) == 'undefined') continue; // work around an anomaly\n    //if  (typeof(v.name) == 'undefined') continue;\n    \n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"session\" : v.session\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 756,
-        "y": 1360,
+        "x": 1100,
+        "y": 1760,
         "wires": [
             [
-                "83913d91.ded318"
+                "85f9d091.44e058",
+                "8e5c536b.607618"
             ]
         ]
     },
@@ -6237,15 +6145,16 @@
         "as_num": true,
         "target": "payload",
         "targetType": "msg",
-        "msgKey": "msg.payload.session",
+        "msgKey": "payload^(session)",
         "msgKeyType": "jsonata",
         "seqKey": "payload",
         "seqKeyType": "msg",
-        "x": 850,
-        "y": 1400,
+        "x": 1290,
+        "y": 1800,
         "wires": [
             [
-                "94cde52e.7a8cf"
+                "94cde52e.7a8cf",
+                "22895352.b0e03c"
             ]
         ]
     },
@@ -6256,9 +6165,9 @@
         "g": "7bec5cb5.2c8684",
         "group": "44a52049.ba216",
         "name": "Session List",
-        "order": 1,
-        "width": "10",
-        "height": "6",
+        "order": 3,
+        "width": 10,
+        "height": 6,
         "columns": [
             {
                 "field": "session",
@@ -6293,8 +6202,8 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 910,
-        "y": 1440,
+        "x": 1388,
+        "y": 1880,
         "wires": [
             [
                 "6129fb47.09861c"
@@ -6306,16 +6215,17 @@
         "type": "debug",
         "z": "417600d2.281de8",
         "g": "7bec5cb5.2c8684",
-        "name": "",
+        "name": "formatted session table",
         "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 970,
-        "y": 1340,
+        "x": 1450,
+        "y": 1760,
         "wires": []
     },
     {
@@ -6327,14 +6237,15 @@
         "links": [
             "8b9ab5d3.0a69a8"
         ],
-        "x": 1015,
-        "y": 1440,
+        "x": 1493,
+        "y": 1880,
         "wires": []
     },
     {
         "id": "bd2bc656.d338f",
         "type": "inject",
         "z": "584bfa46.70cd0c",
+        "g": "1320fe0a.3943fa",
         "name": "",
         "props": [
             {
@@ -6352,8 +6263,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "none",
         "payloadType": "str",
-        "x": 270,
-        "y": 680,
+        "x": 280,
+        "y": 760,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -6367,9 +6278,9 @@
         "g": "1e53e9c9.7d31ae",
         "name": "",
         "group": "a03fa8bd.11d808",
-        "order": 4,
-        "width": "5",
-        "height": "1",
+        "order": 5,
+        "width": 5,
+        "height": 1,
         "passthru": true,
         "label": "Turn off VBG",
         "tooltip": "Turn off virtual Backgrounds to save resources",
@@ -6379,8 +6290,8 @@
         "payload": "fleet_parms.count",
         "payloadType": "flow",
         "topic": "",
-        "x": 130,
-        "y": 500,
+        "x": 110,
+        "y": 660,
         "wires": [
             [
                 "e4b16796.7dd1d"
@@ -6398,8 +6309,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 272,
-        "y": 500,
+        "x": 252,
+        "y": 660,
         "wires": [
             [
                 "f915f844.20b58"
@@ -6418,8 +6329,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 392,
-        "y": 500,
+        "x": 372,
+        "y": 660,
         "wires": [
             [
                 "d5faa3b9.8fc85"
@@ -6467,8 +6378,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 542,
-        "y": 500,
+        "x": 522,
+        "y": 660,
         "wires": [
             [
                 "6c9f2b88.cfe9bc"
@@ -6482,9 +6393,9 @@
         "g": "1e53e9c9.7d31ae",
         "name": "",
         "group": "a03fa8bd.11d808",
-        "order": 4,
-        "width": "5",
-        "height": "1",
+        "order": 7,
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "Default Pins",
         "tooltip": "Pins Actor 1 to Session 1, etc",
@@ -6494,35 +6405,869 @@
         "payload": "fleet_parms.count",
         "payloadType": "flow",
         "topic": "",
-        "x": 130,
-        "y": 540,
+        "x": 110,
+        "y": 720,
         "wires": [
             [
-                "aca92358.5a5d78"
+                "6a6f4c75.a260bc"
             ]
         ]
     },
     {
-        "id": "aca92358.5a5d78",
+        "id": "613e2ad6.e24d1c",
+        "type": "link in",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "Update Session",
+        "links": [
+            "37b82dfc.708a3a",
+            "a9a83b20.6b34c8"
+        ],
+        "x": 1003,
+        "y": 1959,
+        "wires": [
+            [
+                "e6d7ddac.57373"
+            ]
+        ]
+    },
+    {
+        "id": "ed492ccb.759728",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "group": "a9ebce72.b238d",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset Tables",
+        "tooltip": "Clears the user and pin assignment tables",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 110,
+        "y": 1580,
+        "wires": [
+            [
+                "3ae86bf5.187d6c"
+            ]
+        ]
+    },
+    {
+        "id": "3ae86bf5.187d6c",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "session_table",
+                "pt": "flow",
+                "to": "[]",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "usertable",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1580,
+        "wires": [
+            [
+                "a9a83b20.6b34c8"
+            ]
+        ]
+    },
+    {
+        "id": "db9f1cc0.e91ad8",
+        "type": "inject",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "test",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 1620,
+        "wires": [
+            [
+                "3ae86bf5.187d6c"
+            ]
+        ]
+    },
+    {
+        "id": "90e6d337.3763e",
+        "type": "inject",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "refresh",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 1760,
+        "wires": [
+            [
+                "243b9a20.938f16"
+            ]
+        ]
+    },
+    {
+        "id": "a9a83b20.6b34c8",
+        "type": "link out",
+        "z": "417600d2.281de8",
+        "g": "e26be13e.803a18",
+        "name": "",
+        "links": [
+            "613e2ad6.e24d1c"
+        ],
+        "x": 555,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "e7c6a6df.f26c58",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "",
+        "group": "a03fa8bd.11d808",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Turn on VBG",
+        "tooltip": "Turn off virtual Backgrounds to save resources",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "fleet_parms.count",
+        "payloadType": "flow",
+        "topic": "",
+        "x": 110,
+        "y": 620,
+        "wires": [
+            [
+                "a1132c8e.6c4d58"
+            ]
+        ]
+    },
+    {
+        "id": "294162a2.afcede",
+        "type": "inject",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "refresh",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 138,
+        "y": 2000,
+        "wires": [
+            [
+                "24a620c2.3e0e8",
+                "a4ffcedb.d16ae8",
+                "c696c784.af421",
+                "1a4ccd00.cf2a93",
+                "2c260e2.1f96b72",
+                "c3e4e426.d30c2",
+                "a30ebee.3959e4",
+                "6516f63d.78e518"
+            ]
+        ]
+    },
+    {
+        "id": "24a620c2.3e0e8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 328,
+        "y": 1880,
+        "wires": [
+            [
+                "3863a36e.b3878c"
+            ]
+        ]
+    },
+    {
+        "id": "dc265ab1.25f668",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 2040,
+        "wires": [
+            [
+                "b41bd73e.c303e"
+            ]
+        ]
+    },
+    {
+        "id": "3863a36e.b3878c",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1880,
+        "wires": [
+            [
+                "9c178ab7.b2b618"
+            ]
+        ]
+    },
+    {
+        "id": "a4ffcedb.d16ae8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "name": "2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1920,
+        "wires": [
+            [
+                "3bca4c78.123484"
+            ]
+        ]
+    },
+    {
+        "id": "3bca4c78.123484",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1920,
+        "wires": [
+            [
+                "599f960.d29c7ec"
+            ]
+        ]
+    },
+    {
+        "id": "c696c784.af421",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1960,
+        "wires": [
+            [
+                "2f8cb4c6.f53c4c"
+            ]
+        ]
+    },
+    {
+        "id": "2f8cb4c6.f53c4c",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1960,
+        "wires": [
+            [
+                "f5cadcb6.79b21"
+            ]
+        ]
+    },
+    {
+        "id": "afc72fe6.ea11c8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 2000,
+        "wires": [
+            [
+                "61c69a6.f3ff0e4"
+            ]
+        ]
+    },
+    {
+        "id": "e4e43c80.de2278",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 2080,
+        "wires": [
+            [
+                "4a6af20f.ecb29c"
+            ]
+        ]
+    },
+    {
+        "id": "c8335138.64385",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 2120,
+        "wires": [
+            [
+                "5a3b6ae8.5701c4"
+            ]
+        ]
+    },
+    {
+        "id": "8b695c53.e25998",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "set bg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bg",
+                "pt": "msg",
+                "to": "(payload <= fleetCount) ? \"teal\" : \"grey\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 2160,
+        "wires": [
+            [
+                "71ee22a4.640ac4"
+            ]
+        ]
+    },
+    {
+        "id": "1a4ccd00.cf2a93",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "4",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2000,
+        "wires": [
+            [
+                "afc72fe6.ea11c8"
+            ]
+        ]
+    },
+    {
+        "id": "2c260e2.1f96b72",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2040,
+        "wires": [
+            [
+                "dc265ab1.25f668"
+            ]
+        ]
+    },
+    {
+        "id": "c3e4e426.d30c2",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "6",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2080,
+        "wires": [
+            [
+                "e4e43c80.de2278"
+            ]
+        ]
+    },
+    {
+        "id": "a30ebee.3959e4",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "7",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2120,
+        "wires": [
+            [
+                "c8335138.64385"
+            ]
+        ]
+    },
+    {
+        "id": "6516f63d.78e518",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "8",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "fleetCount",
+                "pt": "msg",
+                "to": "fleet_parms.count",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2160,
+        "wires": [
+            [
+                "8b695c53.e25998"
+            ]
+        ]
+    },
+    {
+        "id": "d41758fe.c3ec6",
+        "type": "comment",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "sets button colours",
+        "info": "",
+        "x": 130,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "47454400.142664",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "defaults",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"ip\":\"127.0.0.1\",\"port\":\"9090\",\"prefix\":\"actor\",\"meetingid\":\"9999999999\",\"password\":\"0000\",\"count\":4,\"txp\":1234,\"rxp\":9090}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "cbf94f2f.049128"
+            ]
+        ]
+    },
+    {
+        "id": "1b81cf25.71f1d9",
+        "type": "ui_button",
+        "z": "417600d2.281de8",
+        "g": "2aa67a90.e9e8de",
+        "name": "",
+        "group": "34e0077d.69c1d",
+        "order": 3,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "Set defaults (then Save)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "47454400.142664"
+            ]
+        ]
+    },
+    {
+        "id": "c982ab.8931c558",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "name": "selectedUser UT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "de4f7261.40b748",
+        "type": "ui_text",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "group": "44a52049.ba216",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "ID",
+        "format": "{{msg.payload.id}}",
+        "layout": "row-spread",
+        "x": 430,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "22895352.b0e03c",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "sorted",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1470,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "6a6f4c75.a260bc",
         "type": "function",
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
-        "name": "iterate",
-        "func": "out = []\n \np = msg.payload\n\n for (var i = 1; i <= p; i++) { \n\n     out.push( i )\n   \n}\n\nmsg = { \"payload\" : out }\n\nreturn msg;",
+        "name": "create def",
+        "func": "fp = flow.get(\"fleet_parms\");\nut = global.get(\"usertable\"); \n\nprefix = fp.prefix;\nbaseRxp = fp.rxp;\n\nfunction getId( name ) {\n  id = \"??\";    \n  for (var [k,v] of Object.entries(ut)) {   \n      if (name == v.name) {id = v.id; break }\n      \n  }\n  return id;    \n}\n\nvar st  = [];\n \np = msg.payload;\n\n for (var i = 1; i <= p; i++) { \n     name = prefix + String(i).padStart(2, '0');\n     id = getId(name);\n     row = { \n         \"id\" : id,  \n         \"name\" : name,\n         \"session\": i,\n         \"rxp\": baseRxp+i-1\n     };\n     st.push( row );\n}\n\nflow.set(\"session_table\", st);\n\nmsg = { \"payload\" : st };\n    \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 350,
-        "y": 540,
+        "x": 260,
+        "y": 720,
         "wires": [
             [
-                "bd4c1b6a.aef188"
+                "95fec943.412418"
             ]
         ]
     },
     {
-        "id": "bd4c1b6a.aef188",
+        "id": "95fec943.412418",
         "type": "split",
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
@@ -6533,28 +7278,21 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 473,
-        "y": 540,
+        "x": 390,
+        "y": 720,
         "wires": [
             [
-                "bc39bc27.0c1f4"
+                "2a86f3d3.7c1cfc"
             ]
         ]
     },
     {
-        "id": "bc39bc27.0c1f4",
+        "id": "2a86f3d3.7c1cfc",
         "type": "change",
         "z": "417600d2.281de8",
         "g": "1e53e9c9.7d31ae",
-        "name": "build message",
+        "name": "",
         "rules": [
-            {
-                "t": "set",
-                "p": "instance",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
             {
                 "t": "set",
                 "p": "topic",
@@ -6566,14 +7304,107 @@
                 "t": "set",
                 "p": "port",
                 "pt": "msg",
-                "to": "$number($flowContext(\"fleet_parms.rxp\")) + $number( msg.instance ) - 1 ",
-                "tot": "jsonata"
+                "to": "payload.rxp",
+                "tot": "msg"
             },
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "selectedid",
+                "to": "payload.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 720,
+        "wires": [
+            [
+                "6c9f2b88.cfe9bc"
+            ]
+        ]
+    },
+    {
+        "id": "8e5c536b.607618",
+        "type": "rbe",
+        "z": "417600d2.281de8",
+        "g": "7bec5cb5.2c8684",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "property": "payload",
+        "x": 1150,
+        "y": 1800,
+        "wires": [
+            [
+                "83913d91.ded318"
+            ]
+        ]
+    },
+    {
+        "id": "a7b198de.0bacb8",
+        "type": "file",
+        "z": "417600d2.281de8",
+        "g": "a26b29af.4d64a8",
+        "name": "write user name to OBS file",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1280,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60ea1a31.4ef364",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "a26b29af.4d64a8",
+        "name": "format filename",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "\"/Users/avuser/actor\" & \t$pad($string(msg.instance), -2, \"0\") & \t\".txt\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 2280,
+        "wires": [
+            [
+                "a7b198de.0bacb8",
+                "cb8563ce.8c0308"
+            ]
+        ]
+    },
+    {
+        "id": "55373514.9f2e34",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "a26b29af.4d64a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "selectedName",
                 "tot": "flow"
             }
         ],
@@ -6582,54 +7413,194 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 624,
-        "y": 540,
+        "x": 880,
+        "y": 2280,
         "wires": [
             [
-                "6c9f2b88.cfe9bc",
-                "37b82dfc.708a3a"
+                "60ea1a31.4ef364",
+                "7a3e1de4.22164c"
             ]
         ]
     },
     {
-        "id": "613e2ad6.e24d1c",
-        "type": "link in",
+        "id": "cb8563ce.8c0308",
+        "type": "debug",
         "z": "417600d2.281de8",
-        "g": "7bec5cb5.2c8684",
-        "name": "Update Session",
-        "links": [
-            "37b82dfc.708a3a"
-        ],
-        "x": 525,
-        "y": 1440,
-        "wires": [
-            [
-                "e6d7ddac.57373"
-            ]
-        ]
-    },
-    {
-        "id": "37b82dfc.708a3a",
-        "type": "link out",
-        "z": "417600d2.281de8",
-        "g": "1e53e9c9.7d31ae",
-        "name": "",
-        "links": [
-            "613e2ad6.e24d1c"
-        ],
-        "x": 785,
-        "y": 540,
+        "name": "trace02",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2380,
         "wires": []
     },
     {
-        "id": "5a69dcb6.fcda74",
-        "type": "comment",
+        "id": "e5cd5c3d.86cc58",
+        "type": "change",
+        "z": "584bfa46.70cd0c",
+        "name": "pick User user",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.user",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "selectedName",
+                "pt": "flow",
+                "to": "payload.user",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 960,
+        "wires": [
+            [
+                "f04b82e8.b09838"
+            ]
+        ]
+    },
+    {
+        "id": "f71fc71e.fd5088",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "name": "test",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"user\":\"testing\"}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 900,
+        "wires": [
+            [
+                "93fff780.fbd368",
+                "e5cd5c3d.86cc58",
+                "981c74bf.2d7968"
+            ]
+        ]
+    },
+    {
+        "id": "93fff780.fbd368",
+        "type": "debug",
+        "z": "584bfa46.70cd0c",
+        "name": "test out",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f04b82e8.b09838",
+        "type": "debug",
+        "z": "584bfa46.70cd0c",
+        "name": "ch out",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "981c74bf.2d7968",
+        "type": "function",
+        "z": "584bfa46.70cd0c",
+        "name": "",
+        "func": "user = msg.payload.user\n\nflow.set(\"selectedName\", user);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 330,
+        "y": 1040,
+        "wires": [
+            [
+                "f4abf218.b803a"
+            ]
+        ]
+    },
+    {
+        "id": "f4abf218.b803a",
+        "type": "debug",
+        "z": "584bfa46.70cd0c",
+        "name": "fun out",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "bddf5e93.a8b558",
+        "type": "function",
         "z": "417600d2.281de8",
-        "g": "1e53e9c9.7d31ae",
-        "name": "TODO - Test default Pins",
-        "info": "",
-        "x": 200,
-        "y": 460,
+        "g": "7bec5cb5.2c8684",
+        "name": "Save Name",
+        "func": "user = msg.payload.user\n\nflow.set(\"selectedName\", user);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 250,
+        "y": 1801,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a3e1de4.22164c",
+        "type": "debug",
+        "z": "417600d2.281de8",
+        "name": "trace01",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 2380,
         "wires": []
     }
 ]
