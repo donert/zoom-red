@@ -28,6 +28,13 @@
         "info": "**This works on MacOS only. **\n\nThis page sets up \n - starts multiple ZoomOSC clients to connect a single meeting. \n - starts multiple NDI Scan Converter sessions\n- Provides a control interface to manage who is pinned on each cleint session."
     },
     {
+        "id": "29e414d1.c9f644",
+        "type": "tab",
+        "label": "Week 2 Homework",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "4a1eee5f.c4f908",
         "type": "group",
         "z": "73938c67.dac0ac",
@@ -630,6 +637,22 @@
         "h": 82
     },
     {
+        "id": "75bd0937.6cda78",
+        "type": "group",
+        "z": "29e414d1.c9f644",
+        "name": "Introduction Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9884c834.546d38"
+        ],
+        "x": 84,
+        "y": 39,
+        "w": 172,
+        "h": 82
+    },
+    {
         "id": "573d9279.0eaa04",
         "type": "ui_base",
         "theme": {
@@ -1014,6 +1037,25 @@
         "order": 13,
         "width": 6,
         "height": 1
+    },
+    {
+        "id": "f15422f6.b05668",
+        "type": "ui_tab",
+        "name": "Homework Week 2",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d9d42ea1.8da5d",
+        "type": "ui_group",
+        "name": "Introduction",
+        "tab": "f15422f6.b05668",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
     },
     {
         "id": "3db3f60c.5c3cea",
@@ -7602,5 +7644,26 @@
         "x": 960,
         "y": 2380,
         "wires": []
+    },
+    {
+        "id": "9884c834.546d38",
+        "type": "ui_template",
+        "z": "29e414d1.c9f644",
+        "g": "75bd0937.6cda78",
+        "group": "d9d42ea1.8da5d",
+        "name": "Intro Text",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<h1>Assignment</h1>\n<div>\nUpdate your controller to utilize the usernames of participants, notifications about their A/V status, and one of\n<ol>\n<li>their positions in the gallery view (best on macOS) or</li>\n<li>the active speaker’s name (best on Windows).</li>\n</ol>\n</div>\n<h1>Solution</h1>\n<div>\n    The multiview page include a function that pushes participant names to OBS.\n</div>\n<div>\n    This page will add a function that pushes the active speaker to OBS.\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            []
+        ]
     }
 ]
