@@ -63,9 +63,9 @@
             "7afcdf6c.bf4f6"
         ],
         "x": 14,
-        "y": 279,
+        "y": 259,
         "w": 1382,
-        "h": 342,
+        "h": 362,
         "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
     },
     {
@@ -1041,6 +1041,7 @@
     {
         "id": "f15422f6.b05668",
         "type": "ui_tab",
+        "d": true,
         "name": "Homework Week 2",
         "icon": "dashboard",
         "order": 6,
@@ -4091,8 +4092,8 @@
         "g": "4a1eee5f.c4f908",
         "name": "TODO Handle Offline msg",
         "info": "OSC message /zoomosc/user/offline -1 \"--NO USER--\" 16 16809984\n",
-        "x": 1100,
-        "y": 320,
+        "x": 970,
+        "y": 300,
         "wires": []
     },
     {
