@@ -4431,7 +4431,7 @@
         "z": "417600d2.281de8",
         "g": "a467147e.ea6ff8",
         "name": "format command",
-        "func": "inst = msg.payload + \"\" ;\ninst = inst.padStart(2, \"0\");\n\ncmd = \"/Applications/NDI_SC\" + inst + \".app/Contents/MacOS/NewTek\\\\ NDI\\\\ Scan\\\\ Converter &\"\n\nmsg ={\n    \"payload\" :   cmd\n\n}\n\nreturn msg;",
+        "func": "inst = msg.payload + \"\" ;\ninst = inst.padStart(2, \"0\");\n\n//basedir = \"/Applications/\";\nbasedir = \"/Applications/Scan\\\\ Converters/\";\n\n\ncmd = basedir + \"NDI_SC\" + inst + \".app/Contents/MacOS/NewTek\\\\ NDI\\\\ Scan\\\\ Converter &\"\n\nmsg ={\n    \"payload\" :   cmd\n\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
