@@ -23,7 +23,7 @@
     {
         "id": "417600d2.281de8",
         "type": "tab",
-        "label": "MultiClient Prototype",
+        "label": "MultiClient",
         "disabled": false,
         "info": "**This works on MacOS only. **\n\nThis page sets up \n - starts multiple ZoomOSC clients to connect a single meeting. \n - starts multiple NDI Scan Converter sessions\n- Provides a control interface to manage who is pinned on each cleint session."
     },
@@ -117,7 +117,6 @@
             "9f0bfbbf.eef0e8",
             "7b6d8d0c.091e9c",
             "1836ad29.55decb",
-            "c844671e.58adf",
             "54d81a13.473a9c",
             "b8f52048.1fd02",
             "f9768951.02dfa8",
@@ -306,50 +305,6 @@
         "y": 119,
         "w": 1072,
         "h": 542
-    },
-    {
-        "id": "3153b16.24d25ce",
-        "type": "group",
-        "z": "584bfa46.70cd0c",
-        "name": "glslViewer Prototype",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "22b1965e.40e77a",
-            "86d3820a.a6989",
-            "a17c3d4b.9a5",
-            "9a596ae7.18f75",
-            "2912e1fc.70ff96",
-            "678d0a91.2e966c",
-            "d1802253.f40f08",
-            "c9fe32.4937a9d",
-            "c197268c.a581f8",
-            "b41e61b5.865f38",
-            "acc76c8c.b7e738"
-        ],
-        "x": 34,
-        "y": 99,
-        "w": 952,
-        "h": 322
-    },
-    {
-        "id": "29c363c3.4e94d4",
-        "type": "group",
-        "z": "584bfa46.70cd0c",
-        "name": "Set OBS Title Text",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "136c8441.59513c",
-            "1644fbf1.43b7d4",
-            "2ee5d5cf.618a5a"
-        ],
-        "x": 34,
-        "y": 439,
-        "w": 402,
-        "h": 122
     },
     {
         "id": "e26be13e.803a18",
@@ -602,7 +557,7 @@
         "id": "1320fe0a.3943fa",
         "type": "group",
         "z": "584bfa46.70cd0c",
-        "name": "Explore setting Virtual Backgrounds",
+        "name": "Setting Virtual Backgrounds - Pro Feature",
         "style": {
             "label": true
         },
@@ -613,8 +568,8 @@
             "9c5cad4b.f52fe8",
             "bd2bc656.d338f"
         ],
-        "x": 44,
-        "y": 599,
+        "x": 24,
+        "y": 19,
         "w": 532,
         "h": 202
     },
@@ -3082,8 +3037,8 @@
         "g": "800a1202.7dc55",
         "name": "Join message takes three separate string arguments",
         "info": "",
-        "x": 530,
-        "y": 1620,
+        "x": 590,
+        "y": 1640,
         "wires": []
     },
     {
@@ -3304,32 +3259,6 @@
             [
                 "54d81a13.473a9c"
             ]
-        ]
-    },
-    {
-        "id": "c844671e.58adf",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "set global port",
-        "rules": [
-            {
-                "t": "set",
-                "p": "",
-                "pt": "global",
-                "to": "payload.port",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 600,
-        "y": 1720,
-        "wires": [
-            []
         ]
     },
     {
@@ -3976,116 +3905,6 @@
         "wires": []
     },
     {
-        "id": "22b1965e.40e77a",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "defines",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/defines",
-        "payloadType": "str",
-        "x": 150,
-        "y": 140,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
-    },
-    {
-        "id": "86d3820a.a6989",
-        "type": "osc",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "",
-        "path": "",
-        "metadata": false,
-        "x": 410,
-        "y": 140,
-        "wires": [
-            [
-                "a17c3d4b.9a5"
-            ]
-        ]
-    },
-    {
-        "id": "a17c3d4b.9a5",
-        "type": "udp out",
-        "z": "584bfa46.70cd0c",
-        "d": true,
-        "g": "3153b16.24d25ce",
-        "name": "",
-        "addr": "192.168.86.21",
-        "iface": "",
-        "port": "3333",
-        "ipv": "udp4",
-        "outport": "",
-        "base64": false,
-        "multicast": "false",
-        "x": 760,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "9a596ae7.18f75",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "u_osc_scene,1",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/u_osc_scene,1",
-        "x": 160,
-        "y": 340,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
-    },
-    {
-        "id": "2912e1fc.70ff96",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "quit",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/quit",
-        "x": 410,
-        "y": 380,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
-    },
-    {
         "id": "7afcdf6c.bf4f6",
         "type": "comment",
         "z": "73938c67.dac0ac",
@@ -4095,93 +3914,6 @@
         "x": 970,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "678d0a91.2e966c",
-        "type": "comment",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "Exploring glslViewer",
-        "info": "Can glslViewer be used to generate graphics? \nFor example a L3rd",
-        "x": 590,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "d1802253.f40f08",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "define,TEST,12",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/define,TEST,12",
-        "payloadType": "str",
-        "x": 160,
-        "y": 300,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
-    },
-    {
-        "id": "c9fe32.4937a9d",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "uniforms",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/uniforms",
-        "x": 160,
-        "y": 180,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
-    },
-    {
-        "id": "c197268c.a581f8",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "u_osc_scene,2",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/u_osc_scene,2",
-        "x": 160,
-        "y": 380,
-        "wires": [
-            [
-                "86d3820a.a6989"
-            ]
-        ]
     },
     {
         "id": "77ba9999.2ec65",
@@ -4207,105 +3939,6 @@
                 "bd5834a7.19337"
             ]
         ]
-    },
-    {
-        "id": "136c8441.59513c",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "29c363c3.4e94d4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "Dilbert",
-        "payloadType": "str",
-        "x": 130,
-        "y": 480,
-        "wires": [
-            [
-                "1644fbf1.43b7d4"
-            ]
-        ]
-    },
-    {
-        "id": "1644fbf1.43b7d4",
-        "type": "file",
-        "z": "584bfa46.70cd0c",
-        "g": "29c363c3.4e94d4",
-        "name": "line1",
-        "filename": "/Users/avuser/line1.txt",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 360,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2ee5d5cf.618a5a",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "g": "29c363c3.4e94d4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "Wally",
-        "payloadType": "str",
-        "x": 130,
-        "y": 520,
-        "wires": [
-            [
-                "1644fbf1.43b7d4"
-            ]
-        ]
-    },
-    {
-        "id": "b41e61b5.865f38",
-        "type": "comment",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "The hope was to be able to use it as a general graphics engine.",
-        "info": "",
-        "x": 730,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "acc76c8c.b7e738",
-        "type": "comment",
-        "z": "584bfa46.70cd0c",
-        "g": "3153b16.24d25ce",
-        "name": "These functions work, but glslViewer cannot do text. ",
-        "info": "",
-        "x": 690,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "cbf94f2f.049128",
@@ -5762,11 +5395,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
-        "y": 2040,
+        "x": 800,
+        "y": 2020,
         "wires": [
             [
-                "55373514.9f2e34"
+                "55373514.9f2e34",
+                "68584be3.601e3c"
             ]
         ]
     },
@@ -5851,8 +5485,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_01",
         "payloadType": "str",
-        "x": 240,
-        "y": 640,
+        "x": 220,
+        "y": 60,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -5868,8 +5502,8 @@
         "links": [
             "8a313077.cf5f3"
         ],
-        "x": 535,
-        "y": 660,
+        "x": 515,
+        "y": 80,
         "wires": []
     },
     {
@@ -5894,8 +5528,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_02",
         "payloadType": "str",
-        "x": 250,
-        "y": 680,
+        "x": 230,
+        "y": 100,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -5924,8 +5558,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "actor_03",
         "payloadType": "str",
-        "x": 230,
-        "y": 720,
+        "x": 210,
+        "y": 140,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -6306,8 +5940,8 @@
         "topic": "/zoom/me/setBackground",
         "payload": "none",
         "payloadType": "str",
-        "x": 280,
-        "y": 760,
+        "x": 260,
+        "y": 180,
         "wires": [
             [
                 "9d59ac2c.16c248"
@@ -7440,6 +7074,7 @@
         "id": "55373514.9f2e34",
         "type": "change",
         "z": "417600d2.281de8",
+        "d": true,
         "g": "a26b29af.4d64a8",
         "name": "",
         "rules": [
@@ -7480,136 +7115,6 @@
         "statusType": "auto",
         "x": 1160,
         "y": 2380,
-        "wires": []
-    },
-    {
-        "id": "e5cd5c3d.86cc58",
-        "type": "change",
-        "z": "584bfa46.70cd0c",
-        "name": "pick User user",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.user",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "selectedName",
-                "pt": "flow",
-                "to": "payload.user",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 340,
-        "y": 960,
-        "wires": [
-            [
-                "f04b82e8.b09838"
-            ]
-        ]
-    },
-    {
-        "id": "f71fc71e.fd5088",
-        "type": "inject",
-        "z": "584bfa46.70cd0c",
-        "name": "test",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"user\":\"testing\"}",
-        "payloadType": "json",
-        "x": 190,
-        "y": 900,
-        "wires": [
-            [
-                "93fff780.fbd368",
-                "e5cd5c3d.86cc58",
-                "981c74bf.2d7968"
-            ]
-        ]
-    },
-    {
-        "id": "93fff780.fbd368",
-        "type": "debug",
-        "z": "584bfa46.70cd0c",
-        "name": "test out",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 380,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "f04b82e8.b09838",
-        "type": "debug",
-        "z": "584bfa46.70cd0c",
-        "name": "ch out",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "981c74bf.2d7968",
-        "type": "function",
-        "z": "584bfa46.70cd0c",
-        "name": "",
-        "func": "user = msg.payload.user\n\nflow.set(\"selectedName\", user);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 330,
-        "y": 1040,
-        "wires": [
-            [
-                "f4abf218.b803a"
-            ]
-        ]
-    },
-    {
-        "id": "f4abf218.b803a",
-        "type": "debug",
-        "z": "584bfa46.70cd0c",
-        "name": "fun out",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 560,
-        "y": 1020,
         "wires": []
     },
     {
