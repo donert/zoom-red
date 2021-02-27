@@ -1,15 +1,43 @@
 [
     {
-        "id": "73938c67.dac0ac",
+        "id": "6ebfcfc7.ef968",
         "type": "tab",
-        "label": "ZoomOSC",
+        "label": "Tab Meeting Management",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "c12db79c.dacf9",
+        "id": "73938c67.dac0ac",
         "type": "tab",
-        "label": "Testing Functions",
+        "label": "Tab Single Client",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "417600d2.281de8",
+        "type": "tab",
+        "label": "Tab Multi Client",
+        "disabled": false,
+        "info": "**This works on MacOS only. **\n\nThis page sets up \n - starts multiple ZoomOSC clients to connect a single meeting. \n - starts multiple NDI Scan Converter sessions\n- Provides a control interface to manage who is pinned on each cleint session."
+    },
+    {
+        "id": "d33404f2.a9c208",
+        "type": "tab",
+        "label": "Tab Help",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e7106529.37b6d8",
+        "type": "tab",
+        "label": "Tab Diagnostics",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "92e43cec.83fcc",
+        "type": "tab",
+        "label": "Communications",
         "disabled": false,
         "info": ""
     },
@@ -21,52 +49,11 @@
         "info": ""
     },
     {
-        "id": "417600d2.281de8",
+        "id": "c12db79c.dacf9",
         "type": "tab",
-        "label": "MultiClient",
-        "disabled": false,
-        "info": "**This works on MacOS only. **\n\nThis page sets up \n - starts multiple ZoomOSC clients to connect a single meeting. \n - starts multiple NDI Scan Converter sessions\n- Provides a control interface to manage who is pinned on each cleint session."
-    },
-    {
-        "id": "29e414d1.c9f644",
-        "type": "tab",
-        "label": "Week 2 Homework",
+        "label": "Testing Functions",
         "disabled": false,
         "info": ""
-    },
-    {
-        "id": "4a1eee5f.c4f908",
-        "type": "group",
-        "z": "73938c67.dac0ac",
-        "name": "Inbound Communications and Response Handling",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "c3effac1.3bfdc8",
-            "67110b0b.8a29ac",
-            "fa85aa2d.775778",
-            "4450291d.656bf",
-            "ff1dd203.0f15c",
-            "8458812b.59cb1",
-            "83a942b6.b64a08",
-            "3391f39b.65cb6c",
-            "4d245d11.740cb4",
-            "83b6677.3f1ed18",
-            "93340b08.cc7e",
-            "4154f877.d58458",
-            "1a4b1a5c.43e0c6",
-            "fa49dade.a0139",
-            "93e9c3f0.384fe",
-            "68d21d79.8cebec",
-            "fc277a34.d21a3",
-            "7afcdf6c.bf4f6"
-        ],
-        "x": 14,
-        "y": 259,
-        "w": 1382,
-        "h": 362,
-        "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
     },
     {
         "id": "4f432da1.69efcc",
@@ -94,40 +81,9 @@
             "8f26078c.64cd9",
             "3e83a4c1.9f439c"
         ],
-        "x": 14,
-        "y": 1899,
+        "x": 34,
+        "y": 719,
         "w": 852,
-        "h": 422
-    },
-    {
-        "id": "800a1202.7dc55",
-        "type": "group",
-        "z": "73938c67.dac0ac",
-        "name": "Session Controls",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "63b51234.9f4b64",
-            "cd90a590.e286d8",
-            "46f43be6.8a605c",
-            "c699a530.afa03",
-            "f61c489f.2a26e",
-            "14d57df0.dbd8b2",
-            "9f0bfbbf.eef0e8",
-            "7b6d8d0c.091e9c",
-            "1836ad29.55decb",
-            "54d81a13.473a9c",
-            "b8f52048.1fd02",
-            "f9768951.02dfa8",
-            "d45bbcca.f2d8a",
-            "d83372d3.9abbf8",
-            "7f1a0616.747b8",
-            "b49b98d3.3493b"
-        ],
-        "x": 14,
-        "y": 1419,
-        "w": 952,
         "h": 422
     },
     {
@@ -145,8 +101,8 @@
             "75f58eb3.f0fbc8",
             "e00106d8.34ae58"
         ],
-        "x": 14,
-        "y": 1159,
+        "x": 34,
+        "y": 479,
         "w": 422,
         "h": 202
     },
@@ -165,8 +121,8 @@
             "8f474d77.9c1d2",
             "c5537a3d.000298"
         ],
-        "x": 14,
-        "y": 899,
+        "x": 34,
+        "y": 239,
         "w": 702,
         "h": 202
     },
@@ -186,8 +142,8 @@
             "aaeba03f.6b66f",
             "9ee620d7.f38748"
         ],
-        "x": 14,
-        "y": 679,
+        "x": 34,
+        "y": 39,
         "w": 612,
         "h": 162
     },
@@ -218,55 +174,10 @@
             "dfa0fa11.cd646",
             "8bee5d90.93213"
         ],
-        "x": 14,
-        "y": 2379,
+        "x": 34,
+        "y": 1179,
         "w": 762,
         "h": 462
-    },
-    {
-        "id": "e7464d93.8a5de8",
-        "type": "group",
-        "z": "73938c67.dac0ac",
-        "name": "Under Development",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5a38b5cd.fff45c",
-            "c33cbea6.ca6c58",
-            "bd5834a7.19337",
-            "66601b96.abcad4",
-            "a3eb01d1.59552",
-            "77ba9999.2ec65"
-        ],
-        "x": 14,
-        "y": 2899,
-        "w": 432,
-        "h": 262
-    },
-    {
-        "id": "bf3e5a12.3393f",
-        "type": "group",
-        "z": "73938c67.dac0ac",
-        "name": "Outbound Communications",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "3db3f60c.5c3cea",
-            "8e791d87.7fea2",
-            "9fe05ea6.1119e",
-            "e5be326c.4063e",
-            "8a313077.cf5f3",
-            "4b26af43.b2637",
-            "9212f4a1.d16db8",
-            "bd287e97.0ece58"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 732,
-        "h": 202,
-        "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
     },
     {
         "id": "e237bfbd.ef848",
@@ -359,8 +270,8 @@
             "11d024cc.045c43",
             "9417cf19.60406"
         ],
-        "x": 14,
-        "y": 1059,
+        "x": 4,
+        "y": 939,
         "w": 992,
         "h": 282
     },
@@ -383,7 +294,7 @@
             "8d506a4d.70a0a"
         ],
         "x": 14,
-        "y": 819,
+        "y": 699,
         "w": 1052,
         "h": 189.5
     },
@@ -405,7 +316,7 @@
             "47454400.142664"
         ],
         "x": 14,
-        "y": 139,
+        "y": 19,
         "w": 792,
         "h": 202
     },
@@ -471,7 +382,7 @@
             "6a6f4c75.a260bc"
         ],
         "x": 14,
-        "y": 379,
+        "y": 239,
         "w": 1072,
         "h": 382
     },
@@ -538,22 +449,6 @@
         "h": 482
     },
     {
-        "id": "b4c900b3.c08868",
-        "type": "group",
-        "z": "417600d2.281de8",
-        "name": "Intro Text",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "c6f23791.ef6b18"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 152,
-        "h": 82
-    },
-    {
         "id": "1320fe0a.3943fa",
         "type": "group",
         "z": "584bfa46.70cd0c",
@@ -592,20 +487,174 @@
         "h": 82
     },
     {
-        "id": "75bd0937.6cda78",
+        "id": "7fba0c91.146bc4",
         "type": "group",
-        "z": "29e414d1.c9f644",
-        "name": "Introduction Text",
+        "z": "d33404f2.a9c208",
+        "name": "Intro Text",
         "style": {
             "label": true
         },
         "nodes": [
-            "9884c834.546d38"
+            "a79e62d2.59075"
         ],
-        "x": 84,
-        "y": 39,
-        "w": 172,
+        "x": 34,
+        "y": 19,
+        "w": 152,
         "h": 82
+    },
+    {
+        "id": "292ae87.2192f18",
+        "type": "group",
+        "z": "d33404f2.a9c208",
+        "name": "Single Client Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "eb9fa7b0.5b24c8"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 152,
+        "h": 82
+    },
+    {
+        "id": "57ccbebc.0608b",
+        "type": "group",
+        "z": "d33404f2.a9c208",
+        "name": "Multi Client Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ac77eb64.33e6a8"
+        ],
+        "x": 214,
+        "y": 159,
+        "w": 152,
+        "h": 82
+    },
+    {
+        "id": "e8dbe2af.ae51a",
+        "type": "group",
+        "z": "d33404f2.a9c208",
+        "name": "Meeting Management Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d8f35ef1.95af9"
+        ],
+        "x": 214,
+        "y": 19,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "e5a4ae57.0b30e",
+        "type": "group",
+        "z": "6ebfcfc7.ef968",
+        "name": "Meeting Management",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "190124a3.502edb",
+            "87588af8.73a418",
+            "a19f807f.eb22c",
+            "b26c65c.b898698",
+            "6c5f2b8e.6012b4",
+            "6e77c012.adc5",
+            "61fd009.68556",
+            "f569db12.79c218",
+            "e3f4ef22.e47ce",
+            "155d1e08.6ae562",
+            "6204ad29.f84a04",
+            "b50c3d84.f65df",
+            "350aafc4.cf9ed",
+            "64f2f5ca.835c0c"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 992,
+        "h": 362
+    },
+    {
+        "id": "7b41388d.70c038",
+        "type": "group",
+        "z": "584bfa46.70cd0c",
+        "name": "Under Development",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "66983fc7.9fefa",
+            "420122c0.6e54dc",
+            "7222caae.056844",
+            "279c4030.57c42",
+            "366bc8c8.746558",
+            "12cda607.617e8a"
+        ],
+        "x": 34,
+        "y": 259,
+        "w": 432,
+        "h": 262
+    },
+    {
+        "id": "9dbbe77d.482a78",
+        "type": "group",
+        "z": "92e43cec.83fcc",
+        "name": "Outbound Communications",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa72d100.463a2",
+            "d7e51360.80487",
+            "cb1351cd.3df75",
+            "2effcc64.e40134",
+            "fa5f863f.6c7348",
+            "e6607465.9a4828"
+        ],
+        "x": 194,
+        "y": 39,
+        "w": 732,
+        "h": 182,
+        "info": "# Outbound\n \nThis group centralizes the transmission of messages to zoomOSC.\n\nMany of the other groups send their traffic to the incoming link."
+    },
+    {
+        "id": "fe953c97.9fe35",
+        "type": "group",
+        "z": "92e43cec.83fcc",
+        "name": "Inbound Communications and Response Handling",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad72e016.d7ee8",
+            "b7edf3c8.5c1f3",
+            "f53df9df.5090c8",
+            "c646a509.66d5e8",
+            "11fdee45.fb5842",
+            "6adb5d7b.562074",
+            "483c1e66.ece58",
+            "cfd2e3da.9b906",
+            "2312dd4a.d5b382",
+            "60917f19.41de4",
+            "8de5a97.b2d3d58",
+            "1ecedeed.e4cfa1",
+            "e7325fe2.5e6ec",
+            "157d5bd9.edcec4",
+            "b415668d.0021b8",
+            "7d0bcfb9.4a391",
+            "9afb24a8.30d6d8",
+            "495b475e.0e63e8"
+        ],
+        "x": 34,
+        "y": 279,
+        "w": 1382,
+        "h": 362,
+        "info": "# Inbound and Responses\n\nCollects respsonses from zoomosc and all other messages from the client."
     },
     {
         "id": "573d9279.0eaa04",
@@ -708,7 +757,7 @@
     {
         "id": "b0d48d59.d45628",
         "type": "ui_tab",
-        "name": "In Meeting",
+        "name": "Single Client",
         "icon": "group",
         "order": 2,
         "disabled": false,
@@ -749,7 +798,7 @@
         "type": "ui_group",
         "name": "Ping",
         "tab": "9f44a0a4.c1fa68",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": 8,
         "collapse": false
@@ -757,7 +806,7 @@
     {
         "id": "b706b32.2fc16d",
         "type": "ui_group",
-        "name": "Meeting Controls",
+        "name": "Main Client End/Leave",
         "tab": "b20d1570.465fe",
         "order": 2,
         "disp": true,
@@ -789,7 +838,7 @@
         "type": "ui_tab",
         "name": "Diagnostics",
         "icon": "check_circle",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -805,7 +854,7 @@
     {
         "id": "b20d1570.465fe",
         "type": "ui_tab",
-        "name": "Session Controls",
+        "name": "Meeting Management",
         "icon": "power_settings_new",
         "order": 1,
         "disabled": false,
@@ -814,7 +863,7 @@
     {
         "id": "b6887465.612ad",
         "type": "ui_group",
-        "name": "Join Meeting",
+        "name": "Main Client Join",
         "tab": "b20d1570.465fe",
         "order": 1,
         "disp": true,
@@ -825,8 +874,8 @@
         "id": "262ffe42.cf9182",
         "type": "ui_group",
         "name": "Utility",
-        "tab": "b20d1570.465fe",
-        "order": 3,
+        "tab": "9f44a0a4.c1fa68",
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -836,7 +885,7 @@
         "type": "ui_group",
         "name": "Network Settings",
         "tab": "b20d1570.465fe",
-        "order": 4,
+        "order": 3,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -865,7 +914,7 @@
         "type": "ui_tab",
         "name": "Testing",
         "icon": "code",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -882,7 +931,7 @@
     {
         "id": "aa26466b.7070c8",
         "type": "ui_tab",
-        "name": "Multiclient",
+        "name": "Multi Client",
         "icon": "fa-group",
         "order": 3,
         "disabled": false,
@@ -893,7 +942,7 @@
         "type": "ui_group",
         "name": "Launch",
         "tab": "aa26466b.7070c8",
-        "order": 3,
+        "order": 2,
         "disp": true,
         "width": "16",
         "collapse": true
@@ -903,7 +952,7 @@
         "type": "ui_group",
         "name": "Terminate",
         "tab": "aa26466b.7070c8",
-        "order": 4,
+        "order": 3,
         "disp": true,
         "width": "16",
         "collapse": true
@@ -913,7 +962,7 @@
         "type": "ui_group",
         "name": "Settings",
         "tab": "aa26466b.7070c8",
-        "order": 2,
+        "order": 1,
         "disp": true,
         "width": "16",
         "collapse": true
@@ -923,7 +972,7 @@
         "type": "ui_group",
         "name": "Panelists Pin Controls",
         "tab": "aa26466b.7070c8",
-        "order": 5,
+        "order": 4,
         "disp": true,
         "width": "16",
         "collapse": false
@@ -932,7 +981,7 @@
         "id": "68456f7b.49d198",
         "type": "ui_group",
         "name": "Introduction",
-        "tab": "aa26466b.7070c8",
+        "tab": "32348cfc.3ae544",
         "order": 1,
         "disp": true,
         "width": "16",
@@ -943,7 +992,7 @@
         "type": "ui_group",
         "name": "User List",
         "tab": "aa26466b.7070c8",
-        "order": 6,
+        "order": 5,
         "disp": true,
         "width": "16",
         "collapse": false
@@ -994,320 +1043,53 @@
         "height": 1
     },
     {
-        "id": "f15422f6.b05668",
-        "type": "ui_tab",
-        "d": true,
-        "name": "Homework Week 2",
-        "icon": "dashboard",
-        "order": 6,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "d9d42ea1.8da5d",
         "type": "ui_group",
         "name": "Introduction",
-        "tab": "f15422f6.b05668",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "12",
         "collapse": false
     },
     {
-        "id": "3db3f60c.5c3cea",
-        "type": "udp out",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "",
-        "addr": "",
-        "iface": "",
-        "port": "",
-        "ipv": "udp4",
-        "outport": "",
-        "base64": false,
-        "multicast": "false",
-        "x": 650,
-        "y": 100,
-        "wires": []
+        "id": "32348cfc.3ae544",
+        "type": "ui_tab",
+        "name": "Help",
+        "icon": "help",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
     },
     {
-        "id": "8e791d87.7fea2",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "set network parms",
-        "rules": [
-            {
-                "t": "set",
-                "p": "ip",
-                "pt": "msg",
-                "to": "zoomosc_ip",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "port",
-                "pt": "msg",
-                "to": "zoomosc_port",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 430,
-        "y": 100,
-        "wires": [
-            [
-                "3db3f60c.5c3cea",
-                "9fe05ea6.1119e"
-            ]
-        ]
+        "id": "5ed943c6.df384c",
+        "type": "ui_group",
+        "name": "Single Client",
+        "tab": "32348cfc.3ae544",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": true
     },
     {
-        "id": "9fe05ea6.1119e",
-        "type": "debug",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "To ZoomOSC udp",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 610,
-        "y": 160,
-        "wires": []
+        "id": "b3e1d998.3a34f8",
+        "type": "ui_group",
+        "name": "Multi Client",
+        "tab": "32348cfc.3ae544",
+        "order": 4,
+        "disp": true,
+        "width": "16",
+        "collapse": true
     },
     {
-        "id": "c3effac1.3bfdc8",
-        "type": "udp in",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "",
-        "iface": "",
-        "port": "1234",
-        "ipv": "udp4",
-        "multicast": "false",
-        "group": "",
-        "datatype": "buffer",
-        "x": 100,
-        "y": 500,
-        "wires": [
-            [
-                "fa85aa2d.775778"
-            ]
-        ]
-    },
-    {
-        "id": "67110b0b.8a29ac",
-        "type": "debug",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "From ZoomOSC",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "fa85aa2d.775778",
-        "type": "osc",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "",
-        "path": "",
-        "metadata": false,
-        "x": 250,
-        "y": 500,
-        "wires": [
-            [
-                "67110b0b.8a29ac",
-                "4450291d.656bf"
-            ]
-        ]
-    },
-    {
-        "id": "e5be326c.4063e",
-        "type": "osc",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "zoomOSC",
-        "path": "",
-        "metadata": false,
-        "x": 210,
-        "y": 100,
-        "wires": [
-            [
-                "8e791d87.7fea2"
-            ]
-        ]
-    },
-    {
-        "id": "5a38b5cd.fff45c",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/zoom/me/listScreens",
-        "payloadType": "str",
-        "x": 160,
-        "y": 3020,
-        "wires": [
-            [
-                "bd5834a7.19337"
-            ]
-        ]
-    },
-    {
-        "id": "4450291d.656bf",
-        "type": "switch",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "/zoomosc/pong",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/galleryCount",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/galleryShape",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/galleryOrder",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/list",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/mute",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/unMute",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/videoOff",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/videoOn",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/spotlightOn",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/user/spotlightOff",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "/zoomosc/me/list",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 12,
-        "x": 470,
-        "y": 500,
-        "wires": [
-            [
-                "68d21d79.8cebec"
-            ],
-            [
-                "ff1dd203.0f15c"
-            ],
-            [
-                "8458812b.59cb1"
-            ],
-            [
-                "83a942b6.b64a08"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ],
-            [
-                "4154f877.d58458"
-            ]
-        ],
-        "outputLabels": [
-            "pong",
-            "galleryCount",
-            "galleryShape",
-            "galleryOrder",
-            "user list",
-            "mute",
-            "unMute",
-            "videoOff",
-            "videoOn",
-            "spotOn",
-            "spotOff",
-            "me list"
-        ]
+        "id": "9cb11167.0102b",
+        "type": "ui_group",
+        "name": "Meeting Management",
+        "tab": "32348cfc.3ae544",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
     },
     {
         "id": "8c44154e.82428",
@@ -1328,65 +1110,14 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/list",
-        "x": 120,
-        "y": 800,
+        "x": 140,
+        "y": 160,
         "wires": [
             [
                 "47225bef.34f704",
                 "71616093.ff1c28"
             ]
         ]
-    },
-    {
-        "id": "ff1dd203.0f15c",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "3446b061.aa8348",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "galleryCount",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 770,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "8458812b.59cb1",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "3446b061.aa8348",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "galleryShape",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 770,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "83a942b6.b64a08",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "3446b061.aa8348",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "galleryOrder",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 770,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "8726a404.acb658",
@@ -1407,8 +1138,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/me/unSpot",
-        "x": 110,
-        "y": 940,
+        "x": 130,
+        "y": 280,
         "wires": [
             [
                 "32425712.bca138"
@@ -1434,8 +1165,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/clearSpot",
-        "x": 110,
-        "y": 1020,
+        "x": 130,
+        "y": 360,
         "wires": [
             [
                 "32425712.bca138"
@@ -1466,8 +1197,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 90,
-        "y": 2120,
+        "x": 110,
+        "y": 940,
         "wires": [
             [
                 "dcadc834.c415e8"
@@ -1493,8 +1224,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 310,
-        "y": 2120,
+        "x": 330,
+        "y": 940,
         "wires": [
             [
                 "2033df4b.a11ee8",
@@ -1526,8 +1257,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 2060,
+        "x": 590,
+        "y": 880,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -1554,8 +1285,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 580,
-        "y": 2180,
+        "x": 600,
+        "y": 1000,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1575,8 +1306,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 790,
-        "y": 2120,
+        "x": 810,
+        "y": 940,
         "wires": []
     },
     {
@@ -1599,8 +1330,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 600,
-        "y": 2140,
+        "x": 620,
+        "y": 960,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1627,8 +1358,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 2100,
+        "x": 610,
+        "y": 920,
         "wires": [
             [
                 "603f0200.f9be5c"
@@ -1659,8 +1390,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 100,
-        "y": 2260,
+        "x": 120,
+        "y": 1080,
         "wires": [
             [
                 "72552f1a.30ca98"
@@ -1686,8 +1417,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 290,
-        "y": 2260,
+        "x": 310,
+        "y": 1080,
         "wires": [
             [
                 "957634f4.5a896"
@@ -1717,8 +1448,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
-        "y": 2240,
+        "x": 450,
+        "y": 1060,
         "wires": [
             [
                 "6f985efb.11e7c"
@@ -1745,38 +1476,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 2280,
+        "x": 460,
+        "y": 1100,
         "wires": [
             [
                 "6f985efb.11e7c"
-            ]
-        ]
-    },
-    {
-        "id": "8a313077.cf5f3",
-        "type": "link in",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "ToZoomOsc",
-        "links": [
-            "6f985efb.11e7c",
-            "46f43be6.8a605c",
-            "2bc17d58.156a9a",
-            "32425712.bca138",
-            "84f20dfb.6970e8",
-            "aaeba03f.6b66f",
-            "bd5834a7.19337",
-            "3e83a4c1.9f439c",
-            "5a9d487.cff0938",
-            "1c42610d.87b827",
-            "9d59ac2c.16c248"
-        ],
-        "x": 55,
-        "y": 100,
-        "wires": [
-            [
-                "e5be326c.4063e"
             ]
         ]
     },
@@ -1787,102 +1491,11 @@
         "g": "4f432da1.69efcc",
         "name": "ToZoomOSC",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 755,
-        "y": 2240,
-        "wires": []
-    },
-    {
-        "id": "c33cbea6.ca6c58",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/zoom/me/listWindows",
-        "x": 160,
-        "y": 2980,
-        "wires": [
-            [
-                "bd5834a7.19337"
-            ]
-        ]
-    },
-    {
-        "id": "63b51234.9f4b64",
-        "type": "ui_button",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "group": "b706b32.2fc16d",
-        "order": 1,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "End",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "red",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "/zoom/endMeeting",
-        "x": 110,
-        "y": 1620,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
-    },
-    {
-        "id": "cd90a590.e286d8",
-        "type": "ui_button",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "group": "b706b32.2fc16d",
-        "order": 2,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "label": "Leave",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "orange",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "/zoom/leaveMeeting",
-        "x": 110,
-        "y": 1580,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
-    },
-    {
-        "id": "46f43be6.8a605c",
-        "type": "link out",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "ToZoomOSC",
-        "links": [
-            "8a313077.cf5f3"
-        ],
-        "x": 515,
-        "y": 1540,
+        "x": 775,
+        "y": 1060,
         "wires": []
     },
     {
@@ -1912,8 +1525,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
-        "y": 800,
+        "x": 380,
+        "y": 160,
         "wires": [
             [
                 "66a97045.5c2e9",
@@ -1935,8 +1548,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 530,
-        "y": 800,
+        "x": 550,
+        "y": 160,
         "wires": []
     },
     {
@@ -1958,8 +1571,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/me/setGalleryView",
-        "x": 110,
-        "y": 1200,
+        "x": 130,
+        "y": 520,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -1985,8 +1598,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/me/setSpeakerView",
-        "x": 120,
-        "y": 1240,
+        "x": 140,
+        "y": 560,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2000,10 +1613,11 @@
         "g": "3353a48a.b34c7c",
         "name": "ToZoomOSC",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 395,
-        "y": 1220,
+        "x": 415,
+        "y": 540,
         "wires": []
     },
     {
@@ -2013,38 +1627,12 @@
         "g": "8f22f025.890338",
         "name": "ToZoomOSC",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 675,
-        "y": 940,
+        "x": 695,
+        "y": 280,
         "wires": []
-    },
-    {
-        "id": "4b26af43.b2637",
-        "type": "ui_button",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "",
-        "group": "e14cccb0.beedd8",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "label": "Ping",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "date",
-        "topic": "/zoom/ping",
-        "x": 90,
-        "y": 180,
-        "wires": [
-            [
-                "bd287e97.0ece58"
-            ]
-        ]
     },
     {
         "id": "8f474d77.9c1d2",
@@ -2065,8 +1653,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/clearPin",
-        "x": 100,
-        "y": 1060,
+        "x": 120,
+        "y": 400,
         "wires": [
             [
                 "32425712.bca138"
@@ -2092,8 +1680,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/mute",
-        "x": 100,
-        "y": 1980,
+        "x": 120,
+        "y": 800,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2119,152 +1707,13 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/unMute",
-        "x": 110,
-        "y": 1940,
+        "x": 130,
+        "y": 760,
         "wires": [
             [
                 "3e83a4c1.9f439c"
             ]
         ]
-    },
-    {
-        "id": "3391f39b.65cb6c",
-        "type": "ui_table",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "e69902f8.5bed4",
-        "name": "",
-        "order": 15,
-        "width": "24",
-        "height": "13",
-        "columns": [
-            {
-                "field": "user",
-                "title": "User",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "video",
-                "title": "Video",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "mute",
-                "title": "Mute",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "pin",
-                "title": "PIN",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "spot",
-                "title": "Spot",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "activespeaker",
-                "title": "Active",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "row",
-                "title": "Row",
-                "width": "",
-                "align": "right",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "id",
-                "title": "Id",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 1,
-        "cts": true,
-        "x": 1190,
-        "y": 520,
-        "wires": [
-            [
-                "fa49dade.a0139"
-            ]
-        ]
-    },
-    {
-        "id": "4d245d11.740cb4",
-        "type": "function",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "parse userlist",
-        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = global.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\",\n    \"spot\"  : \"?\"\n}\n\nglobal.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 770,
-        "y": 520,
-        "wires": [
-            [
-                "93340b08.cc7e"
-            ]
-        ]
-    },
-    {
-        "id": "83b6677.3f1ed18",
-        "type": "debug",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "totable",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1190,
-        "y": 580,
-        "wires": []
     },
     {
         "id": "8f26078c.64cd9",
@@ -2285,8 +1734,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/allExcept/me/mute",
-        "x": 100,
-        "y": 2020,
+        "x": 120,
+        "y": 840,
         "wires": [
             [
                 "3e83a4c1.9f439c"
@@ -2313,8 +1762,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 310,
-        "y": 760,
+        "x": 330,
+        "y": 120,
         "wires": [
             []
         ]
@@ -2338,8 +1787,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/showUserNames",
-        "x": 130,
-        "y": 1280,
+        "x": 150,
+        "y": 600,
         "wires": [
             [
                 "2bc17d58.156a9a"
@@ -2365,96 +1814,13 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/all/hideUserNames",
-        "x": 130,
-        "y": 1320,
+        "x": 150,
+        "y": 640,
         "wires": [
             [
                 "2bc17d58.156a9a"
             ]
         ]
-    },
-    {
-        "id": "93340b08.cc7e",
-        "type": "function",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "format usertable",
-        "func": "// Retreive usertable from  context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(\"format usertable:\" + `${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") continue;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1020,
-        "y": 520,
-        "wires": [
-            [
-                "3391f39b.65cb6c",
-                "83b6677.3f1ed18"
-            ]
-        ]
-    },
-    {
-        "id": "4154f877.d58458",
-        "type": "function",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "general parser",
-        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = global.get('usertable')||{}\nd = msg.payload;\n\nconsole.log('BEFORE:' + Date() + \"FUNCTION: general parser\"   )\nconsole.log(\"payload:\" + d)\nconsole.log(\"id:\" +  d[3] )\n \nid   = d[3]; \n \nif (typeof(ut[id]) == 'undefined') {\n    console.log(\"new entry:\" + id)\n    name = d[1]\n    mute = \"?\"\n    video = \"?\"\n    spot = \"?\"\n} else {\n    name = d[1] ; // always get the latest name ut[id].name\n    mute = ut[id].mute\n    video = ut[id].video\n    spot = ut[id].spot    \n}\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n  case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n  case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  case \"/zoomosc/user/spotlightOn\":\n    spot = \"On\"\n    break;\n  case \"/zoomosc/user/spotlightOff\":\n    mute = \"Off\"\n    break;    \n  case \"/zoomosc/user/list\":\n      break;\n      case \"/zoomosc/me/list\":\n      break;      \n  default:\n    // code block\n}\n\n//console.log(ut)\n\nut[ id ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video,\n                \"spot\"  : spot\n}\n                \n//console.log('after')  \n//console.log(ut[d[3]])\n\nglobal.set('usertable', ut) \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 780,
-        "y": 580,
-        "wires": [
-            [
-                "93340b08.cc7e"
-            ]
-        ]
-    },
-    {
-        "id": "1a4b1a5c.43e0c6",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "Test",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 960,
-        "y": 420,
-        "wires": [
-            [
-                "93340b08.cc7e"
-            ]
-        ]
-    },
-    {
-        "id": "fa49dade.a0139",
-        "type": "link out",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "Selected User",
-        "links": [
-            "c747b0af.6dc26",
-            "85a48e72.981c48"
-        ],
-        "x": 1315,
-        "y": 520,
-        "wires": []
     },
     {
         "id": "c747b0af.6dc26",
@@ -2463,10 +1829,11 @@
         "g": "39660f71.497918",
         "name": "displaySelectedUser",
         "links": [
-            "fa49dade.a0139"
+            "fa49dade.a0139",
+            "157d5bd9.edcec4"
         ],
-        "x": 55,
-        "y": 2520,
+        "x": 75,
+        "y": 1320,
         "wires": [
             [
                 "d79b8521.8593a",
@@ -2494,8 +1861,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "/zoom/me/spot",
-        "x": 100,
-        "y": 980,
+        "x": 120,
+        "y": 320,
         "wires": [
             [
                 "32425712.bca138"
@@ -2521,8 +1888,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unPin",
-        "x": 390,
-        "y": 2480,
+        "x": 410,
+        "y": 1280,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2548,8 +1915,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/addpin",
-        "x": 400,
-        "y": 2520,
+        "x": 420,
+        "y": 1320,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2569,8 +1936,8 @@
         "label": "Selected User Name",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 400,
-        "y": 2420,
+        "x": 420,
+        "y": 1220,
         "wires": []
     },
     {
@@ -2592,8 +1959,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unSpot",
-        "x": 400,
-        "y": 2560,
+        "x": 420,
+        "y": 1360,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2619,8 +1986,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/spot",
-        "x": 390,
-        "y": 2600,
+        "x": 410,
+        "y": 1400,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2641,8 +2008,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 160,
-        "y": 2600,
+        "x": 180,
+        "y": 1400,
         "wires": []
     },
     {
@@ -2665,8 +2032,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 180,
-        "y": 2420,
+        "x": 200,
+        "y": 1220,
         "wires": [
             [
                 "a3ba248d.dfbef"
@@ -2693,8 +2060,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 200,
-        "y": 2480,
+        "x": 220,
+        "y": 1280,
         "wires": [
             []
         ]
@@ -2706,10 +2073,11 @@
         "g": "39660f71.497918",
         "name": "",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 735,
-        "y": 2640,
+        "x": 755,
+        "y": 1440,
         "wires": []
     },
     {
@@ -2731,8 +2099,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/addSpot",
-        "x": 400,
-        "y": 2640,
+        "x": 420,
+        "y": 1440,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2758,8 +2126,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/videoOn",
-        "x": 400,
-        "y": 2680,
+        "x": 420,
+        "y": 1480,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2785,8 +2153,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/videoOff",
-        "x": 400,
-        "y": 2720,
+        "x": 420,
+        "y": 1520,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2812,8 +2180,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/mute",
-        "x": 390,
-        "y": 2760,
+        "x": 410,
+        "y": 1560,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2839,8 +2207,8 @@
         "payload": "selectedid",
         "payloadType": "flow",
         "topic": "/zoom/zoomID/unMute",
-        "x": 400,
-        "y": 2800,
+        "x": 420,
+        "y": 1600,
         "wires": [
             [
                 "8bee5d90.93213"
@@ -2854,34 +2222,11 @@
         "g": "9a75246e.77f24",
         "name": "ToZoomOSC",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 515,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "bd5834a7.19337",
-        "type": "link out",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "ToZoomOSC",
-        "links": [
-            "8a313077.cf5f3"
-        ],
-        "x": 355,
-        "y": 3000,
-        "wires": []
-    },
-    {
-        "id": "66601b96.abcad4",
-        "type": "comment",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "Both are creating the same repsonse topic - Bug?",
-        "info": "Andy says it is a bug on the zoom side.",
-        "x": 230,
-        "y": 2940,
+        "x": 535,
+        "y": 100,
         "wires": []
     },
     {
@@ -2891,46 +2236,11 @@
         "g": "4f432da1.69efcc",
         "name": "ToZoomOSC",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
-        "x": 755,
-        "y": 1980,
-        "wires": []
-    },
-    {
-        "id": "a3eb01d1.59552",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/zoom/all/endMeeting",
-        "x": 160,
-        "y": 3080,
-        "wires": [
-            [
-                "bd5834a7.19337"
-            ]
-        ]
-    },
-    {
-        "id": "93e9c3f0.384fe",
-        "type": "comment",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "table formatting incomplete",
-        "info": "",
-        "x": 1250,
-        "y": 460,
+        "x": 775,
+        "y": 800,
         "wires": []
     },
     {
@@ -2940,105 +2250,8 @@
         "g": "9a75246e.77f24",
         "name": "Clear is not working correctly when no call active",
         "info": "",
-        "x": 220,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "c699a530.afa03",
-        "type": "ui_form",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "Join",
-        "label": "Join Meeting",
-        "group": "b6887465.612ad",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "Meeting ID",
-                "value": "meetingid",
-                "type": "text",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "Password",
-                "value": "password",
-                "type": "text",
-                "required": false,
-                "rows": null
-            },
-            {
-                "label": "Name",
-                "value": "name",
-                "type": "text",
-                "required": false,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "meetingid": "",
-            "password": "",
-            "name": ""
-        },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "cancel",
-        "topic": "",
-        "x": 110,
-        "y": 1660,
-        "wires": [
-            [
-                "f61c489f.2a26e"
-            ]
-        ]
-    },
-    {
-        "id": "f61c489f.2a26e",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "format",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "/zoom/joinMeeting",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "[\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.meetingid\t    },\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.password\t    },\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.name\t    }\t]",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 280,
-        "y": 1660,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
-    },
-    {
-        "id": "14d57df0.dbd8b2",
-        "type": "comment",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "Join message takes three separate string arguments",
-        "info": "",
-        "x": 590,
-        "y": 1640,
+        "x": 240,
+        "y": 80,
         "wires": []
     },
     {
@@ -3048,98 +2261,9 @@
         "g": "39660f71.497918",
         "name": "unspot isnt working properly",
         "info": "the repsonse message is /zoomosc/me/spotlightOff\nexpected /zoomosc/zoomID/spotlightOff",
-        "x": 210,
-        "y": 2760,
+        "x": 230,
+        "y": 1560,
         "wires": []
-    },
-    {
-        "id": "9f0bfbbf.eef0e8",
-        "type": "ui_dropdown",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "label": "Subscription Level",
-        "tooltip": "Sets subscription level for user output data. ",
-        "place": "All",
-        "group": "262ffe42.cf9182",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "None",
-                "value": 0,
-                "type": "num"
-            },
-            {
-                "label": "TargetList",
-                "value": 1,
-                "type": "num"
-            },
-            {
-                "label": "All",
-                "value": 2,
-                "type": "num"
-            },
-            {
-                "label": "Panelists",
-                "value": 3,
-                "type": "num"
-            },
-            {
-                "label": " OnlyGallery",
-                "value": 4,
-                "type": "num"
-            }
-        ],
-        "payload": "",
-        "topic": "/zoom/subscribe",
-        "x": 150,
-        "y": 1520,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
-    },
-    {
-        "id": "7b6d8d0c.091e9c",
-        "type": "ui_dropdown",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "label": "Gallery Tracking",
-        "tooltip": "Changes gallery tracking mode to participantID or zoomID.",
-        "place": "participantID",
-        "group": "262ffe42.cf9182",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "participantID",
-                "value": 0,
-                "type": "num"
-            },
-            {
-                "label": "zoomID",
-                "value": 1,
-                "type": "num"
-            }
-        ],
-        "payload": "",
-        "topic": "/zoom/galTrackMode",
-        "x": 140,
-        "y": 1460,
-        "wires": [
-            [
-                "46f43be6.8a605c"
-            ]
-        ]
     },
     {
         "id": "8bee5d90.93213",
@@ -3161,274 +2285,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
-        "y": 2640,
+        "x": 670,
+        "y": 1440,
         "wires": [
             [
                 "84f20dfb.6970e8"
-            ]
-        ]
-    },
-    {
-        "id": "68d21d79.8cebec",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "format",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "[\t   {\t       \"key\" : \"Ping Text\",\t       \"value\" : payload[0]\t   },\t   {\t       \"key\" : \"Version\",\t       \"value\" : payload[1]    \t   } ,\t   {\t       \"key\" : \"subscribeMode\",\t       \"value\" : payload[2]    \t   } ,\t   {\t       \"key\" : \"galTrackMode\",\t       \"value\" : payload[3]    \t   } ,\t   {\t       \"key\" : \"callStatus\",\t       \"value\" : payload[4]    \t   } ,\t   {\t       \"key\" : \"number of targets\",\t       \"value\" : payload[5]    \t   } ,\t   {\t       \"key\" : \"number of users in call\",\t       \"value\" : payload[6]    \t   }    \t]",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 630,
-        "y": 320,
-        "wires": [
-            [
-                "fc277a34.d21a3"
-            ]
-        ]
-    },
-    {
-        "id": "fc277a34.d21a3",
-        "type": "ui_table",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "group": "e14cccb0.beedd8",
-        "name": "Pong Table",
-        "order": 2,
-        "width": 8,
-        "height": 4,
-        "columns": [
-            {
-                "field": "key",
-                "title": "Key",
-                "width": "60%",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "value",
-                "title": "Value",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 770,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "1836ad29.55decb",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "prime the parms",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\t   \"ip\": $globalContext(\"zoomosc_ip\") ? $globalContext(\"zoomosc_ip\") : \"127.0.0.1\",\t   \"port\": $globalContext(\"zoomosc_port\") ? $globalContext(\"zoomosc_port\") : \"9090\"\t}",
-        "payloadType": "jsonata",
-        "x": 150,
-        "y": 1720,
-        "wires": [
-            [
-                "54d81a13.473a9c"
-            ]
-        ]
-    },
-    {
-        "id": "54d81a13.473a9c",
-        "type": "ui_form",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "Network settings",
-        "label": "ZoomOSC Client Address",
-        "group": "bb94a052.4139b",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "ZoomOSC IP",
-                "value": "ip",
-                "type": "text",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "ZoomOSC Port",
-                "value": "port",
-                "type": "text",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "ip": "",
-            "port": ""
-        },
-        "payload": "",
-        "submit": "Save",
-        "cancel": "cancel",
-        "topic": "",
-        "x": 370,
-        "y": 1720,
-        "wires": [
-            [
-                "b8f52048.1fd02",
-                "d83372d3.9abbf8"
-            ]
-        ]
-    },
-    {
-        "id": "b8f52048.1fd02",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "set global ip:port",
-        "rules": [
-            {
-                "t": "set",
-                "p": "zoomosc_ip",
-                "pt": "global",
-                "to": "payload.ip",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "zoomosc_port",
-                "pt": "global",
-                "to": "payload.port",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 650,
-        "y": 1680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f9768951.02dfa8",
-        "type": "ui_button",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "",
-        "group": "bb94a052.4139b",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Set local defaults (then Save)",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 160,
-        "y": 1780,
-        "wires": [
-            [
-                "d45bbcca.f2d8a"
-            ]
-        ]
-    },
-    {
-        "id": "d45bbcca.f2d8a",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "defaults",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"ip\":   \"127.0.0.1\",\t   \"port\": \"9090\"\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 1780,
-        "wires": [
-            [
-                "54d81a13.473a9c"
-            ]
-        ]
-    },
-    {
-        "id": "9212f4a1.d16db8",
-        "type": "comment",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "See Network Setting on Session Control page",
-        "info": "",
-        "x": 450,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "bd287e97.0ece58",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "bf3e5a12.3393f",
-        "name": "format",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "\t   {\t       \"type\" : \"s\",\t       \"value\" : $now('[H01]:[m01]:[s01] [z]', '-0500')\t    } ",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 210,
-        "y": 180,
-        "wires": [
-            [
-                "e5be326c.4063e"
             ]
         ]
     },
@@ -3905,42 +2766,6 @@
         "wires": []
     },
     {
-        "id": "7afcdf6c.bf4f6",
-        "type": "comment",
-        "z": "73938c67.dac0ac",
-        "g": "4a1eee5f.c4f908",
-        "name": "TODO Handle Offline msg",
-        "info": "OSC message /zoomosc/user/offline -1 \"--NO USER--\" 16 16809984\n",
-        "x": 970,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "77ba9999.2ec65",
-        "type": "inject",
-        "z": "73938c67.dac0ac",
-        "g": "e7464d93.8a5de8",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "/zoom/update",
-        "x": 140,
-        "y": 3120,
-        "wires": [
-            [
-                "bd5834a7.19337"
-            ]
-        ]
-    },
-    {
         "id": "cbf94f2f.049128",
         "type": "ui_form",
         "z": "417600d2.281de8",
@@ -4016,7 +2841,7 @@
         "cancel": "cancel",
         "topic": "",
         "x": 460,
-        "y": 300,
+        "y": 180,
         "wires": [
             [
                 "7aa57287.f3c874"
@@ -4044,7 +2869,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 300,
+        "y": 180,
         "wires": [
             [
                 "cbf94f2f.049128"
@@ -4074,7 +2899,7 @@
         "payload": "",
         "payloadType": "str",
         "x": 120,
-        "y": 300,
+        "y": 180,
         "wires": [
             [
                 "340c566b.64c7b2"
@@ -4093,7 +2918,7 @@
         "initialize": "",
         "finalize": "",
         "x": 210,
-        "y": 920,
+        "y": 800,
         "wires": [
             [
                 "6a8fb6ee.5c8788"
@@ -4113,7 +2938,7 @@
         "stream": false,
         "addname": "",
         "x": 350,
-        "y": 920,
+        "y": 800,
         "wires": [
             [
                 "73a15135.d74f8"
@@ -4135,7 +2960,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 920,
-        "y": 920,
+        "y": 800,
         "wires": []
     },
     {
@@ -4151,7 +2976,7 @@
         "oldrc": false,
         "name": "",
         "x": 870,
-        "y": 960,
+        "y": 840,
         "wires": [
             [],
             [],
@@ -4179,7 +3004,7 @@
         "to": "",
         "reg": false,
         "x": 700,
-        "y": 300,
+        "y": 180,
         "wires": [
             []
         ]
@@ -4205,7 +3030,7 @@
         "to": "",
         "reg": false,
         "x": 490,
-        "y": 920,
+        "y": 800,
         "wires": [
             [
                 "c572ed57.b237f"
@@ -4324,7 +3149,7 @@
         "initialize": "",
         "finalize": "",
         "x": 690,
-        "y": 920,
+        "y": 800,
         "wires": [
             [
                 "f046bc6f.319fc",
@@ -4352,7 +3177,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 130,
-        "y": 860,
+        "y": 740,
         "wires": [
             [
                 "6b0a9d8a.8e05c4"
@@ -4378,8 +3203,8 @@
         "payload": "fleet_parms.count",
         "payloadType": "flow",
         "topic": "",
-        "x": 160,
-        "y": 1100,
+        "x": 150,
+        "y": 980,
         "wires": [
             [
                 "87be8393.c7a8d"
@@ -4397,8 +3222,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 160,
-        "y": 1160,
+        "x": 150,
+        "y": 1040,
         "wires": [
             [
                 "5c299bdd.1302bc"
@@ -4417,8 +3242,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 300,
-        "y": 1160,
+        "x": 290,
+        "y": 1040,
         "wires": [
             [
                 "f1293eaf.5560a8"
@@ -4436,8 +3261,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 320,
-        "y": 1220,
+        "x": 310,
+        "y": 1100,
         "wires": [
             [
                 "68481c37.3af0a4",
@@ -4459,8 +3284,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 530,
-        "y": 1220,
+        "x": 520,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4475,8 +3300,8 @@
         "timer": "3",
         "oldrc": false,
         "name": "run commands",
-        "x": 570,
-        "y": 1280,
+        "x": 560,
+        "y": 1160,
         "wires": [
             [
                 "ff4364fe.b61058"
@@ -4604,8 +3429,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 1220,
+        "x": 750,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4622,8 +3447,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 1260,
+        "x": 750,
+        "y": 1140,
         "wires": []
     },
     {
@@ -4640,8 +3465,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 1300,
+        "x": 750,
+        "y": 1180,
         "wires": []
     },
     {
@@ -4651,8 +3476,8 @@
         "g": "a467147e.ea6ff8",
         "name": "Details on running multiple copies of Scan Converter",
         "info": "https://dev.to/xreyrobertibm/quick-hack-to-use-multiple-instances-of-newtek-ndi-scan-converter-on-macos-10eb",
-        "x": 790,
-        "y": 1100,
+        "x": 780,
+        "y": 980,
         "wires": []
     },
     {
@@ -4761,90 +3586,6 @@
         "wires": []
     },
     {
-        "id": "c6f23791.ef6b18",
-        "type": "ui_template",
-        "z": "417600d2.281de8",
-        "g": "b4c900b3.c08868",
-        "group": "68456f7b.49d198",
-        "name": "Intro",
-        "order": 1,
-        "width": 16,
-        "height": 9,
-        "format": "<h1>Purpose</h1>\n<div >\nThe goal of this contoller is to create isolated feeds of multiple Zoom participants. \nThe video from each participant delivered via its own high resoltuion isolated NDI stream. \nThe major functions are:\n<ul>\n    <li>Launching a fleet of ZoomOSC clients</li>\n    <li>Launching a fleet of NDI Scan Converters</li>\n    <li>Setting default behaviours for the ZoomOSC fleet</li>\n    <li>Assistance for connecting the scan converters to the ZoomOSC sessions (virtual background controls)</li>\n    <li>Controls to Pin participants to ZoomOSC clients</li>\n    <li>Controls to tear down the ZoomOSC and scan converter instances</li>\n</ul>\n</div>\n\n<div>Note: All of the ZoomOSC and Scan Convereter processes must run on the same machine. \nIf the computer has a 1GB network port, you will likely be limited to 8 sessions. CPU resources may further restrict the numbers.\n</div>\n <br/>\n<p>\nThis controller manages the launching of multiple ZoomOSC clients, configuring  a prototype of a feature intended to create multiple zoomOSC clients on a single machine. \nEach client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. \n</p>\n<br/>\n<p>\nAt the bottom of the page is a list of meeting participants. \nSelect a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</p>\n<br/>\n<p>\nThere are arrows in the upper right corner of each section which can be collapsed to save screen sapce.\n</p>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 90,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d83372d3.9abbf8",
-        "type": "change",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "name": "build network string",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "msg.payload.ip & \":\" & msg.payload.port",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 660,
-        "y": 1760,
-        "wires": [
-            [
-                "7f1a0616.747b8",
-                "b49b98d3.3493b"
-            ]
-        ]
-    },
-    {
-        "id": "7f1a0616.747b8",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "group": "e14cccb0.beedd8",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Active Network",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 860,
-        "y": 1760,
-        "wires": []
-    },
-    {
-        "id": "b49b98d3.3493b",
-        "type": "ui_text",
-        "z": "73938c67.dac0ac",
-        "g": "800a1202.7dc55",
-        "group": "bb94a052.4139b",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Active Network",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 860,
-        "y": 1800,
-        "wires": []
-    },
-    {
         "id": "e0bd9360.b0b54",
         "type": "inject",
         "z": "417600d2.281de8",
@@ -4890,7 +3631,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 130,
-        "y": 180,
+        "y": 60,
         "wires": [
             []
         ]
@@ -4915,7 +3656,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 220,
-        "y": 440,
+        "y": 300,
         "wires": [
             [
                 "91f99d89.24cb3",
@@ -4952,7 +3693,7 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 420,
+        "y": 280,
         "wires": [
             [
                 "1c42610d.87b827"
@@ -4987,7 +3728,7 @@
         "to": "",
         "reg": false,
         "x": 490,
-        "y": 460,
+        "y": 320,
         "wires": [
             [
                 "1c42610d.87b827"
@@ -5001,10 +3742,11 @@
         "g": "1e53e9c9.7d31ae",
         "name": "",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
         "x": 735,
-        "y": 460,
+        "y": 320,
         "wires": []
     },
     {
@@ -5460,7 +4202,7 @@
         "name": "ZoomOSC command line options",
         "info": "-m (meeting ID)\n-p (meeting password)\n-u (username)\n-ami (joining mic audio device id)\n-asi (joining speaker audio device id)\n-ci (camera id)\n-rxp (osc receive port)\n-txp (osc transmit port)\n-txip (osc transmit ip)\n\n-ajo is for auto join only and should be set to 1, though this feature is experimental. \n",
         "x": 690,
-        "y": 860,
+        "y": 740,
         "wires": []
     },
     {
@@ -5500,7 +4242,8 @@
         "g": "1320fe0a.3943fa",
         "name": "",
         "links": [
-            "8a313077.cf5f3"
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
         ],
         "x": 515,
         "y": 80,
@@ -5578,7 +4321,7 @@
         "initialize": "",
         "finalize": "",
         "x": 270,
-        "y": 500,
+        "y": 360,
         "wires": [
             [
                 "fa8acfcd.7e487"
@@ -5598,7 +4341,7 @@
         "stream": false,
         "addname": "",
         "x": 410,
-        "y": 500,
+        "y": 360,
         "wires": [
             [
                 "2788977a.7685e8"
@@ -5640,7 +4383,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 540,
+        "y": 400,
         "wires": [
             [
                 "aec675d2.91142"
@@ -5660,7 +4403,7 @@
         "template": "actor_0{{payload}}",
         "output": "str",
         "x": 610,
-        "y": 540,
+        "y": 400,
         "wires": [
             [
                 "6c9f2b88.cfe9bc"
@@ -5682,7 +4425,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 970,
-        "y": 580,
+        "y": 440,
         "wires": []
     },
     {
@@ -5704,7 +4447,7 @@
         "payload": "2",
         "payloadType": "num",
         "x": 110,
-        "y": 500,
+        "y": 360,
         "wires": [
             [
                 "a1132c8e.6c4d58"
@@ -5720,7 +4463,7 @@
         "path": "",
         "metadata": false,
         "x": 748,
-        "y": 600,
+        "y": 460,
         "wires": [
             [
                 "35a32e34.a14d1a"
@@ -5748,7 +4491,7 @@
         "to": "",
         "reg": false,
         "x": 848,
-        "y": 643,
+        "y": 503,
         "wires": [
             [
                 "7a825095.86bfb8",
@@ -5770,7 +4513,7 @@
         "base64": false,
         "multicast": "false",
         "x": 950,
-        "y": 700,
+        "y": 560,
         "wires": []
     },
     {
@@ -5968,7 +4711,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 110,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "e4b16796.7dd1d"
@@ -5987,7 +4730,7 @@
         "initialize": "",
         "finalize": "",
         "x": 252,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "f915f844.20b58"
@@ -6007,7 +4750,7 @@
         "stream": false,
         "addname": "",
         "x": 372,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "d5faa3b9.8fc85"
@@ -6056,7 +4799,7 @@
         "to": "",
         "reg": false,
         "x": 522,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "6c9f2b88.cfe9bc"
@@ -6083,7 +4826,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 110,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "6a6f4c75.a260bc"
@@ -6263,7 +5006,7 @@
         "payloadType": "flow",
         "topic": "",
         "x": 110,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "a1132c8e.6c4d58"
@@ -6838,7 +5581,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 220,
+        "y": 100,
         "wires": [
             [
                 "cbf94f2f.049128"
@@ -6865,7 +5608,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 150,
-        "y": 220,
+        "y": 100,
         "wires": [
             [
                 "47454400.142664"
@@ -6936,7 +5679,7 @@
         "initialize": "",
         "finalize": "",
         "x": 260,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "95fec943.412418"
@@ -6956,7 +5699,7 @@
         "stream": false,
         "addname": "",
         "x": 390,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "2a86f3d3.7c1cfc"
@@ -6998,7 +5741,7 @@
         "to": "",
         "reg": false,
         "x": 540,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "6c9f2b88.cfe9bc"
@@ -7152,24 +5895,1424 @@
         "wires": []
     },
     {
-        "id": "9884c834.546d38",
+        "id": "a79e62d2.59075",
         "type": "ui_template",
-        "z": "29e414d1.c9f644",
-        "g": "75bd0937.6cda78",
-        "group": "d9d42ea1.8da5d",
-        "name": "Intro Text",
+        "z": "d33404f2.a9c208",
+        "g": "7fba0c91.146bc4",
+        "group": "68456f7b.49d198",
+        "name": "Intro",
         "order": 1,
-        "width": 0,
-        "height": 0,
-        "format": "<h1>Assignment</h1>\n<div>\nUpdate your controller to utilize the usernames of participants, notifications about their A/V status, and one of\n<ol>\n<li>their positions in the gallery view (best on macOS) or</li>\n<li>the active speaker’s name (best on Windows).</li>\n</ol>\n</div>\n<h1>Solution</h1>\n<div>\n    The multiview page include a function that pushes participant names to OBS.\n</div>\n<div>\n    This page will add a function that pushes the active speaker to OBS.\n</div>",
+        "width": 16,
+        "height": "5",
+        "format": "<div>\nThis application provides a management interface for ZoomOSC.\nIt can be used in two different ways. \n<ol>\n    <li>For a single ZoomOSC instance.</li>\n    <li>For a fleet of ZoomOSC clients that can be used to provide isolated (pinned) feeds of several participants which you can grab using Newtek's NDI Scan Converter.</li>\n</ol>\nThere is a different tab for each of those two functions.\n</div>\n<br/>\n<div>\nThere are other tabs for Diagnostics, and Testing which are intended for me as a developer and may not live in the final product.\n</div>\n<br/>\n<div>\nOne this page there are arrows in the upper right corner of each section which can be collapsed to save screen space.\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 170,
-        "y": 80,
+        "x": 110,
+        "y": 60,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "eb9fa7b0.5b24c8",
+        "type": "ui_template",
+        "z": "d33404f2.a9c208",
+        "g": "292ae87.2192f18",
+        "group": "5ed943c6.df384c",
+        "name": "Single",
+        "order": 2,
+        "width": 16,
+        "height": 9,
+        "format": "\n\n\n \n</div>\n\n \nAt the bottom of the page is a list of meeting participants. \nSelect a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</p>\n<br/>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac77eb64.33e6a8",
+        "type": "ui_template",
+        "z": "d33404f2.a9c208",
+        "g": "57ccbebc.0608b",
+        "group": "b3e1d998.3a34f8",
+        "name": "Multi",
+        "order": 3,
+        "width": 16,
+        "height": 9,
+        "format": "\n\n\n<div >\nThis contoller creates isolated feeds of multiple Zoom participants. \nThe video from each participant delivered via its own high resoltuion isolated NDI stream. \nThe major functions are:\n<ul>\n    <li>Launching a fleet of ZoomOSC clients</li>\n    <li>Launching a fleet of NDI Scan Converters</li>\n    <li>Setting default behaviours for the ZoomOSC fleet</li>\n    <li>Assistance for connecting the scan converters to the ZoomOSC sessions (virtual background controls)</li>\n    <li>Controls to Pin participants to ZoomOSC clients</li>\n    <li>Controls to tear down the ZoomOSC and scan converter instances</li>\n</ul>\n</div>\n\n<div>Note: All of the ZoomOSC and Scan Convereter processes must run on the same machine. \nIf the computer has a 1GB network port, you will likely be limited to 8 sessions. CPU resources may further restrict the numbers.\n</div>\n <br/>\n<p>\nThis controller manages the launching of multiple ZoomOSC clients, configuring  a prototype of a feature intended to create multiple zoomOSC clients on a single machine. \nEach client would pin a particular partiicpant. And then each pinned session would be captured by NDI Scan Converter. \n</p>\n<br/>\n<p>\nAt the bottom of the page is a list of meeting participants. \nSelect a participant and then using the session buttons you can assign that particpant to particular zoom session.    \n</p>\n<br/>\n<p>\nThere are arrows in the upper right corner of each section which can be collapsed to save screen sapce.\n</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8f35ef1.95af9",
+        "type": "ui_template",
+        "z": "d33404f2.a9c208",
+        "g": "e8dbe2af.ae51a",
+        "group": "9cb11167.0102b",
+        "name": "Management",
+        "order": 1,
+        "width": 16,
+        "height": "5",
+        "format": "<div>\nOne this tab there are controls for: Joining, Leaving and Ending Meetings.\n</div>\n<br/>\n<div>\nThis is also where you configure the IP addresses for the main control session and the multi-client sessions. \nAt this time the multi-client sessions must all be on the same machine as zoomred and also must be on a Mac. \n</div>\n<br/>\n<h2>Main Client - Join</h2> \n<div>This instructs the main client join a designated meeting.\n</div>\n<h2>Main Client - End/Leave</h2>\n<div>\n   These buttons instruct the main  client to Leave or End a meeting.\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73105d10.5074f4",
+        "type": "ui_dropdown",
+        "z": "e7106529.37b6d8",
+        "name": "",
+        "label": "Gallery Tracking",
+        "tooltip": "Changes gallery tracking mode to participantID or zoomID.",
+        "place": "participantID",
+        "group": "262ffe42.cf9182",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "participantID",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "zoomID",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "/zoom/galTrackMode",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "bfd7f80f.c5f0c8"
+            ]
+        ]
+    },
+    {
+        "id": "cb051d5c.12b7c",
+        "type": "ui_dropdown",
+        "z": "e7106529.37b6d8",
+        "name": "",
+        "label": "Subscription Level",
+        "tooltip": "Sets subscription level for user output data. ",
+        "place": "All",
+        "group": "262ffe42.cf9182",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "None",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "TargetList",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "All",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Panelists",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": " OnlyGallery",
+                "value": 4,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "/zoom/subscribe",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "bfd7f80f.c5f0c8"
+            ]
+        ]
+    },
+    {
+        "id": "bfd7f80f.c5f0c8",
+        "type": "link out",
+        "z": "e7106529.37b6d8",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
+        ],
+        "x": 455,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "420248b4.dcb748",
+        "type": "change",
+        "z": "e7106529.37b6d8",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\t   {\t       \"type\" : \"s\",\t       \"value\" : $now('[H01]:[m01]:[s01] [z]', '-0500')\t    } ",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 40,
+        "wires": [
+            [
+                "bfd7f80f.c5f0c8"
+            ]
+        ]
+    },
+    {
+        "id": "68fcc54a.9b6f7c",
+        "type": "ui_button",
+        "z": "e7106529.37b6d8",
+        "name": "",
+        "group": "e14cccb0.beedd8",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "Ping",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "/zoom/ping",
+        "x": 150,
+        "y": 40,
+        "wires": [
+            [
+                "420248b4.dcb748"
+            ]
+        ]
+    },
+    {
+        "id": "190124a3.502edb",
+        "type": "ui_button",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "",
+        "group": "b706b32.2fc16d",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "End",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/endMeeting",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "a19f807f.eb22c"
+            ]
+        ]
+    },
+    {
+        "id": "87588af8.73a418",
+        "type": "ui_button",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "",
+        "group": "b706b32.2fc16d",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Leave",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "/zoom/leaveMeeting",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "a19f807f.eb22c"
+            ]
+        ]
+    },
+    {
+        "id": "a19f807f.eb22c",
+        "type": "link out",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
+        ],
+        "x": 395,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b26c65c.b898698",
+        "type": "ui_form",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "Join",
+        "label": "Join Meeting",
+        "group": "b6887465.612ad",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Meeting ID",
+                "value": "meetingid",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Name",
+                "value": "name",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "meetingid": "",
+            "password": "",
+            "name": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "6c5f2b8e.6012b4"
+            ]
+        ]
+    },
+    {
+        "id": "6c5f2b8e.6012b4",
+        "type": "change",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/joinMeeting",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.meetingid\t    },\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.password\t    },\t   {\t       \"type\" : \"s\",\t       \"value\" : payload.name\t    }\t]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "a19f807f.eb22c"
+            ]
+        ]
+    },
+    {
+        "id": "6e77c012.adc5",
+        "type": "comment",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "Join message takes three separate string arguments",
+        "info": "",
+        "x": 610,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "61fd009.68556",
+        "type": "inject",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "prime the parms",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\t   \"ip\": $globalContext(\"zoomosc_ip\") ? $globalContext(\"zoomosc_ip\") : \"127.0.0.1\",\t   \"port\": $globalContext(\"zoomosc_port\") ? $globalContext(\"zoomosc_port\") : \"9090\"\t}",
+        "payloadType": "jsonata",
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "f569db12.79c218"
+            ]
+        ]
+    },
+    {
+        "id": "f569db12.79c218",
+        "type": "ui_form",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "Network settings",
+        "label": "ZoomOSC Client Address",
+        "group": "bb94a052.4139b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "ZoomOSC IP",
+                "value": "ip",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "ZoomOSC Port",
+                "value": "port",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ip": "",
+            "port": ""
+        },
+        "payload": "",
+        "submit": "Save",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 410,
+        "y": 280,
+        "wires": [
+            [
+                "e3f4ef22.e47ce",
+                "b50c3d84.f65df"
+            ]
+        ]
+    },
+    {
+        "id": "e3f4ef22.e47ce",
+        "type": "change",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "set global ip:port",
+        "rules": [
+            {
+                "t": "set",
+                "p": "zoomosc_ip",
+                "pt": "global",
+                "to": "payload.ip",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "zoomosc_port",
+                "pt": "global",
+                "to": "payload.port",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "155d1e08.6ae562",
+        "type": "ui_button",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "",
+        "group": "bb94a052.4139b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set local defaults (then Save)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "6204ad29.f84a04"
+            ]
+        ]
+    },
+    {
+        "id": "6204ad29.f84a04",
+        "type": "change",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "defaults",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"ip\":   \"127.0.0.1\",\t   \"port\": \"9090\"\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "f569db12.79c218"
+            ]
+        ]
+    },
+    {
+        "id": "b50c3d84.f65df",
+        "type": "change",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "name": "build network string",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.ip & \":\" & msg.payload.port",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "350aafc4.cf9ed",
+                "64f2f5ca.835c0c"
+            ]
+        ]
+    },
+    {
+        "id": "350aafc4.cf9ed",
+        "type": "ui_text",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "group": "e14cccb0.beedd8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Active Network",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 920,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "64f2f5ca.835c0c",
+        "type": "ui_text",
+        "z": "6ebfcfc7.ef968",
+        "g": "e5a4ae57.0b30e",
+        "group": "bb94a052.4139b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Active Network",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 900,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "66983fc7.9fefa",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/me/listScreens",
+        "payloadType": "str",
+        "x": 180,
+        "y": 380,
+        "wires": [
+            [
+                "7222caae.056844"
+            ]
+        ]
+    },
+    {
+        "id": "420122c0.6e54dc",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/me/listWindows",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "7222caae.056844"
+            ]
+        ]
+    },
+    {
+        "id": "7222caae.056844",
+        "type": "link out",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "ToZoomOSC",
+        "links": [
+            "8a313077.cf5f3",
+            "fa5f863f.6c7348"
+        ],
+        "x": 375,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "279c4030.57c42",
+        "type": "comment",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "Both are creating the same repsonse topic - Bug?",
+        "info": "Andy says it is a bug on the zoom side.",
+        "x": 250,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "366bc8c8.746558",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/all/endMeeting",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "7222caae.056844"
+            ]
+        ]
+    },
+    {
+        "id": "12cda607.617e8a",
+        "type": "inject",
+        "z": "584bfa46.70cd0c",
+        "g": "7b41388d.70c038",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/zoom/update",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "7222caae.056844"
+            ]
+        ]
+    },
+    {
+        "id": "fa72d100.463a2",
+        "type": "udp out",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "",
+        "addr": "",
+        "iface": "",
+        "port": "",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 830,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d7e51360.80487",
+        "type": "change",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "set network parms",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ip",
+                "pt": "msg",
+                "to": "zoomosc_ip",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "port",
+                "pt": "msg",
+                "to": "zoomosc_port",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "fa72d100.463a2",
+                "cb1351cd.3df75"
+            ]
+        ]
+    },
+    {
+        "id": "cb1351cd.3df75",
+        "type": "debug",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "To ZoomOSC udp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2effcc64.e40134",
+        "type": "osc",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "zoomOSC",
+        "path": "",
+        "metadata": false,
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "d7e51360.80487"
+            ]
+        ]
+    },
+    {
+        "id": "fa5f863f.6c7348",
+        "type": "link in",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "ToZoomOsc",
+        "links": [
+            "6f985efb.11e7c",
+            "46f43be6.8a605c",
+            "2bc17d58.156a9a",
+            "32425712.bca138",
+            "84f20dfb.6970e8",
+            "aaeba03f.6b66f",
+            "bd5834a7.19337",
+            "3e83a4c1.9f439c",
+            "5a9d487.cff0938",
+            "1c42610d.87b827",
+            "9d59ac2c.16c248",
+            "bfd7f80f.c5f0c8",
+            "a19f807f.eb22c",
+            "7222caae.056844"
+        ],
+        "x": 235,
+        "y": 120,
+        "wires": [
+            [
+                "2effcc64.e40134"
+            ]
+        ]
+    },
+    {
+        "id": "e6607465.9a4828",
+        "type": "comment",
+        "z": "92e43cec.83fcc",
+        "g": "9dbbe77d.482a78",
+        "name": "See Network Setting on Session Control page",
+        "info": "",
+        "x": 630,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ad72e016.d7ee8",
+        "type": "udp in",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "",
+        "iface": "",
+        "port": "1234",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 120,
+        "y": 520,
+        "wires": [
+            [
+                "f53df9df.5090c8"
+            ]
+        ]
+    },
+    {
+        "id": "b7edf3c8.5c1f3",
+        "type": "debug",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "From ZoomOSC",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f53df9df.5090c8",
+        "type": "osc",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "",
+        "path": "",
+        "metadata": false,
+        "x": 270,
+        "y": 520,
+        "wires": [
+            [
+                "b7edf3c8.5c1f3",
+                "c646a509.66d5e8"
+            ]
+        ]
+    },
+    {
+        "id": "c646a509.66d5e8",
+        "type": "switch",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/zoomosc/pong",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryCount",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryShape",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/galleryOrder",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/list",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/mute",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/unMute",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/videoOff",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/videoOn",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/spotlightOn",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/user/spotlightOff",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/zoomosc/me/list",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 12,
+        "x": 490,
+        "y": 520,
+        "wires": [
+            [
+                "7d0bcfb9.4a391"
+            ],
+            [
+                "11fdee45.fb5842"
+            ],
+            [
+                "6adb5d7b.562074"
+            ],
+            [
+                "483c1e66.ece58"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ],
+            [
+                "1ecedeed.e4cfa1"
+            ]
+        ],
+        "outputLabels": [
+            "pong",
+            "galleryCount",
+            "galleryShape",
+            "galleryOrder",
+            "user list",
+            "mute",
+            "unMute",
+            "videoOff",
+            "videoOn",
+            "spotOn",
+            "spotOff",
+            "me list"
+        ]
+    },
+    {
+        "id": "11fdee45.fb5842",
+        "type": "ui_text",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "group": "3446b061.aa8348",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryCount",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 790,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6adb5d7b.562074",
+        "type": "ui_text",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "group": "3446b061.aa8348",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryShape",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 790,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "483c1e66.ece58",
+        "type": "ui_text",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "group": "3446b061.aa8348",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "galleryOrder",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 790,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cfd2e3da.9b906",
+        "type": "ui_table",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "group": "e69902f8.5bed4",
+        "name": "",
+        "order": 15,
+        "width": "24",
+        "height": "13",
+        "columns": [
+            {
+                "field": "user",
+                "title": "User",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "video",
+                "title": "Video",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "mute",
+                "title": "Mute",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "pin",
+                "title": "PIN",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "spot",
+                "title": "Spot",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "activespeaker",
+                "title": "Active",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "row",
+                "title": "Row",
+                "width": "",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 1210,
+        "y": 540,
+        "wires": [
+            [
+                "157d5bd9.edcec4"
+            ]
+        ]
+    },
+    {
+        "id": "2312dd4a.d5b382",
+        "type": "function",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "parse userlist",
+        "func": "out = []\n\nd = msg.payload; //[-1,\"Media Operator\",1,16778240,0,3,1,1,1,1,0]\n\nvar ut = global.get('usertable')||{}\n\nconsole.log(ut)\n\nut[ d[3] ] = { \"id\": d[3],    \n    \"name\" : d[1] ,\n    \"mute\" : \"?\",\n    \"video\" : \"?\",\n    \"spot\"  : \"?\"\n}\n\nglobal.set('usertable', ut) \n\n//msg = { \"payload\" : out}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "8de5a97.b2d3d58"
+            ]
+        ]
+    },
+    {
+        "id": "60917f19.41de4",
+        "type": "debug",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "totable",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "8de5a97.b2d3d58",
+        "type": "function",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "format usertable",
+        "func": "// Retreive usertable from  context and format for display\n\nout = []\ni = 0\n\nvar ut = global.get('usertable')||{}\n\nfor (const [k, v] of Object.entries(ut)) {\n  console.log(\"format usertable:\" + `${k}: ${v} ${v.name}`);\n  if (v.name == \"--NO USER--\") continue;\n\n    out.push( {\n        \"row\"  : i,\n        \"id\"   : v.id,\n        \"user\" : v.name,\n        \"mute\" : v.mute,\n        \"video\": v.video,\n        \"pin\"  : \"p\",\n        \"spot\" : v.spot,\n        \"activespeaker\" : \"a\"\n    })\n    i +=1 \n}\n\nmsg = { \"payload\" : out}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1040,
+        "y": 540,
+        "wires": [
+            [
+                "cfd2e3da.9b906",
+                "60917f19.41de4"
+            ]
+        ]
+    },
+    {
+        "id": "1ecedeed.e4cfa1",
+        "type": "function",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "general parser",
+        "func": "out = []\ni = 0\nt = msg.topic\nvar ut = global.get('usertable')||{}\nd = msg.payload;\n\nconsole.log('BEFORE:' + Date() + \"FUNCTION: general parser\"   )\nconsole.log(\"payload:\" + d)\nconsole.log(\"id:\" +  d[3] )\n \nid   = d[3]; \n \nif (typeof(ut[id]) == 'undefined') {\n    console.log(\"new entry:\" + id)\n    name = d[1]\n    mute = \"?\"\n    video = \"?\"\n    spot = \"?\"\n} else {\n    name = d[1] ; // always get the latest name ut[id].name\n    mute = ut[id].mute\n    video = ut[id].video\n    spot = ut[id].spot    \n}\n\nswitch(t) {\n  case \"/zoomosc/user/videoOff\":\n    video = \"Off\"\n    break;\n  case \"/zoomosc/user/videoOn\":\n    video = \"On\"\n    break;\n  case \"/zoomosc/user/mute\":\n    mute = \"Muted\"\n    break;\n  case \"/zoomosc/user/unMute\":\n    mute = \"Unmuted\"\n    break;\n  case \"/zoomosc/user/spotlightOn\":\n    spot = \"On\"\n    break;\n  case \"/zoomosc/user/spotlightOff\":\n    mute = \"Off\"\n    break;    \n  case \"/zoomosc/user/list\":\n      break;\n      case \"/zoomosc/me/list\":\n      break;      \n  default:\n    // code block\n}\n\n//console.log(ut)\n\nut[ id ] = { \"id\": id,  \n                \"name\": name,\n                \"mute\" : mute,\n                \"video\" : video,\n                \"spot\"  : spot\n}\n                \n//console.log('after')  \n//console.log(ut[d[3]])\n\nglobal.set('usertable', ut) \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 800,
+        "y": 600,
+        "wires": [
+            [
+                "8de5a97.b2d3d58"
+            ]
+        ]
+    },
+    {
+        "id": "e7325fe2.5e6ec",
+        "type": "inject",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "Test",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 980,
+        "y": 440,
+        "wires": [
+            [
+                "8de5a97.b2d3d58"
+            ]
+        ]
+    },
+    {
+        "id": "157d5bd9.edcec4",
+        "type": "link out",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "Selected User",
+        "links": [
+            "c747b0af.6dc26",
+            "85a48e72.981c48"
+        ],
+        "x": 1335,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b415668d.0021b8",
+        "type": "comment",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "table formatting incomplete",
+        "info": "",
+        "x": 1270,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "7d0bcfb9.4a391",
+        "type": "change",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[\t   {\t       \"key\" : \"Ping Text\",\t       \"value\" : payload[0]\t   },\t   {\t       \"key\" : \"Version\",\t       \"value\" : payload[1]    \t   } ,\t   {\t       \"key\" : \"subscribeMode\",\t       \"value\" : payload[2]    \t   } ,\t   {\t       \"key\" : \"galTrackMode\",\t       \"value\" : payload[3]    \t   } ,\t   {\t       \"key\" : \"callStatus\",\t       \"value\" : payload[4]    \t   } ,\t   {\t       \"key\" : \"number of targets\",\t       \"value\" : payload[5]    \t   } ,\t   {\t       \"key\" : \"number of users in call\",\t       \"value\" : payload[6]    \t   }    \t]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 340,
+        "wires": [
+            [
+                "9afb24a8.30d6d8"
+            ]
+        ]
+    },
+    {
+        "id": "9afb24a8.30d6d8",
+        "type": "ui_table",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "group": "e14cccb0.beedd8",
+        "name": "Pong Table",
+        "order": 2,
+        "width": 8,
+        "height": 4,
+        "columns": [
+            {
+                "field": "key",
+                "title": "Key",
+                "width": "60%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "value",
+                "title": "Value",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 790,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "495b475e.0e63e8",
+        "type": "comment",
+        "z": "92e43cec.83fcc",
+        "g": "fe953c97.9fe35",
+        "name": "TODO Handle Offline msg",
+        "info": "OSC message /zoomosc/user/offline -1 \"--NO USER--\" 16 16809984\n",
+        "x": 990,
+        "y": 320,
+        "wires": []
     }
 ]
