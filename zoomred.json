@@ -213,9 +213,7 @@
             "f4c194c7.4e4f98"
         ],
         "x": 34,
-        "y": 119,
-        "w": 1072,
-        "h": 542
+        "y": 119
     },
     {
         "id": "e26be13e.803a18",
@@ -379,7 +377,9 @@
             "e7c6a6df.f26c58",
             "95fec943.412418",
             "2a86f3d3.7c1cfc",
-            "6a6f4c75.a260bc"
+            "6a6f4c75.a260bc",
+            "e60af68a.1161c8",
+            "b30c0d52.93a1d8"
         ],
         "x": 14,
         "y": 239,
@@ -464,9 +464,7 @@
             "bd2bc656.d338f"
         ],
         "x": 24,
-        "y": 19,
-        "w": 532,
-        "h": 202
+        "y": 19
     },
     {
         "id": "a26b29af.4d64a8",
@@ -596,9 +594,7 @@
             "12cda607.617e8a"
         ],
         "x": 34,
-        "y": 259,
-        "w": 432,
-        "h": 262
+        "y": 259
     },
     {
         "id": "9dbbe77d.482a78",
@@ -3625,7 +3621,7 @@
         "order": 2,
         "width": 10,
         "height": "7",
-        "format": "<h1>Instructions</h1>\n<ol>\n<li >\nFill in the parameters desired. Press Save. (There is a set defaults button to prepopulate the parameters.)\n</li>\n\n<li>\nLaunch the ZoomOSC clients (below). \nThe first client \"prefix01\" will also serve as the controller. \n</li>\n\n<li>\nAfter the clients are launched, then you will need to click on the session icon on the dock for each one to finish the startup.\n</li>\n\n<li>\nClick on the Initialize clients button. This will set the subscription level for the controller, mute all slaves and turn off their video cameras. The virtual backgrounds are turned on to aid in setup. They can be turned off setup. .    \n</li>\n\n<li>\nLaunch the fleet of NDI Scan Converters. There will be one for each ZoomOSC session. \nPlease be aware that if you are running 8+ slaves you are running the risk of saturating a 1GB network.\n</li>\n\n<li>\nYou will now need to visit each instance of NDI Scan converter and configure their source to be one of the ZoomOSC slave clients. \nThere is no easy way to identify the correct ZoomOSC session to be used by each scan converter, it is an educated guessing game. The window resolutions are helpful. \nIt is helpful to monitor you choices via a NDI monitor.\n</li>\n\n<li>\nAfter it is all setup, your can set each ZoomOSC session to full screen. \nYou cannot do this before the scan converter config as scan converter cannot fund them.\n</li>\n\n<li>\n    Turn of virtual backgrounds.\n</li>\n\n</ol>",
+        "format": "<h1>Instructions</h1>\n<ol>\n<li >\nFill in the parameters desired. Press Save. (There is a set defaults button to prepopulate the parameters.)\n</li>\n\n<li>\nLaunch the ZoomOSC clients (below). \nThe first client \"prefix01\" will also serve as the controller. \n</li>\n\n<li>\nAfter the clients are launched, then you will need to click on the session icon on the dock for each one to finish the startup.\n</li>\n\n<li>\nMake the first client the host\n</li>\n\n<li>\nClick on the Initialize clients button. This will set the subscription level for the controller, mute all slaves and turn off their video cameras. The virtual backgrounds are turned on to aid in setup. They can be turned off setup. .    \n</li>\n\n<li>\nLaunch the fleet of NDI Scan Converters. There will be one for each ZoomOSC session. \nPlease be aware that if you are running 8+ slaves you are running the risk of saturating a 1GB network.\n</li>\n\n<li>\nYou will now need to visit each instance of NDI Scan converter and configure their source to be one of the ZoomOSC slave clients. \nThere is no easy way to identify the correct ZoomOSC session to be used by each scan converter, it is an educated guessing game. The window resolutions are helpful. \nIt is helpful to monitor you choices via a NDI monitor.\n</li>\n\n<li>\nAfter it is all setup, your can set each ZoomOSC session to full screen. \nYou cannot do this before the scan converter config as scan converter cannot fund them.\n</li>\n\n<li>\n    Turn of virtual backgrounds.\n</li>\n\n</ol>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -4364,13 +4360,6 @@
             },
             {
                 "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "/zoom/me/setBackground",
-                "tot": "str"
-            },
-            {
-                "t": "set",
                 "p": "port",
                 "pt": "msg",
                 "to": "$number($flowContext(\"fleet_parms.rxp\")) + $number( msg.instance ) - 1 ",
@@ -4386,7 +4375,8 @@
         "y": 400,
         "wires": [
             [
-                "aec675d2.91142"
+                "e60af68a.1161c8",
+                "b30c0d52.93a1d8"
             ]
         ]
     },
@@ -4402,7 +4392,7 @@
         "syntax": "mustache",
         "template": "actor_0{{payload}}",
         "output": "str",
-        "x": 610,
+        "x": 650,
         "y": 400,
         "wires": [
             [
@@ -7314,5 +7304,71 @@
         "x": 990,
         "y": 320,
         "wires": []
+    },
+    {
+        "id": "c37ae902.129378",
+        "type": "comment",
+        "z": "6ebfcfc7.ef968",
+        "name": "Persistent Context",
+        "info": "SUGGESTION: If you want have all your context data be persistant, setup your settings.js file with the following:\n\n `   contextStorage: {\n    \tdefault    : { module: \"localfilesystem\"}\n    },`",
+        "x": 220,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e60af68a.1161c8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "set vbg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/me/setBackground",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "aec675d2.91142"
+            ]
+        ]
+    },
+    {
+        "id": "b30c0d52.93a1d8",
+        "type": "change",
+        "z": "417600d2.281de8",
+        "g": "1e53e9c9.7d31ae",
+        "name": "set mute",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "/zoom/me/Mute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 460,
+        "wires": [
+            [
+                "6c9f2b88.cfe9bc"
+            ]
+        ]
     }
 ]
