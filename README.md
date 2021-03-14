@@ -5,7 +5,7 @@ A web-based controller for ZoomOSC V4.
 
 ### About
 
-[ZoomOSC v4](https://www.liminalet.com/zoomosc-4-0) is an alternate zoom client which enables independent control of the client via the [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) protocol. Zoom-red is a node-red client that implements the interface.
+[ZoomOSC](https://www.liminalet.com/zoomosc) is an alternate zoom client which enables independent control of the client via the [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) protocol. Zoom-red is a node-red client that implements the interface.
 
 # Installation
 
